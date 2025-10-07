@@ -26,23 +26,27 @@ Wyjście: 1
 public class MountainPeakProblem {
 
     public int peakIndexInMountainArray(int[] arr) {
-    	int left = 0;
+    	validateData(arr);
+
+        int left = 0;
         int right = arr.length - 1;
 
-        int maxIndex = (left + right) / 2;
-        while (left <= right) {
+        while (left < right) {
             int middle = left + (right - left) / 2;
 
-            if (arr[middle] >= arr[maxIndex]) {
-                maxIndex = middle;
-//                right = middle - 1;
+            if (arr[middle + 1] > arr[middle]) {
                 left = middle + 1;
-            } else if (arr[middle] < arr[maxIndex]) {
-//                left = middle + 1;
-                right = middle - 1;
+            } else if (arr[middle + 1] < arr[middle]) {
+                right = middle;
             }
         }
-        return maxIndex;
+        return left;
+    }
+
+    private void validateData(int[] arr) {
+        if (arr == null) {
+            throw new IllegalArgumentException("The nums array is null.");
+        }
     }
     
 }

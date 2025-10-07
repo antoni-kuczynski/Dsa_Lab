@@ -27,6 +27,19 @@ class MountainPeakProblemTest {
     }
 
     @Test
+    public void testFor4ElementArray() {
+        //given
+        int[] arr = {2,3,5,2};
+
+        //when
+        int actualIndex = problem.peakIndexInMountainArray(arr);
+
+        //then
+        int expectedIndex = 2;
+        assertEquals(expectedIndex, actualIndex);
+    }
+
+    @Test
     public void testForLongArray() {
         //given
         int[] arr = {1,2,3,4,5,6,9,142,356,8,6,3,1,0};
@@ -50,5 +63,35 @@ class MountainPeakProblemTest {
         //then
         int expectedIndex = 0;
         assertEquals(expectedIndex, actualIndex);
+    }
+
+    @Test
+    public void testForPeakOnTheRight() {
+        //given
+        int[] arr = {1,2,3,4,5,6};
+
+        //when
+        int actualIndex = problem.peakIndexInMountainArray(arr);
+
+        //then
+        int expectedIndex = 5;
+        assertEquals(expectedIndex, actualIndex);
+    }
+
+    @Test
+    public void shouldThrowExceptionWhenNumsArrayIsNull() {
+        //given
+        int[] arr = null;
+
+        //when
+        Exception ex = assertThrows(
+                IllegalArgumentException.class,
+                () -> problem.peakIndexInMountainArray(arr)
+        );
+        String actualMessage = ex.getMessage();
+
+        //then
+        String expectedMessage = "The nums array is null.";
+        assertEquals(expectedMessage,actualMessage);
     }
 }
