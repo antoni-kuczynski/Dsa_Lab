@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.ThrowableAssert.catchThrowable;
 import org.junit.jupiter.api.Test;
 import pl.edu.pw.ee.aisd2025zex1.services.SortingCmp;
-import static pl.edu.pw.ee.aisd2025zex1.sorters.utils.Generators.createRandomData;
+import static pl.edu.pw.ee.aisd2025zex1.sorters.utils.Generators.createRandomDataDouble;
 
 public abstract class GeneralSortTest<T extends Comparable<T>> {
 
@@ -49,7 +49,7 @@ public abstract class GeneralSortTest<T extends Comparable<T>> {
     public void should_CorrectlyAscendingSort_When_InputIsRandomAndHuge() {
         // given
         int size = 10_000;
-        T[] nums = (T[]) createRandomData(size);
+        T[] nums = (T[]) createRandomDataDouble(size);
         T[] numsCopy = nums.clone();
 
         // when

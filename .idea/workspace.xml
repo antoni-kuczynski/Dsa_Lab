@@ -6,6 +6,39 @@
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/insort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/insort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/mergesort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/mergesort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeMedian3.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeMedian3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeWithInSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeWithInSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/referencesort/ReferenceAlgSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/referencesort/ReferenceAlgSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/selectionsort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/selectionsort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/mergesort/MergeSortStabilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/mergesort/MergeSortStabilityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/mergesort/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/mergesort/MergeSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/PerformanceChartsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/PerformanceChartsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/QuickSortPerformanceChartsAscDataTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/QuickSortPerformanceChartsDescDataTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/QuickSortPerformanceChartsRandDataTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceRandDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceRandDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/utils/GeneralSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/utils/GeneralSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/utils/Generators.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/utils/Generators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/insort/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/insort/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/mergesort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/mergesort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeMedian3.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeMedian3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeWithInSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeWithInSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/referencesort/ReferenceAlgSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/referencesort/ReferenceAlgSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/selectionsort/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/selectionsort/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/mergesort/MergeSortStabilityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/mergesort/MergeSortStabilityTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/mergesort/MergeSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/mergesort/MergeSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/PerformanceChartsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/PerformanceChartsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/QuickSortPerformanceChartsAscDataTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/QuickSortPerformanceChartsDescDataTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/QuickSortPerformanceChartsRandDataTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceRandDataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceRandDataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/utils/GeneralSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/utils/GeneralSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/utils/Generators.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/utils/Generators.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +54,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -32,7 +70,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/antoni-kuczynski/AISD.git&quot;,
-    &quot;accountId&quot;: &quot;1d702f27-def6-4eb6-ae95-3348fbfdc336&quot;
+    &quot;accountId&quot;: &quot;1646bec4-9888-4c98-bfa3-41e9b579c1d3&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -57,7 +95,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/antekk/AISD_Lab/AISD_Github&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/antekk/IdeaProjects/AISD/cw1/AiSD2025ZEx1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -109,8 +147,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169" />
       </set>
     </attachedChunks>
   </component>
@@ -125,6 +163,9 @@
       <workItem from="1759850023287" duration="1476000" />
       <workItem from="1759867464096" duration="5142000" />
       <workItem from="1759876978393" duration="663000" />
+      <workItem from="1760737451416" duration="329000" />
+      <workItem from="1760778003101" duration="631000" />
+      <workItem from="1760793607093" duration="10000" />
     </task>
     <servers />
   </component>

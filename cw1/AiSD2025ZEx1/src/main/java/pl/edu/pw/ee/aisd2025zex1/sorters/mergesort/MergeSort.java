@@ -34,6 +34,7 @@ public class MergeSort<T extends Comparable<T>> implements SortingCmp<T> {
     }
 
     private void merge(T[] data, T[] auxData, int leftId, int midId, int rightId) {
+//        System.arraycopy(data, leftId, auxData, leftId, rightId - leftId + 1);  //poprawa nadpisywania już posortowanych danych
         int n = data.length;
         System.arraycopy(data, 0, auxData, 0, n);
 

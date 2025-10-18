@@ -56,7 +56,7 @@ public class QuickSortIterativeMedian3<T extends Comparable<T>> implements Sorti
         int mid = start + (end - start) / 2;
         int medianIndex = data[start].compareTo(data[mid]) > 0 ? start : mid;
         medianIndex = data[medianIndex].compareTo(data[end]) < 0 ? medianIndex : end;
-        swap(data, medianIndex, end);
+        swap(data, medianIndex, start);
 
         T pivot = data[start];
 

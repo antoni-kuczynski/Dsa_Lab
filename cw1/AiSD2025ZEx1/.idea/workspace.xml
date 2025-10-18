@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw0/AISD2025/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/pl/edu/pw/ee/aisd_ex_0/extratasks/HotOrColdProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw0/AISD2025/src/main/java/pl/edu/pw/ee/aisd_ex_0/extratasks/HotOrColdProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/pl/edu/pw/ee/aisd_ex_0/extratasks/MountainPeakProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw0/AISD2025/src/main/java/pl/edu/pw/ee/aisd_ex_0/extratasks/MountainPeakProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/pl/edu/pw/ee/aisd_ex_0/searcher/binary_search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw0/AISD2025/src/main/java/pl/edu/pw/ee/aisd_ex_0/searcher/binary_search/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/pl/edu/pw/ee/aisd_ex_0/searcher/linear_search/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw0/AISD2025/src/main/java/pl/edu/pw/ee/aisd_ex_0/searcher/linear_search/LinearSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/pl/edu/pw/ee/aisd_ex_0/searcher/service/Searching.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw0/AISD2025/src/main/java/pl/edu/pw/ee/aisd_ex_0/searcher/service/Searching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/test/java/pl/edu/pw/ee/aisd_ex_0/extratasks/HotOrColdProblemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw0/AISD2025/src/test/java/pl/edu/pw/ee/aisd_ex_0/extratasks/HotOrColdProblemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/test/java/pl/edu/pw/ee/aisd_ex_0/extratasks/MountainPeakProblemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw0/AISD2025/src/test/java/pl/edu/pw/ee/aisd_ex_0/extratasks/MountainPeakProblemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/test/java/pl/edu/pw/ee/aisd_ex_0/searcher/binary_search/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw0/AISD2025/src/test/java/pl/edu/pw/ee/aisd_ex_0/searcher/binary_search/BinarySearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/test/java/pl/edu/pw/ee/aisd_ex_0/searcher/linear_search/LinearSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw0/AISD2025/src/test/java/pl/edu/pw/ee/aisd_ex_0/searcher/linear_search/LinearSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +15,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;antoni-kuczynski&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/antoni-kuczynski/AISD.git&quot;,
+    &quot;accountId&quot;: &quot;1646bec4-9888-4c98-bfa3-41e9b579c1d3&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -43,41 +44,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.All in aisd_ex_0.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CountingSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceAscDataTest and 2 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QuickSortIterativeHoareTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.java in aisd_ex_0.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/AntekK/IdeaProjects/2025Z_AISD_git_repo_gr12/cw1/AISD2025&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in aisd_ex_0.executor": "Run",
+    "JUnit.CountingSortTest.executor": "Run",
+    "JUnit.GeneralSortPrimitiveIntTest.executor": "Run",
+    "JUnit.InsertionSortPrimitiveTest.executor": "Run",
+    "JUnit.MergeSortStabilityTest.executor": "Run",
+    "JUnit.MergeSortTest.executor": "Run",
+    "JUnit.PerformanceAscDataTest and 2 more.executor": "Run",
+    "JUnit.PerformanceAscDataTest.executor": "Run",
+    "JUnit.PerformanceChartsAscDataTest and 2 more.executor": "Run",
+    "JUnit.PerformanceChartsAscDataTest.executor": "Run",
+    "JUnit.PerformanceChartsDescDataTest.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_CmpSorters.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_DetailedQSortWithInsort.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_PrimitiveSorters.executor": "Run",
+    "JUnit.PerformancePrimitiveTest.executor": "Run",
+    "JUnit.PerformancePrimitiveTest.runPerformanceTest.executor": "Run",
+    "JUnit.PerformanceRandDataPrimitiveTest.executor": "Run",
+    "JUnit.PerformanceRandDataTest.executor": "Run",
+    "JUnit.QuickSortIterativeHoareTest.executor": "Run",
+    "JUnit.QuickSortIterativeWithInSortTest.executor": "Run",
+    "JUnit.SelectionSortPrimitiveTest.executor": "Run",
+    "JUnit.java in aisd_ex_0.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/antekk/IdeaProjects/AISD/cw1/AiSD2025ZEx1/test_results/ex7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_results/ex7" />
       <recent name="$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd_ex_0/extratasks" />
       <recent name="$PROJECT_DIR$/src/main/java/pl/edu/pw/ee/aisd_ex_0/extratasks" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_results/ex6" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="pl.edu.pw.ee.aisd_ex_0.searcher" />
@@ -87,76 +110,84 @@
       <recent name="pl.edu.pw.ee.aisd_ex_0.extratasks" />
       <recent name="pl.edu.pw.ee.aisd_ex_0.searcher.binary_search" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table" />
+      <recent name="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.QuickSortIterativeMedian3Test">
-    <configuration name="All in aisd_ex_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aisd_ex_0" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountingSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_DetailedQSortWithInsort">
+    <configuration name="MergeSortStabilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.countingsort.*" />
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.mergesort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.countingsort" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.countingsort.CountingSortTest" />
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.mergesort" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.mergesort.MergeSortStabilityTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerformanceAscDataTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PerformanceChartsRandomDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.*" />
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceAscDataTest" />
-        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceDescDataTest" />
-        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceRandDataTest" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSortIterativeHoareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AiSD2025ZEx1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.QuickSortIterativeHoareTest" />
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.PerformanceChartsRandomDataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortIterativeMedian3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PerformanceChartsRandomDataTest.runPerformanceChartTest_CmpSorters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.*" />
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.QuickSortIterativeMedian3Test" />
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.PerformanceChartsRandomDataTest" />
+      <option name="METHOD_NAME" value="runPerformanceChartTest_CmpSorters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PerformanceChartsRandomDataTest.runPerformanceChartTest_DetailedQSortWithInsort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2025ZEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.PerformanceChartsRandomDataTest" />
+      <option name="METHOD_NAME" value="runPerformanceChartTest_DetailedQSortWithInsort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSortPrimitiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2025ZEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.primitive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.primitive" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.primitive.SelectionSortPrimitiveTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,19 +195,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QuickSortIterativeMedian3Test" />
-        <item itemvalue="JUnit.QuickSortIterativeHoareTest" />
-        <item itemvalue="JUnit.PerformanceAscDataTest and 2 more" />
-        <item itemvalue="JUnit.CountingSortTest" />
-        <item itemvalue="JUnit.All in aisd_ex_0" />
+        <item itemvalue="JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_DetailedQSortWithInsort" />
+        <item itemvalue="JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_CmpSorters" />
+        <item itemvalue="JUnit.PerformanceChartsRandomDataTest" />
+        <item itemvalue="JUnit.MergeSortStabilityTest" />
+        <item itemvalue="JUnit.SelectionSortPrimitiveTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169" />
       </set>
     </attachedChunks>
   </component>
@@ -194,10 +225,41 @@
       <workItem from="1760444153301" duration="1112000" />
       <workItem from="1760447331370" duration="2051000" />
       <workItem from="1760449600859" duration="227000" />
+      <workItem from="1760647441871" duration="3900000" />
+      <workItem from="1760737450108" duration="330000" />
+      <workItem from="1760778002858" duration="1837000" />
+      <workItem from="1760793618239" duration="9116000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/PerformanceChartsTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/PerformanceChartsTest.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

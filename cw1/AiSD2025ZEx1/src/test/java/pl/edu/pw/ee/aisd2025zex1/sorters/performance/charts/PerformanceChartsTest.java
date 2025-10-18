@@ -6,47 +6,106 @@ import java.io.FileWriter;
 import java.io.IOException;
 import static java.lang.String.format;
 import static java.util.logging.Level.SEVERE;
+
+import java.util.Arrays;
+import java.util.List;
 import java.util.logging.Logger;
 import org.junit.jupiter.api.Test;
+import pl.edu.pw.ee.aisd2025zex1.services.Sorting;
 import pl.edu.pw.ee.aisd2025zex1.services.SortingCmp;
-import pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.utils.DataArrangeType;
-import static pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.utils.DataArrangeType.ASC;
-import static pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.utils.DataArrangeType.DESC;
-import static pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.utils.DataArrangeType.RAND;
-import static pl.edu.pw.ee.aisd2025zex1.sorters.utils.Generators.createAscendingData;
-import static pl.edu.pw.ee.aisd2025zex1.sorters.utils.Generators.createDescendingData;
-import static pl.edu.pw.ee.aisd2025zex1.sorters.utils.Generators.createRandomData;
+import pl.edu.pw.ee.aisd2025zex1.sorters.insort.InsertionSort;
+import pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.QuickSortIterativeWithInSort;
+import pl.edu.pw.ee.aisd2025zex1.sorters.referencesort.ReferenceAlgSort;
+import pl.edu.pw.ee.aisd2025zex1.sorters.selectionsort.SelectionSort;
+import pl.edu.pw.ee.aisd2025zex1.sorters.utils.Generators;
 
 public abstract class PerformanceChartsTest<T extends Comparable<T>> {
 
     private static final Logger LOG = Logger.getLogger(PerformanceChartsTest.class.getName());
+    private String resultFilename;
 
-    private final SortingCmp<T> sorter;
-    private final DataArrangeType dataArrangeType;
-    private final String resultFilename;
-
-    public PerformanceChartsTest(SortingCmp<T> sorter, DataArrangeType dataArrangeType) {
-        this.sorter = sorter;
-        this.dataArrangeType = dataArrangeType;
-
-        String sorterName = sorter.getClass().getSimpleName();
-        resultFilename = sorterName + "_charts_performance.txt";
-
-        createOrClearResultFile();
-    }
+    abstract T[] createDataByType(int size);
+    abstract String getDataTypeName();
 
     @Test
-    public void runPerformanceChartTest() {
+    public void runPerformanceChartTest_CmpSorters() {
         int step = 1000;
         int maxSize = 200_000;
+//        int maxSize = 524288;
         T[] data;
 
         for (int i = 0; i < maxSize; i += step) {
+//        for (int i = 1024; i <= maxSize; i *= 2) {
 
             data = (T[]) createDataByType(i);
 
-            measureTimeAndSaveToFile(sorter, data);
+            for (SortingCmp<T> sorter : getCmpSorters()) {
+                String sorterName = sorter.getClass().getSimpleName();
+                resultFilename = sorterName + "_" + getDataTypeName() + "_cmp_sorter_charts_performance.txt";
+                measureTimeAndSaveToFileCmpSorter(sorter, data);
+            }
         }
+    }
+
+    @Test
+    public void runPerformanceChartTest_DetailedQSortWithInsort() {
+        int dataSize = 1000;
+        T[] data;
+        QuickSortIterativeWithInSort<T> sorter = new QuickSortIterativeWithInSort<>();
+
+        int subProblemStep = 10;
+        int maxSubProblemSize = 1000;
+
+        System.out.println("dataSize" + "\t|\t" + "subProblemSize" + "\t|\t" + "time");
+        for (int i = 0; i <= maxSubProblemSize; i += subProblemStep) {
+            data = (T[]) createDataByType(dataSize);
+            sorter.setSubProblemSize(i);
+
+            String sorterName = sorter.getClass().getSimpleName();
+            resultFilename = sorterName + "_" + getDataTypeName() + "prob_size_cmp_sorter_charts_performance.txt";
+            long time = measureTimeForCmpSorter(sorter, data);
+            System.out.println(dataSize + "\t|\t" + i + "\t|\t" + time);
+        }
+    }
+
+    @Test
+    public void runPerformanceChartTest_PrimitiveSorters() {
+        int step = 1000;
+//        int maxSize = 200_000;
+        int maxSize = 524288;
+        int[] data;
+
+//        for (int i = 0; i < maxSize; i += step) {
+        for (int i = 1024; i <= maxSize; i *= 2) {
+
+            data = Generators.createRandomDataIntPrimitive(i);
+
+            for (Sorting sorter : getPrimitiveSorters()) {
+                String sorterName = sorter.getClass().getSimpleName();
+                resultFilename = sorterName + "_" + getDataTypeName() + "_prim_sorter_charts_performance.txt";
+                measureTimeAndSaveToFilePrimitiveSorter(sorter, data);
+            }
+        }
+    }
+
+    private List<SortingCmp<T>> getCmpSorters() {
+        return Arrays.asList(
+//                new QuickSortIterativeMedian3<>(),
+//                new InsertionSort<>(),
+//                new ReferenceAlgSort<>(),
+//                new SelectionSort<>(),
+                new QuickSortIterativeWithInSort<>()
+
+
+        );
+    }
+
+    private List<Sorting> getPrimitiveSorters() {
+        return Arrays.asList(
+                new InsertionSort<>(),
+                new ReferenceAlgSort<>(),
+                new SelectionSort<>()
+        );
     }
 
     private void createOrClearResultFile() {
@@ -62,35 +121,33 @@ public abstract class PerformanceChartsTest<T extends Comparable<T>> {
         }
     }
 
-    private T[] createDataByType(int size) {
-        T[] data;
-
-        switch (dataArrangeType) {
-            case ASC ->
-                data = (T[]) createAscendingData(size);
-
-            case RAND ->
-                data = (T[]) createRandomData(size);
-
-            case DESC ->
-                data = (T[]) createDescendingData(size);
-
-            default ->
-                throw new RuntimeException(format("Unexpected data arraynge type [type: %s].", dataArrangeType));
-        }
-
-        return data;
-    }
-
-    private void measureTimeAndSaveToFile(SortingCmp<T> sorter, T[] data) {
+    private void measureTimeAndSaveToFileCmpSorter(SortingCmp<T> sorter, T[] data) {
         int n = data.length;
 
-        long measuredTime = measureTime(sorter, data);
+        long measuredTime = measureTimeForCmpSorter(sorter, data);
 
         saveToFile(n, measuredTime);
     }
 
-    private long measureTime(SortingCmp<T> sorter, T[] data) {
+    private void measureTimeAndSaveToFilePrimitiveSorter(Sorting sorter, int[] data) {
+        int n = data.length;
+
+        long measuredTime = measureTimeForPrimitiveSorter(sorter, data);
+
+        saveToFile(n, measuredTime);
+    }
+
+    private long measureTimeForCmpSorter(SortingCmp<T> sorter, T[] data) {
+        long start = System.nanoTime();
+
+        sorter.sort(data);
+
+        long timeResult = System.nanoTime() - start;
+
+        return timeResult;
+    }
+
+    private long measureTimeForPrimitiveSorter(Sorting sorter, int[] data) {
         long start = System.nanoTime();
 
         sorter.sort(data);

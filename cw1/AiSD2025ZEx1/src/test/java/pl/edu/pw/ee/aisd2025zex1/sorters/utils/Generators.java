@@ -4,7 +4,37 @@ import java.util.Random;
 
 public class Generators {
 
-    public static Double[] createRandomData(int size) {
+    public static Integer[] createRandomDataInteger(int size) {
+        assert size >= 0;
+
+        Integer[] nums = new Integer[size];
+
+        long eliteSeed = 31337;
+        Random rand = new Random(eliteSeed);
+
+        for (int i = 0; i < size; i++) {
+            nums[i] = rand.nextInt();
+        }
+
+        return nums;
+    }
+
+    public static int[] createRandomDataIntPrimitive(int size) {
+        assert size >= 0;
+
+        int[] nums = new int[size];
+
+        long eliteSeed = 31337;
+        Random rand = new Random(eliteSeed);
+
+        for (int i = 0; i < size; i++) {
+            nums[i] = rand.nextInt();
+        }
+
+        return nums;
+    }
+
+    public static Double[] createRandomDataDouble(int size) {
         assert size >= 0;
 
         Double[] nums = new Double[size];

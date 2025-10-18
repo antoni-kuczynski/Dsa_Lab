@@ -1,9 +1,11 @@
 package pl.edu.pw.ee.aisd2025zex1.sorters.selectionsort;
 
 import static java.util.Objects.isNull;
+
+import pl.edu.pw.ee.aisd2025zex1.services.Sorting;
 import pl.edu.pw.ee.aisd2025zex1.services.SortingCmp;
 
-public class SelectionSort<T extends Comparable<T>> implements SortingCmp<T> {
+public class SelectionSort<T extends Comparable<T>> implements SortingCmp<T>, Sorting {
 
     @Override
     public void sort(T[] data) {
@@ -23,6 +25,20 @@ public class SelectionSort<T extends Comparable<T>> implements SortingCmp<T> {
             }
 
             swap(data, i, minValId);
+        }
+    }
+
+    @Override
+    public void sort(int[] nums) {
+        for (int i = 0; i < nums.length - 1; i++) {
+            int min = i;
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[j] < nums[min])
+                    min = j;
+            }
+            int temp = nums[i];
+            nums[i] = nums[min];
+            nums[min] = temp;
         }
     }
 

@@ -14,8 +14,12 @@ import static java.util.logging.Level.WARNING;
 import java.util.logging.Logger;
 import org.junit.jupiter.api.Test;
 import pl.edu.pw.ee.aisd2025zex1.services.SortingCmp;
+import pl.edu.pw.ee.aisd2025zex1.sorters.insort.InsertionSort;
 import pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.QuickSortIterativeHoare;
 import pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.QuickSortIterativeLomuto;
+import pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.QuickSortIterativeMedian3;
+import pl.edu.pw.ee.aisd2025zex1.sorters.referencesort.ReferenceAlgSort;
+import pl.edu.pw.ee.aisd2025zex1.sorters.selectionsort.SelectionSort;
 
 public abstract class PerformanceTest<T extends Comparable<T>> {
 
@@ -34,7 +38,9 @@ public abstract class PerformanceTest<T extends Comparable<T>> {
     private List<SortingCmp<T>> getListOfSorters() {
         List<SortingCmp<T>> sorters = new ArrayList<>();
 
-//        sorters.add(new InsertionSort());
+        sorters.add(new InsertionSort());
+        sorters.add(new ReferenceAlgSort<>());
+        sorters.add(new SelectionSort<>());
 //        sorters.add(new SelectionSort());
 //        sorters.add(new QuickSortRecursiveHoare());
 //        sorters.add(new QuickSortIterativeHoare());
@@ -49,7 +55,8 @@ public abstract class PerformanceTest<T extends Comparable<T>> {
     }
 
     private int[] getDataSize() {
-        int n = 7;
+//        int n = 7;
+        int n = 9;
         int startPower = 11;
         int[] dataSizes = new int[n];
 
