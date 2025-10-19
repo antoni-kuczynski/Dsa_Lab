@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformancePrimitiveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformancePrimitiveTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/test_results/ex8/counting_sort_data" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/test_results/ex8/counting_sort_data" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
