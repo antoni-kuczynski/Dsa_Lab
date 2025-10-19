@@ -1,43 +1,62 @@
-Non repeating data:
+        CountingSort |    1024 | 2.62026e+07
+        CountingSort |    2048 | 2.55223e+07
+        CountingSort |    4096 | 2.56204e+07
+        CountingSort |    8192 | 2.54269e+07
+        CountingSort |   16384 | 2.59034e+07
+        CountingSort |   32768 | 2.51469e+07
+        CountingSort |   65536 | 2.61035e+07
+        CountingSort |  131072 | 2.59979e+07
+        CountingSort |  262144 | 2.62071e+07
+        CountingSort |  524288 | 2.78350e+07
+        CountingSort | 1048576 | 3.48827e+07
+        CountingSort | 2097152 | 4.64281e+07
+Oct 19, 2025 5:23:49 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformancePrimitiveTest measureAvgTimeAndStopAfterDuration
+WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
+        CountingSort | 4194304 | -1.00000
+Oct 19, 2025 5:23:55 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformancePrimitiveTest measureAvgTimeAndStopAfterDuration
+WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
+        CountingSort | 8388608 | -1.00000
+Oct 19, 2025 5:24:01 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformancePrimitiveTest measureAvgTimeAndStopAfterDuration
+WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
+        CountingSort | 16777216 | -1.00000
+Oct 19, 2025 5:24:09 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformancePrimitiveTest measureAvgTimeAndStopAfterDuration
+WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
+        CountingSort | 33554432 | -1.00000
+Oct 19, 2025 5:24:18 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.TimeMeasureTaskPrimitive run
+        CountingSort | 67108864 | -1.00000
+SEVERE: Error during TimeMeasureTaskInt.run() [message: java.lang.IllegalArgumentException: No number can be greater than "maxVal" (nums[0]=56527709)!].
+Oct 19, 2025 5:24:34 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.TimeMeasureTaskPrimitive run
+SEVERE: Error during TimeMeasureTaskInt.run() [message: java.lang.IllegalArgumentException: No number can be greater than "maxVal" (nums[0]=78233716)!].
+        CountingSort | 134217728 | -1.00000
+        CountingSort |    1024 | 3.45209e+07
+        CountingSort |    2048 | 3.51466e+07
+        CountingSort |    4096 | 3.38715e+07
+        CountingSort |    8192 | 3.41473e+07
+        CountingSort |   16384 | 3.39836e+07
+        CountingSort |   32768 | 3.43893e+07
+        CountingSort |   65536 | 3.39710e+07
+        CountingSort |  131072 | 3.41508e+07
+        CountingSort |  262144 | 3.52051e+07
+        CountingSort |  524288 | 3.59410e+07
+        CountingSort | 1048576 | 3.36889e+07
+        CountingSort | 2097152 | 4.41625e+07
+Oct 19, 2025 5:25:23 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformancePrimitiveTest measureAvgTimeAndStopAfterDuration
+        CountingSort | 4194304 | -1.00000
+WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
+Oct 19, 2025 5:25:28 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformancePrimitiveTest measureAvgTimeAndStopAfterDuration
+        CountingSort | 8388608 | -1.00000
+WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
+Oct 19, 2025 5:25:33 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformancePrimitiveTest measureAvgTimeAndStopAfterDuration
+WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
+        CountingSort | 16777216 | -1.00000
+Oct 19, 2025 5:25:40 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformancePrimitiveTest measureAvgTimeAndStopAfterDuration
+        CountingSort | 33554432 | -1.00000
+WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
+Oct 19, 2025 5:25:49 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformancePrimitiveTest measureAvgTimeAndStopAfterDuration
+WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
+        CountingSort | 67108864 | -1.00000
+Oct 19, 2025 5:26:01 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformancePrimitiveTest measureAvgTimeAndStopAfterDuration
+        CountingSort | 134217728 | -1.00000
+WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
 
-CountingSort |    1024 | 1.33142e+07
-CountingSort |    2048 | 1.28190e+07
-CountingSort |    4096 | 1.28401e+07
-CountingSort |    8192 | 1.27902e+07
-CountingSort |   16384 | 1.28818e+07
-CountingSort |   32768 | 1.29407e+07
-CountingSort |   65536 | 1.30825e+07
-CountingSort |  131072 | 1.35130e+07
-CountingSort |  262144 | 1.43001e+07
-CountingSort |  524288 | 1.61254e+07
-CountingSort | 1048576 | 1.93456e+07
-CountingSort | 2097152 | 3.29868e+07
-CountingSort | 4194304 | -1.00000
-CountingSort | 8388608 | -1.00000
-CountingSort | 16777216 | -1.00000
-CountingSort | 33554432 | -1.00000
-CountingSort | 67108864 | -1.00000
-CountingSort | 134217728 | -1.00000
-
-
-Repeating data:
-
-CountingSort |    1024 | 1.83465e+07
-CountingSort |    2048 | 1.43816e+07
-CountingSort |    4096 | 1.77637e+07
-CountingSort |    8192 | 1.60302e+07
-CountingSort |   16384 | 1.63533e+07
-CountingSort |   32768 | 1.80096e+07
-CountingSort |   65536 | 1.47997e+07
-CountingSort |  131072 | 1.89667e+07
-CountingSort |  262144 | 1.66222e+07
-CountingSort |  524288 | 1.93227e+07
-CountingSort | 1048576 | 1.95259e+07
-CountingSort | 2097152 | 2.45122e+07
-CountingSort | 4194304 | 4.48507e+07
-CountingSort | 8388608 | -1.00000
-CountingSort | 16777216 | -1.00000
-CountingSort | 33554432 | -1.00000
-CountingSort | 67108864 | -1.00000
-CountingSort | 134217728 | -1.00000
-
+Process finished with exit code 0

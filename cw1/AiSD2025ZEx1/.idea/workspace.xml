@@ -157,7 +157,10 @@
     </configuration>
     <configuration name="PerformanceRandNonRepeatingDataTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="pattern" />
+      <option name="VM_PARAMETERS" value="-ea -Xmx16G" />
       <patterns>
         <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.countingsort.PerformanceRandNonRepeatingDataTest" />
         <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.countingsort.PerformanceRandRepeatingDataTest" />
@@ -196,6 +199,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.CountingSortTest" />
+      <item itemvalue="JUnit.PerformanceRandDataPrimitiveTest" />
+      <item itemvalue="JUnit.PerformanceRandNonRepeatingDataTest" />
+      <item itemvalue="JUnit.PerformanceRandNonRepeatingDataTest and 1 more" />
+      <item itemvalue="JUnit.PerformanceRandRepeatingDataTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PerformanceRandNonRepeatingDataTest and 1 more" />
@@ -233,7 +243,7 @@
       <workItem from="1760778002858" duration="1837000" />
       <workItem from="1760793618239" duration="9116000" />
       <workItem from="1760809127846" duration="9343000" />
-      <workItem from="1760877128552" duration="2874000" />
+      <workItem from="1760877128552" duration="4033000" />
     </task>
     <servers />
   </component>
