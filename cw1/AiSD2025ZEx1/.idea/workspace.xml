@@ -21,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -65,6 +70,10 @@
     "JUnit.PerformancePrimitiveTest.runPerformanceTest.executor": "Run",
     "JUnit.PerformanceRandDataPrimitiveTest.executor": "Run",
     "JUnit.PerformanceRandDataTest.executor": "Run",
+    "JUnit.PerformanceRandIntegerDataTest.executor": "Run",
+    "JUnit.PerformanceRandNonRepeatingDataTest and 1 more.executor": "Run",
+    "JUnit.PerformanceRandNonRepeatingDataTest.executor": "Run",
+    "JUnit.PerformanceRandRepeatingDataTest.executor": "Run",
     "JUnit.QuickSortIterativeHoareTest.executor": "Run",
     "JUnit.QuickSortIterativeWithInSortTest.executor": "Run",
     "JUnit.SelectionSortPrimitiveTest.executor": "Run",
@@ -115,79 +124,73 @@
       <recent name="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_DetailedQSortWithInsort">
-    <configuration name="MergeSortStabilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PerformanceRandNonRepeatingDataTest and 1 more">
+    <configuration name="CountingSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.mergesort.*" />
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.countingsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.mergesort" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.mergesort.MergeSortStabilityTest" />
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.countingsort" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.countingsort.CountingSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerformanceChartsRandomDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PerformanceRandDataPrimitiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.*" />
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.PerformanceChartsRandomDataTest" />
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceRandDataPrimitiveTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerformanceChartsRandomDataTest.runPerformanceChartTest_CmpSorters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PerformanceRandNonRepeatingDataTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.PerformanceChartsRandomDataTest" />
-      <option name="METHOD_NAME" value="runPerformanceChartTest_CmpSorters" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.countingsort.PerformanceRandNonRepeatingDataTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.countingsort.PerformanceRandRepeatingDataTest" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerformanceChartsRandomDataTest.runPerformanceChartTest_DetailedQSortWithInsort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PerformanceRandNonRepeatingDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.*" />
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.countingsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.PerformanceChartsRandomDataTest" />
-      <option name="METHOD_NAME" value="runPerformanceChartTest_DetailedQSortWithInsort" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.countingsort" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.countingsort.PerformanceRandNonRepeatingDataTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortPrimitiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PerformanceRandRepeatingDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.primitive.*" />
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.countingsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.primitive" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.primitive.SelectionSortPrimitiveTest" />
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.countingsort" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.countingsort.PerformanceRandRepeatingDataTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_DetailedQSortWithInsort" />
-        <item itemvalue="JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_CmpSorters" />
-        <item itemvalue="JUnit.PerformanceChartsRandomDataTest" />
-        <item itemvalue="JUnit.MergeSortStabilityTest" />
-        <item itemvalue="JUnit.SelectionSortPrimitiveTest" />
+        <item itemvalue="JUnit.PerformanceRandNonRepeatingDataTest and 1 more" />
+        <item itemvalue="JUnit.PerformanceRandNonRepeatingDataTest" />
+        <item itemvalue="JUnit.PerformanceRandRepeatingDataTest" />
+        <item itemvalue="JUnit.CountingSortTest" />
+        <item itemvalue="JUnit.PerformanceRandDataPrimitiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +232,8 @@
       <workItem from="1760737450108" duration="330000" />
       <workItem from="1760778002858" duration="1837000" />
       <workItem from="1760793618239" duration="9116000" />
+      <workItem from="1760809127846" duration="9343000" />
+      <workItem from="1760877128552" duration="2874000" />
     </task>
     <servers />
   </component>

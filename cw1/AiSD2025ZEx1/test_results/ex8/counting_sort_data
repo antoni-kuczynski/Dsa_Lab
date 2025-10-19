@@ -1,0 +1,43 @@
+Non repeating data:
+
+CountingSort |    1024 | 1.33142e+07
+CountingSort |    2048 | 1.28190e+07
+CountingSort |    4096 | 1.28401e+07
+CountingSort |    8192 | 1.27902e+07
+CountingSort |   16384 | 1.28818e+07
+CountingSort |   32768 | 1.29407e+07
+CountingSort |   65536 | 1.30825e+07
+CountingSort |  131072 | 1.35130e+07
+CountingSort |  262144 | 1.43001e+07
+CountingSort |  524288 | 1.61254e+07
+CountingSort | 1048576 | 1.93456e+07
+CountingSort | 2097152 | 3.29868e+07
+CountingSort | 4194304 | -1.00000
+CountingSort | 8388608 | -1.00000
+CountingSort | 16777216 | -1.00000
+CountingSort | 33554432 | -1.00000
+CountingSort | 67108864 | -1.00000
+CountingSort | 134217728 | -1.00000
+
+
+Repeating data:
+
+CountingSort |    1024 | 1.83465e+07
+CountingSort |    2048 | 1.43816e+07
+CountingSort |    4096 | 1.77637e+07
+CountingSort |    8192 | 1.60302e+07
+CountingSort |   16384 | 1.63533e+07
+CountingSort |   32768 | 1.80096e+07
+CountingSort |   65536 | 1.47997e+07
+CountingSort |  131072 | 1.89667e+07
+CountingSort |  262144 | 1.66222e+07
+CountingSort |  524288 | 1.93227e+07
+CountingSort | 1048576 | 1.95259e+07
+CountingSort | 2097152 | 2.45122e+07
+CountingSort | 4194304 | 4.48507e+07
+CountingSort | 8388608 | -1.00000
+CountingSort | 16777216 | -1.00000
+CountingSort | 33554432 | -1.00000
+CountingSort | 67108864 | -1.00000
+CountingSort | 134217728 | -1.00000
+

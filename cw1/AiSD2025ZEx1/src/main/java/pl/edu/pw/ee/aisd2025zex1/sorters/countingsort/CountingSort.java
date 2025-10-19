@@ -38,7 +38,7 @@ public class CountingSort implements Sorting {
         }
 
         for (int i = n - 1; i >= 0; i--) {
-            sorted[counters[nums[i]]] = nums[i];
+            sorted[counters[nums[i]] - 1] = nums[i];
             counters[nums[i]]--;
         }
 

@@ -7,8 +7,7 @@ public class PerformanceRandDataTest<T extends Comparable<T>> extends Performanc
 
     @Override
     protected T[] generateData(int size) {
-//        return (T[]) createRandomDataDouble(size);
-        return (T[]) createRandomDataInteger(size);
+        return (T[]) createRandomDataDouble(size);
     }
 
 }

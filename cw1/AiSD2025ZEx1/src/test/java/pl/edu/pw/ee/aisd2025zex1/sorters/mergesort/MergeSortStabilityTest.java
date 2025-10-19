@@ -10,7 +10,7 @@ import java.util.Objects;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class MergeSortStabilityTest<T> {
+public class MergeSortStabilityTest {
 
     private SortingCmp<TestClass> sorter;
 

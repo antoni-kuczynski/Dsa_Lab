@@ -148,6 +148,7 @@ import static java.util.logging.Level.WARNING;
 import java.util.logging.Logger;
 import org.junit.jupiter.api.Test;
 import pl.edu.pw.ee.aisd2025zex1.services.Sorting;
+import pl.edu.pw.ee.aisd2025zex1.sorters.countingsort.CountingSort;
 import pl.edu.pw.ee.aisd2025zex1.sorters.insort.InsertionSort;
 import pl.edu.pw.ee.aisd2025zex1.sorters.referencesort.ReferenceAlgSort;
 import pl.edu.pw.ee.aisd2025zex1.sorters.selectionsort.SelectionSort;
@@ -164,23 +165,21 @@ public abstract class PerformancePrimitiveTest {
         measureAndPrintAvgTimeOfAllSorters(sorters, dataSizes);
     }
 
-    // Each subclass decides how to generate test data
     protected abstract int[] generateData(int size);
 
     private List<Sorting> getListOfSorters() {
         List<Sorting> sorters = new ArrayList<>();
 
-        sorters.add(new InsertionSort());
-        sorters.add(new ReferenceAlgSort());
-        sorters.add(new SelectionSort());
-        // TODO: add QuickSortInt, MergeSortInt, HeapSortInt, etc.
-
+//        sorters.add(new InsertionSort());
+//        sorters.add(new ReferenceAlgSort());
+//        sorters.add(new SelectionSort());
+        sorters.add(new CountingSort(40_100_000));
         return sorters;
     }
 
     private int[] getDataSize() {
-        int n = 9;          // number of test sizes
-        int startPower = 11; // start at 2^11 = 2048
+        int n = 18;
+        int startPower = 10;
         int[] dataSizes = new int[n];
 
         for (int i = 0; i < n; i++) {

@@ -38,9 +38,9 @@ public abstract class PerformanceTest<T extends Comparable<T>> {
     private List<SortingCmp<T>> getListOfSorters() {
         List<SortingCmp<T>> sorters = new ArrayList<>();
 
-        sorters.add(new InsertionSort());
-        sorters.add(new ReferenceAlgSort<>());
-        sorters.add(new SelectionSort<>());
+//        sorters.add(new InsertionSort());
+//        sorters.add(new ReferenceAlgSort<>());
+//        sorters.add(new SelectionSort<>());
 //        sorters.add(new SelectionSort());
 //        sorters.add(new QuickSortRecursiveHoare());
 //        sorters.add(new QuickSortIterativeHoare());
@@ -57,7 +57,7 @@ public abstract class PerformanceTest<T extends Comparable<T>> {
     private int[] getDataSize() {
 //        int n = 7;
         int n = 9;
-        int startPower = 11;
+        int startPower = 10;
         int[] dataSizes = new int[n];
 
         for (int i = 0; i < n; i++) {
