@@ -19,8 +19,9 @@ public class QuickSortIterativeLomuto<T extends Comparable<T>> implements Sortin
         List<Integer> starts = new ArrayList<>();
         List<Integer> ends = new ArrayList<>();
 
-        Integer left = 0;
-        Integer right = data.length - 1;
+        //zamiana Integer na int
+        int left = 0;
+        int right = data.length - 1;
 
         starts.add(left);
         ends.add(right);

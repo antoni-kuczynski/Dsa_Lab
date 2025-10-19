@@ -26,7 +26,7 @@ public class MergeSort<T extends Comparable<T>> implements SortingCmp<T> {
 
             for (int left = 0; left < n; left += 2 * w) {
 
-                midId = left + w - 1;
+                midId = Math.min(left + w - 1, n - 1); //dodano Math.min
                 rightId = Math.min(left + 2 * w - 1, n - 1);
                 merge(data, auxData, left, midId, rightId);
             }
@@ -34,9 +34,9 @@ public class MergeSort<T extends Comparable<T>> implements SortingCmp<T> {
     }
 
     private void merge(T[] data, T[] auxData, int leftId, int midId, int rightId) {
-//        System.arraycopy(data, leftId, auxData, leftId, rightId - leftId + 1);  //poprawa nadpisywania już posortowanych danych
-        int n = data.length;
-        System.arraycopy(data, 0, auxData, 0, n);
+        System.arraycopy(data, leftId, auxData, leftId, rightId - leftId + 1);  //poprawa nadpisywania już posortowanych danych
+//        int n = data.length;
+//        System.arraycopy(data, 0, auxData, 0, n);
 
         int i = leftId;
         int j = midId + 1;

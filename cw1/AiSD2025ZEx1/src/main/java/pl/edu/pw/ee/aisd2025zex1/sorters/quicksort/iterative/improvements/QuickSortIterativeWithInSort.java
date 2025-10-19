@@ -1,6 +1,7 @@
 package pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements;
 
 import pl.edu.pw.ee.aisd2025zex1.services.SortingCmp;
+import pl.edu.pw.ee.aisd2025zex1.sorters.insort.InsertionSort;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,15 +20,31 @@ public class QuickSortIterativeWithInSort<T extends Comparable<T>> implements So
     }
 
     private void insort(T[] data, int left, int right) {
-        for (int i = left + 1; i <= right; i++) {
-            T temp = data[i];
-            int j = i - 1;
+//        for (int i = left + 1; i <= right; i++) {
+//            T temp = data[i];
+//            int j = i - 1;
+//
+//            while (j >= left && data[j].compareTo(temp) > 0) {
+//                data[j + 1] = data[j];
+//                j--;
+//            }
+//            data[j + 1] = temp;
+//        }
 
-            while (j >= 0 && data[j].compareTo(temp) > 0) {
+//        int n = data.length;
+        T currentVal;
+        int j;
+
+        for (int i = left + 1; i < right; i++) {
+
+            currentVal = data[i];
+
+            for (j = i - 1; j >= left && data[j].compareTo(currentVal) > 0; j--) {
                 data[j + 1] = data[j];
-                j--;
             }
-            data[j + 1] = temp;
+            j++;
+
+            data[j] = currentVal;
         }
     }
 
@@ -49,12 +66,14 @@ public class QuickSortIterativeWithInSort<T extends Comparable<T>> implements So
                 n--;
                 left = starts.remove(n);
                 right = ends.remove(n);
-                pivot = partition(data, left, right);
 
-                if (right - left <= subProblemSize) {
+                if (right - left < subProblemSize) {
+//                    InsertionSort
                     insort(data, left, right);
                     continue;
                 }
+
+                pivot = partition(data, left, right);
 
                 if (pivot > left) {
                     starts.add(left);

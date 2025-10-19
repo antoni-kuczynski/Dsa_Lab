@@ -173,7 +173,7 @@ public abstract class PerformancePrimitiveTest {
 //        sorters.add(new InsertionSort());
 //        sorters.add(new ReferenceAlgSort());
 //        sorters.add(new SelectionSort());
-        sorters.add(new CountingSort(40_100_000));
+        sorters.add(new CountingSort());
         return sorters;
     }
 
