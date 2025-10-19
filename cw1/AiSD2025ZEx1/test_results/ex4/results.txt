@@ -1,40 +1,32 @@
-/home/antekk/.jdks/corretto-21.0.4/bin/java -javaagent:/home/antekk/.local/share/JetBrains/Toolbox/apps/intellij-idea-ultimate/plugins/java/lib/rt/debugger-agent.jar=file:///tmp/capture17532107708452965824.props -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/antekk/.local/share/JetBrains/Toolbox/apps/intellij-idea-ultimate/lib/idea_rt.jar=41691 -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false -Ddebugger.agent.enable.coroutines=true -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /home/antekk/.m2/repository/org/junit/platform/junit-platform-launcher/6.0.0/junit-platform-launcher-6.0.0.jar:/home/antekk/.local/share/JetBrains/Toolbox/apps/intellij-idea-ultimate/lib/idea_rt.jar:/home/antekk/.local/share/JetBrains/Toolbox/apps/intellij-idea-ultimate/plugins/junit/lib/junit5-rt.jar:/home/antekk/.local/share/JetBrains/Toolbox/apps/intellij-idea-ultimate/plugins/junit/lib/junit-rt.jar:/home/antekk/IdeaProjects/AISD/cw1/AiSD2025ZEx1/target/test-classes:/home/antekk/IdeaProjects/AISD/cw1/AiSD2025ZEx1/target/classes:/home/antekk/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.0.0/junit-jupiter-engine-6.0.0.jar:/home/antekk/.m2/repository/org/junit/platform/junit-platform-engine/6.0.0/junit-platform-engine-6.0.0.jar:/home/antekk/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/antekk/.m2/repository/org/junit/platform/junit-platform-commons/6.0.0/junit-platform-commons-6.0.0.jar:/home/antekk/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.0.0/junit-jupiter-api-6.0.0.jar:/home/antekk/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/antekk/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/antekk/.m2/repository/org/assertj/assertj-core/4.0.0-M1/assertj-core-4.0.0-M1.jar:/home/antekk/.m2/repository/net/bytebuddy/byte-buddy/1.17.1/byte-buddy-1.17.1.jar com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit5 @w@/tmp/idea_working_dirs_junit.tmp @/tmp/idea_junit.tmp -socket40845
-            HeapSort |    2048 | 390125
-            HeapSort |    4096 | 428446
-            HeapSort |    8192 | 941746
-            HeapSort |   16384 | 1.86640e+06
-            HeapSort |   32768 | 3.85988e+06
-            HeapSort |   65536 | 8.64775e+06
-            HeapSort |  131072 | 1.86180e+07
-       InsertionSort |    2048 | 56311.0
-       InsertionSort |    4096 | 36376.0
-       InsertionSort |    8192 | 57233.0
-       InsertionSort |   16384 | 43443.0
-       InsertionSort |   32768 | 97076.0
-       InsertionSort |   65536 | 179686
-       InsertionSort |  131072 | 357679
-           MergeSort |    2048 | 634310
-           MergeSort |    4096 | 246200
-           MergeSort |    8192 | 526147
-           MergeSort |   16384 | 1.32959e+06
-           MergeSort |   32768 | 2.28258e+06
-           MergeSort |   65536 | 4.84537e+06
-           MergeSort |  131072 | 1.05387e+07
-       SelectionSort |    2048 | 1.63624e+06
-       SelectionSort |    4096 | 6.65549e+06
-       SelectionSort |    8192 | 2.68645e+07
-Oct 19, 2025 8:51:51 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-       SelectionSort |   16384 | -1.00000
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-       SelectionSort |   32768 | -1.00000
-Oct 19, 2025 8:51:56 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-Oct 19, 2025 8:52:01 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-       SelectionSort |   65536 | -1.00000
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-Oct 19, 2025 8:52:06 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-       SelectionSort |  131072 | -1.00000
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
+Ascending data:
+HeapSort |    2048 | 390125
+HeapSort |    4096 | 428446
+HeapSort |    8192 | 941746
+HeapSort |   16384 | 1.86640e+06
+HeapSort |   32768 | 3.85988e+06
+HeapSort |   65536 | 8.64775e+06
+HeapSort |  131072 | 1.86180e+07
+InsertionSort |    2048 | 56311.0
+InsertionSort |    4096 | 36376.0
+InsertionSort |    8192 | 57233.0
+InsertionSort |   16384 | 43443.0
+InsertionSort |   32768 | 97076.0
+InsertionSort |   65536 | 179686
+InsertionSort |  131072 | 357679
+MergeSort |    2048 | 634310
+MergeSort |    4096 | 246200
+MergeSort |    8192 | 526147
+MergeSort |   16384 | 1.32959e+06
+MergeSort |   32768 | 2.28258e+06
+MergeSort |   65536 | 4.84537e+06
+MergeSort |  131072 | 1.05387e+07
+SelectionSort |    2048 | 1.63624e+06
+SelectionSort |    4096 | 6.65549e+06
+SelectionSort |    8192 | 2.68645e+07
+SelectionSort |   16384 | -1.00000
+SelectionSort |   32768 | -1.00000
+SelectionSort |   65536 | -1.00000
+SelectionSort |  131072 | -1.00000
 QuickSortIterativeMedian3 |    2048 | 402651
 QuickSortIterativeMedian3 |    4096 | 277188
 QuickSortIterativeMedian3 |    8192 | 368637
@@ -52,54 +44,40 @@ QuickSortIterativeRandom |  131072 | 9.08168e+06
 QuickSortIterativeWithInSort |    2048 | 2.82045e+06
 QuickSortIterativeWithInSort |    4096 | 1.05156e+07
 QuickSortIterativeWithInSort |    8192 | 3.75787e+07
-Oct 19, 2025 8:52:19 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
 QuickSortIterativeWithInSort |   16384 | -1.00000
-Oct 19, 2025 8:52:24 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
 QuickSortIterativeWithInSort |   32768 | -1.00000
-Oct 19, 2025 8:52:29 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
 QuickSortIterativeWithInSort |   65536 | -1.00000
-Oct 19, 2025 8:52:34 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
 QuickSortIterativeWithInSort |  131072 | -1.00000
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-            HeapSort |    2048 | 357431
-            HeapSort |    4096 | 810397
-            HeapSort |    8192 | 1.74123e+06
-            HeapSort |   16384 | 3.55414e+06
-            HeapSort |   32768 | 7.96749e+06
-            HeapSort |   65536 | 1.66128e+07
-            HeapSort |  131072 | 2.43558e+07
-       InsertionSort |    2048 | 8662.00
-       InsertionSort |    4096 | 16962.0
-       InsertionSort |    8192 | 33847.0
-       InsertionSort |   16384 | 98132.0
-       InsertionSort |   32768 | 108344
-       InsertionSort |   65536 | 399251
-       InsertionSort |  131072 | 886313
-           MergeSort |    2048 | 226443
-           MergeSort |    4096 | 479319
-           MergeSort |    8192 | 1.06914e+06
-           MergeSort |   16384 | 2.18399e+06
-           MergeSort |   32768 | 4.70019e+06
-           MergeSort |   65536 | 8.93291e+06
-           MergeSort |  131072 | 1.56426e+07
-       SelectionSort |    2048 | 1.72188e+06
-       SelectionSort |    4096 | 6.99005e+06
-       SelectionSort |    8192 | 2.95267e+07
-       SelectionSort |   16384 | -1.00000
-Oct 19, 2025 8:52:52 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-Oct 19, 2025 8:52:57 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-       SelectionSort |   32768 | -1.00000
-Oct 19, 2025 8:53:02 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-       SelectionSort |   65536 | -1.00000
-Oct 19, 2025 8:53:07 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-       SelectionSort |  131072 | -1.00000
+
+Descending data:
+HeapSort |    2048 | 357431
+HeapSort |    4096 | 810397
+HeapSort |    8192 | 1.74123e+06
+HeapSort |   16384 | 3.55414e+06
+HeapSort |   32768 | 7.96749e+06
+HeapSort |   65536 | 1.66128e+07
+HeapSort |  131072 | 2.43558e+07
+InsertionSort |    2048 | 8662.00
+InsertionSort |    4096 | 16962.0
+InsertionSort |    8192 | 33847.0
+InsertionSort |   16384 | 98132.0
+InsertionSort |   32768 | 108344
+InsertionSort |   65536 | 399251
+InsertionSort |  131072 | 886313
+MergeSort |    2048 | 226443
+MergeSort |    4096 | 479319
+MergeSort |    8192 | 1.06914e+06
+MergeSort |   16384 | 2.18399e+06
+MergeSort |   32768 | 4.70019e+06
+MergeSort |   65536 | 8.93291e+06
+MergeSort |  131072 | 1.56426e+07
+SelectionSort |    2048 | 1.72188e+06
+SelectionSort |    4096 | 6.99005e+06
+SelectionSort |    8192 | 2.95267e+07
+SelectionSort |   16384 | -1.00000
+SelectionSort |   32768 | -1.00000
+SelectionSort |   65536 | -1.00000
+SelectionSort |  131072 | -1.00000
 QuickSortIterativeMedian3 |    2048 | 154336
 QuickSortIterativeMedian3 |    4096 | 313114
 QuickSortIterativeMedian3 |    8192 | 644912
@@ -117,80 +95,47 @@ QuickSortIterativeRandom |  131072 | 1.43440e+07
 QuickSortIterativeWithInSort |    2048 | 4.18073e+06
 QuickSortIterativeWithInSort |    4096 | 1.84671e+07
 QuickSortIterativeWithInSort |    8192 | -1.00000
-Oct 19, 2025 8:53:20 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-Oct 19, 2025 8:53:25 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
 QuickSortIterativeWithInSort |   16384 | -1.00000
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-Oct 19, 2025 8:53:30 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
 QuickSortIterativeWithInSort |   32768 | -1.00000
 QuickSortIterativeWithInSort |   65536 | -1.00000
-Oct 19, 2025 8:53:35 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-Oct 19, 2025 8:53:40 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
 QuickSortIterativeWithInSort |  131072 | -1.00000
-            HeapSort |    2048 | 572979
-            HeapSort |    4096 | 1.09011e+06
-            HeapSort |    8192 | 2.43245e+06
-            HeapSort |   16384 | 5.93552e+06
-            HeapSort |   32768 | 1.32512e+07
-            HeapSort |   65536 | 2.73305e+07
-Oct 19, 2025 8:53:50 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-            HeapSort |  131072 | -1.00000
-       InsertionSort |    2048 | 8.25811e+06
-       InsertionSort |    4096 | 2.72437e+07
-Oct 19, 2025 8:53:59 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-       InsertionSort |    8192 | -1.00000
-       InsertionSort |   16384 | -1.00000
-Oct 19, 2025 8:54:04 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-Oct 19, 2025 8:54:09 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-       InsertionSort |   32768 | -1.00000
-       InsertionSort |   65536 | -1.00000
-Oct 19, 2025 8:54:14 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-Oct 19, 2025 8:54:19 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-       InsertionSort |  131072 | -1.00000
-           MergeSort |    2048 | 1.88547e+06
-           MergeSort |    4096 | 1.58911e+06
-           MergeSort |    8192 | 3.29066e+06
-           MergeSort |   16384 | 6.20081e+06
-           MergeSort |   32768 | 1.17266e+07
-           MergeSort |   65536 | 2.04089e+07
-Oct 19, 2025 8:54:30 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-           MergeSort |  131072 | -1.00000
-       SelectionSort |    2048 | 8.31183e+06
-       SelectionSort |    4096 | 3.37178e+07
-Oct 19, 2025 8:54:39 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-       SelectionSort |    8192 | -1.00000
-       SelectionSort |   16384 | -1.00000
-Oct 19, 2025 8:54:44 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-       SelectionSort |   32768 | -1.00000
-Oct 19, 2025 8:54:49 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-Oct 19, 2025 8:54:54 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
-       SelectionSort |   65536 | -1.00000
-       SelectionSort |  131072 | -1.00000
-Oct 19, 2025 8:54:59 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
+
+Random data:
+
+HeapSort |    2048 | 572979
+HeapSort |    4096 | 1.09011e+06
+HeapSort |    8192 | 2.43245e+06
+HeapSort |   16384 | 5.93552e+06
+HeapSort |   32768 | 1.32512e+07
+HeapSort |   65536 | 2.73305e+07
+HeapSort |  131072 | -1.00000
+InsertionSort |    2048 | 8.25811e+06
+InsertionSort |    4096 | 2.72437e+07
+InsertionSort |    8192 | -1.00000
+InsertionSort |   16384 | -1.00000
+InsertionSort |   32768 | -1.00000
+InsertionSort |   65536 | -1.00000
+InsertionSort |  131072 | -1.00000
+MergeSort |    2048 | 1.88547e+06
+MergeSort |    4096 | 1.58911e+06
+MergeSort |    8192 | 3.29066e+06
+MergeSort |   16384 | 6.20081e+06
+MergeSort |   32768 | 1.17266e+07
+MergeSort |   65536 | 2.04089e+07
+MergeSort |  131072 | -1.00000
+SelectionSort |    2048 | 8.31183e+06
+SelectionSort |    4096 | 3.37178e+07
+SelectionSort |    8192 | -1.00000
+SelectionSort |   16384 | -1.00000
+SelectionSort |   32768 | -1.00000
+SelectionSort |   65536 | -1.00000
+SelectionSort |  131072 | -1.00000
 QuickSortIterativeMedian3 |    2048 | 761240
 QuickSortIterativeMedian3 |    4096 | 1.29669e+06
 QuickSortIterativeMedian3 |    8192 | 4.52832e+06
 QuickSortIterativeMedian3 |   16384 | 5.77826e+06
 QuickSortIterativeMedian3 |   32768 | 1.20023e+07
 QuickSortIterativeMedian3 |   65536 | 2.50494e+07
-Oct 19, 2025 8:55:09 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
 QuickSortIterativeMedian3 |  131072 | -1.00000
 QuickSortIterativeRandom |    2048 | 421356
 QuickSortIterativeRandom |    4096 | 1.30174e+06
@@ -198,8 +143,6 @@ QuickSortIterativeRandom |    8192 | 3.15523e+06
 QuickSortIterativeRandom |   16384 | 3.43537e+06
 QuickSortIterativeRandom |   32768 | 9.61459e+06
 QuickSortIterativeRandom |   65536 | 2.55705e+07
-Oct 19, 2025 8:55:19 PM pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceTest measureAvgTimeAndStopAfterDuration
-WARNING: A TIMEOUT interrupt was caught during average time measurement: java.util.concurrent.TimeoutException
 QuickSortIterativeRandom |  131072 | -1.00000
 QuickSortIterativeWithInSort |    2048 | 1.28400e+06
 QuickSortIterativeWithInSort |    4096 | 821769
@@ -208,5 +151,3 @@ QuickSortIterativeWithInSort |   16384 | 5.97057e+06
 QuickSortIterativeWithInSort |   32768 | 6.06336e+06
 QuickSortIterativeWithInSort |   65536 | 1.43286e+07
 QuickSortIterativeWithInSort |  131072 | 3.59051e+07
-
-Process finished with exit code 0

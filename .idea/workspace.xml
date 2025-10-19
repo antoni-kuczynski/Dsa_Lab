@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/test_results/ex4/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/test_results/ex4/results.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
