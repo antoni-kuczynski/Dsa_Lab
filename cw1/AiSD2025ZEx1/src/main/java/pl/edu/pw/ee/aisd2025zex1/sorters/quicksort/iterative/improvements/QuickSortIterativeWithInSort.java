@@ -20,32 +20,32 @@ public class QuickSortIterativeWithInSort<T extends Comparable<T>> implements So
     }
 
     private void insort(T[] data, int left, int right) {
-//        for (int i = left + 1; i <= right; i++) {
-//            T temp = data[i];
-//            int j = i - 1;
-//
-//            while (j >= left && data[j].compareTo(temp) > 0) {
-//                data[j + 1] = data[j];
-//                j--;
-//            }
-//            data[j + 1] = temp;
-//        }
+        for (int i = left + 1; i <= right; i++) {
+            T temp = data[i];
+            int j = i - 1;
+
+            while (j >= left && data[j].compareTo(temp) > 0) {
+                data[j + 1] = data[j];
+                j--;
+            }
+            data[j + 1] = temp;
+        }
 
 //        int n = data.length;
-        T currentVal;
-        int j;
-
-        for (int i = left + 1; i < right; i++) {
-
-            currentVal = data[i];
-
-            for (j = i - 1; j >= left && data[j].compareTo(currentVal) > 0; j--) {
-                data[j + 1] = data[j];
-            }
-            j++;
-
-            data[j] = currentVal;
-        }
+//        T currentVal;
+//        int j;
+//
+//        for (int i = left + 1; i <= right; i++) {
+//
+//            currentVal = data[i];
+//
+//            for (j = i - 1; j >= left && data[j].compareTo(currentVal) > 0; j--) {
+//                data[j + 1] = data[j];
+//            }
+//            j++;
+//
+//            data[j] = currentVal;
+//        }
     }
 
     private void quicksort(T[] data) {

@@ -42,15 +42,14 @@ public abstract class PerformanceTest<T extends Comparable<T>> {
     private List<SortingCmp<T>> getListOfSorters() {
         List<SortingCmp<T>> sorters = new ArrayList<>();
 
-        sorters.add(new HeapSort<>());
         sorters.add(new InsertionSort<>());
-        sorters.add(new MergeSort<>());
         sorters.add(new SelectionSort<>());
         sorters.add(new QuickSortIterativeMedian3<>());
         sorters.add(new QuickSortIterativeRandom<>());
         sorters.add(new QuickSortIterativeWithInSort<>());
-//        sorters.add(new QuickSortIterativeHoare<>());
-//        sorters.add(new QuickSortIterativeLomuto<>());
+        sorters.add(new MergeSort<>());
+        sorters.add(new HeapSort<>());
+        sorters.add(new ReferenceAlgSort<>());
         return sorters;
     }
 

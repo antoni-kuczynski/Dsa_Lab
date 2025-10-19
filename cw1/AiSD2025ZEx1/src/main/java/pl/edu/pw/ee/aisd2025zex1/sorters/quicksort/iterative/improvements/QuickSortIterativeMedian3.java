@@ -16,6 +16,27 @@ public class QuickSortIterativeMedian3<T extends Comparable<T>> implements Sorti
         quicksort(data);
     }
 
+    private int medianOfThree(T[] data, int index1, int index2, int index3) {
+        if (data[index1].compareTo(data[index2]) < 0) {
+            if (data[index2].compareTo(data[index3]) < 0) {
+                return index2;
+            } else if (data[index1].compareTo(data[index3]) < 0) {
+                return index3;
+            } else {
+                return index1;
+            }
+        } else {
+            if (data[index1].compareTo(data[index3]) < 0) {
+                return index1;
+            } else if (data[index2].compareTo(data[index3]) < 0) {
+                return index3;
+            } else {
+                return index2;
+            }
+        }
+    }
+
+
     private void quicksort(T[] data) {
         List<Integer> starts = new ArrayList<>();
         List<Integer> ends = new ArrayList<>();
@@ -54,8 +75,8 @@ public class QuickSortIterativeMedian3<T extends Comparable<T>> implements Sorti
 
     private int partition(T[] data, int start, int end) {
         int mid = start + (end - start) / 2;
-        int medianIndex = data[start].compareTo(data[mid]) > 0 ? start : mid;
-        medianIndex = data[medianIndex].compareTo(data[end]) < 0 ? medianIndex : end;
+        int medianIndex = medianOfThree(data, start, mid, end);
+
         swap(data, medianIndex, start);
 
         T pivot = data[start];

@@ -7,6 +7,7 @@ import java.io.IOException;
 import static java.lang.String.format;
 import static java.util.logging.Level.SEVERE;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
@@ -42,17 +43,18 @@ public abstract class PerformanceChartsTest<T extends Comparable<T>> {
 //        int maxSize = 524288;
         T[] data;
 
-        for (int i = 0; i < maxSize; i += step) {
-//        for (int i = 1024; i <= maxSize; i *= 2) {
+        for (SortingCmp<T> sorter : getCmpSorters()) {
+            for (int i = 0; i < maxSize; i += step) {
+    //        for (int i = 1024; i <= maxSize; i *= 2) {
 
-            data = (T[]) createDataByType(i);
+                data = (T[]) createDataByType(i);
 
-            for (SortingCmp<T> sorter : getCmpSorters()) {
+                System.out.println("sorting " + sorter.getClass().getSimpleName() + ", data size = " + i);
                 String sorterName = sorter.getClass().getSimpleName();
                 resultFilename = sorterName + "_" + getDataTypeName() + "_cmp_sorter_charts_performance.txt";
                 measureTimeAndSaveToFileCmpSorter(sorter, data);
+                }
             }
-        }
     }
 
 //    @Test
@@ -77,19 +79,16 @@ public abstract class PerformanceChartsTest<T extends Comparable<T>> {
 //    }
 
     private List<SortingCmp<T>> getCmpSorters() {
-        return Arrays.asList(
-            new HeapSort<>(),
-            new InsertionSort<>(),
-            new MergeSort<>(),
-            new QuickSortIterativeMedian3<>(),
-            new QuickSortIterativeRandom<>(),
-            new QuickSortIterativeWithInSort<>(),
-            new QuickSortIterativeHoare<>(),
-            new QuickSortIterativeLomuto<>(),
-//            new QuickSortRecursiveHoare<>(),
-//            new QuickSortRecursiveLomuto<>(),
-            new SelectionSort<>()
-        );
+        List<SortingCmp<T>> arr = new ArrayList<>();
+        arr.add(new InsertionSort<>());
+        arr.add(new SelectionSort<>());
+        arr.add(new QuickSortIterativeMedian3<>());
+        arr.add(new QuickSortIterativeRandom<>());
+        arr.add(new QuickSortIterativeWithInSort<>());
+        arr.add(new MergeSort<>());
+        arr.add(new HeapSort<>());
+        arr.add(new ReferenceAlgSort<>());
+        return arr;
     }
 
     private void createOrClearResultFile() {

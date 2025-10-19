@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="" />
+    <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,59 +49,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.All in aisd_ex_0.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CountingSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GeneralSortPrimitiveIntTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InsertionSortPrimitiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MergeSortStabilityTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MergeSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceAscDataTest and 2 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceAscDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsAscDataTest and 2 more (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsAscDataTest and 2 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsAscDataTest,runPerformanceChartTest_CmpSorters and 2 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsAscDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsDescDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsRandomDataTest and 2 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsRandomDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_CmpSorters.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_DetailedQSortWithInsort.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_PrimitiveSorters.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformancePrimitiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformancePrimitiveTest.runPerformanceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceRandDataPrimitiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceRandDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceRandIntegerDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceRandNonRepeatingDataTest and 1 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceRandNonRepeatingDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceRandRepeatingDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QuickSortIterativeHoareTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QuickSortIterativeWithInSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SelectionSortPrimitiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.java in aisd_ex_0.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/antekk/IdeaProjects/AISD/cw1/AiSD2025ZEx1/test_results/ex7&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in aisd_ex_0.executor": "Run",
+    "JUnit.CountingSortTest.executor": "Run",
+    "JUnit.GeneralSortPrimitiveIntTest.executor": "Run",
+    "JUnit.HeapSortTest and 10 more.executor": "Run",
+    "JUnit.InsertionSortPrimitiveTest.executor": "Run",
+    "JUnit.MergeSortStabilityTest.executor": "Run",
+    "JUnit.MergeSortTest.executor": "Run",
+    "JUnit.PerformanceAscDataTest and 2 more.executor": "Run",
+    "JUnit.PerformanceAscDataTest.executor": "Run",
+    "JUnit.PerformanceChartsAscDataTest and 2 more (1).executor": "Run",
+    "JUnit.PerformanceChartsAscDataTest and 2 more.executor": "Run",
+    "JUnit.PerformanceChartsAscDataTest,runPerformanceChartTest_CmpSorters and 2 more.executor": "Run",
+    "JUnit.PerformanceChartsAscDataTest.executor": "Run",
+    "JUnit.PerformanceChartsDescDataTest.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest and 2 more.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_CmpSorters.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_DetailedQSortWithInsort.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_PrimitiveSorters.executor": "Run",
+    "JUnit.PerformancePrimitiveTest.executor": "Run",
+    "JUnit.PerformancePrimitiveTest.runPerformanceTest.executor": "Run",
+    "JUnit.PerformanceRandDataPrimitiveTest.executor": "Run",
+    "JUnit.PerformanceRandDataTest.executor": "Run",
+    "JUnit.PerformanceRandIntegerDataTest.executor": "Run",
+    "JUnit.PerformanceRandNonRepeatingDataTest and 1 more.executor": "Run",
+    "JUnit.PerformanceRandNonRepeatingDataTest.executor": "Run",
+    "JUnit.PerformanceRandRepeatingDataTest.executor": "Run",
+    "JUnit.QuickSortIterativeHoareTest.executor": "Run",
+    "JUnit.QuickSortIterativeWithInSortTest.executor": "Run",
+    "JUnit.SelectionSortPrimitiveTest.executor": "Run",
+    "JUnit.java in aisd_ex_0.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/antekk/IdeaProjects/AISD/cw1/AiSD2025ZEx1/test_results/ex7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test_results/ex7" />
@@ -126,6 +129,34 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.PerformanceAscDataTest and 2 more">
+    <configuration name="HeapSortTest and 10 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2025ZEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.utils" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.utils.GeneralSortTest" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.heapsort.HeapSortTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.insort.InsertionSortTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.mergesort.MergeSortTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.QuickSortIterativeHoareTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.QuickSortIterativeLomutoTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.QuickSortIterativeMedian3Test" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.QuickSortIterativeWithInSortTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.recursive.QuickSortRecursiveHoareTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.recursive.QuickSortRecursiveLomutoTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.referencesort.ReferenceAlgSortTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.selectionsort.SelectionSortTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PerformanceAscDataTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <option name="TEST_OBJECT" value="pattern" />
@@ -162,27 +193,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerformanceChartsAscDataTest,runPerformanceChartTest_CmpSorters and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AiSD2025ZEx1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.PerformanceChartsTest" />
-      <option name="METHOD_NAME" value="runPerformanceChartTest_CmpSorters" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.PerformanceChartsAscDataTest,runPerformanceChartTest_CmpSorters" />
-        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.PerformanceChartsDescDataTest,runPerformanceChartTest_CmpSorters" />
-        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.PerformanceChartsRandomDataTest,runPerformanceChartTest_CmpSorters" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PerformanceChartsRandomDataTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <option name="TEST_OBJECT" value="pattern" />
@@ -196,19 +206,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.HeapSortTest and 10 more" />
       <item itemvalue="JUnit.PerformanceAscDataTest and 2 more" />
       <item itemvalue="JUnit.PerformanceChartsAscDataTest and 2 more" />
       <item itemvalue="JUnit.PerformanceChartsAscDataTest and 2 more (1)" />
-      <item itemvalue="JUnit.PerformanceChartsAscDataTest,runPerformanceChartTest_CmpSorters and 2 more" />
       <item itemvalue="JUnit.PerformanceChartsRandomDataTest and 2 more" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PerformanceAscDataTest and 2 more" />
+        <item itemvalue="JUnit.HeapSortTest and 10 more" />
         <item itemvalue="JUnit.PerformanceChartsAscDataTest and 2 more (1)" />
         <item itemvalue="JUnit.PerformanceChartsRandomDataTest and 2 more" />
         <item itemvalue="JUnit.PerformanceChartsAscDataTest and 2 more" />
-        <item itemvalue="JUnit.PerformanceChartsAscDataTest,runPerformanceChartTest_CmpSorters and 2 more" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +272,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/PerformanceChartsTest.java</url>
-          <line>51</line>
+          <line>53</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

@@ -70,8 +70,8 @@ public class Generators {
         Double[] nums = new Double[size];
         double start = 100_000_000;
 
-        for (int i = size - 1; i >= 0; i--) {
-            nums[i] = start + i;
+        for (int i = 0; i < size; i++) {
+            nums[i] = start + (size - 1 - i);
         }
 
         return nums;

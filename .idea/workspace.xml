@@ -5,6 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeMedian3.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeMedian3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeWithInSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeWithInSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/PerformanceChartsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/PerformanceChartsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/utils/Generators.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/utils/Generators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeMedian3.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeMedian3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeWithInSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeWithInSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/PerformanceChartsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/charts/PerformanceChartsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/utils/Generators.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/utils/Generators.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/test_results/ex4/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/test_results/ex4/results.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,6 +193,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a" />
