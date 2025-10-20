@@ -7,7 +7,7 @@ public class MergeSort<T extends Comparable<T>> implements SortingCmp<T> {
 
     @Override
     public void sort(T[] data) {
-        validateInput(data);
+        validateParams(data);
 
         int n = data.length;
 
@@ -56,11 +56,5 @@ public class MergeSort<T extends Comparable<T>> implements SortingCmp<T> {
             }
         }
 
-    }
-
-    private void validateInput(T[] data) {
-        if (isNull(data)) {
-            throw new IllegalArgumentException("Input args (data) cannot be null!");
-        }
     }
 }

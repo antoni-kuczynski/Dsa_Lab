@@ -1,6 +1,8 @@
 package pl.edu.pw.ee.aisd2025zex1.sorters.utils;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.fail;
+import static org.assertj.core.api.ThrowableAssert.catchThrowable;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
@@ -14,6 +16,20 @@ public class GeneralSortPrimitiveIntTest {
 
     public GeneralSortPrimitiveIntTest(Sorting sorter) {
         this.sorter = sorter;
+    }
+
+    @Test
+    public void should_ThrowException_When_InputIsNull() {
+        //given
+        int[] arr = null;
+
+        //when
+        Throwable ex = catchThrowable(() -> {
+            sorter.sort(arr);
+        });
+
+        //then
+        assertThat(ex).isInstanceOf(IllegalArgumentException.class);
     }
 
     @Test

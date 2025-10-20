@@ -6,12 +6,12 @@ import pl.edu.pw.ee.aisd2025zex1.services.Sorting;
 
 public class CountingSort implements Sorting {
 
-    private static final int DEFAULT_MAX_VAL = 10_000;
+    private int maxValue;
 
     private final int maxVal;
 
     public CountingSort() {
-        this(DEFAULT_MAX_VAL);
+        this(10_000);
     }
 
     public CountingSort(int maxVal) {
@@ -71,4 +71,7 @@ public class CountingSort implements Sorting {
         }
     }
 
+    public void setMaxVal(int defaultMaxVal) {
+        maxValue = defaultMaxVal;
+    }
 }

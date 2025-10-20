@@ -19,12 +19,6 @@ public class HeapSort<T extends Comparable<T>> implements SortingCmp<T> {
         }
     }
 
-    private void validateParams(T[] data) {
-        if (isNull(data)) {
-            throw new RuntimeException("Input args (data) cannot be null!");
-        }
-    }
-
     private void buildHeap(T[] data) {
         int n = data.length;
 

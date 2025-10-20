@@ -12,10 +12,7 @@ public class QuickSortIterativeWithInSort<T extends Comparable<T>> implements So
 
     @Override
     public void sort(T[] data) {
-        if (data == null) {
-            throw new IllegalArgumentException("Input args (data) cannot be null!");
-        }
-
+        validateParams(data);
         quicksort(data);
     }
 

@@ -30,6 +30,7 @@ public class InsertionSort<T extends Comparable<T>> implements SortingCmp<T>, So
 
     @Override
     public void sort(int[] nums) {
+        validateParams(nums);
         for (int i = 1; i < nums.length; i++) {
             int temp = nums[i];
             int j = i - 1;
@@ -39,12 +40,6 @@ public class InsertionSort<T extends Comparable<T>> implements SortingCmp<T>, So
                 j--;
             }
             nums[j + 1] = temp;
-        }
-    }
-
-    private void validateParams(T[] data) {
-        if (isNull(data)) {
-            throw new RuntimeException("Input args (data) cannot be null!");
         }
     }
 }

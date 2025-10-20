@@ -15,12 +15,6 @@ public class QuickSortRecursiveLomuto<T extends Comparable<T>> implements Sortin
         quickSort(data, left, right);
     }
 
-    private void validateParams(T[] data) {
-        if (isNull(data)) {
-            throw new RuntimeException("Input args (data) cannot be null!");
-        }
-    }
-
     private void quickSort(T[] data, int left, int right) {
         if (left < right) {
 

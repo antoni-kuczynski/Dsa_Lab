@@ -8,9 +8,7 @@ public class QuickSortIterativeHoare<T extends Comparable<T>> implements Sorting
 
     @Override
     public void sort(T[] data) {
-        if (data == null) {
-            throw new IllegalArgumentException("Input args (data) cannot be null!");
-        }
+        validateParams(data);
 
         quicksort(data);
     }

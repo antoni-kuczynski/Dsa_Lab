@@ -8,9 +8,7 @@ public class QuickSortIterativeLomuto<T extends Comparable<T>> implements Sortin
 
     @Override
     public void sort(T[] data) {
-        if (data == null) {
-            throw new IllegalArgumentException("Input args (data) cannot be null!");
-        }
+        validateParams(data);
 
         quicksort(data);
     }

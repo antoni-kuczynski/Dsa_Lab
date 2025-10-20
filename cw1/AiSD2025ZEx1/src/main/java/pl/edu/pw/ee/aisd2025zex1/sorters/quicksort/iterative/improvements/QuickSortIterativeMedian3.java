@@ -9,10 +9,7 @@ public class QuickSortIterativeMedian3<T extends Comparable<T>> implements Sorti
 
     @Override
     public void sort(T[] data) {
-        if (data == null) {
-            throw new IllegalArgumentException("Input args (data) cannot be null!");
-        }
-
+        validateParams(data);
         quicksort(data);
     }
 

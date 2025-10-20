@@ -34,6 +34,24 @@ public abstract class GeneralSortTest<T extends Comparable<T>> {
     }
 
     @Test
+    public void should_ThrowException_When_ThereIsNullElementInData() {
+        // given
+        Double[] nums = {1.2, 1.6, null, 989d,123d,23d};
+
+        // when
+        Throwable exceptionCaught = catchThrowable(() -> {
+            sorter.sort((T[]) nums);
+        });
+
+        // then
+        String message = "Input args (data) cannot contain null elements!";
+
+        assertThat(exceptionCaught)
+                .isInstanceOf(RuntimeException.class)
+                .hasMessage(message);
+    }
+
+    @Test
     public void should_ReturnEmptyArray_When_InputIsEmpty() {
         // given
         T[] nums = (T[]) Array.newInstance(Double.class, 0);
@@ -125,5 +143,4 @@ public abstract class GeneralSortTest<T extends Comparable<T>> {
         assertThat(nums)
                 .isSorted();
     }
-
 }
