@@ -16,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -58,7 +58,10 @@
     "JUnit.CountingSortTest.should_ThrowExpcetionWhen_MaxNumberIsSmallerThanInput.executor": "Run",
     "JUnit.CountingSortTest.should_ThrowExpcetionWhen_ThereIsANegativeNumberInData.executor": "Run",
     "JUnit.GeneralSortPrimitiveIntTest.executor": "Run",
+    "JUnit.GeneralSortTest and 1 more.executor": "Run",
+    "JUnit.GeneralSortTest and 2 more.executor": "Run",
     "JUnit.HeapSortTest and 10 more.executor": "Run",
+    "JUnit.HeapSortTest and 11 more.executor": "Run",
     "JUnit.HeapSortTest,should_ThrowException_When_ThereIsNullElement and 10 more.executor": "Run",
     "JUnit.HeapSortTest.executor": "Run",
     "JUnit.HeapSortTest.shouldSortStably_WhenInputIsAlreadySorted.executor": "Run",
@@ -96,6 +99,8 @@
     "JUnit.QuickSortIterativeRandomTest.executor": "Run",
     "JUnit.QuickSortIterativeWithInSortTest.executor": "Run",
     "JUnit.SelectionSortPrimitiveTest.executor": "Run",
+    "JUnit.SortLinkedListProblemTest.executor": "Run",
+    "JUnit.SortLinkedListProblemTest.shouldSort_ForRandomSmallData.executor": "Run",
     "JUnit.java in aisd_ex_0.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -134,6 +139,7 @@
       <recent name="pl.edu.pw.ee.aisd_ex_0.searcher" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.edu.pw.ee.aisd2025zex1.services.extratasks" />
       <recent name="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements" />
       <recent name="pl.edu.pw.ee.aisd_ex_0.extratasks" />
       <recent name="pl.edu.pw.ee.aisd_ex_0.searcher.binary_search" />
@@ -143,94 +149,108 @@
       <recent name="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PerformanceCSortDataTypeTest">
-    <configuration name="PerformanceCSortDataTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AiSD2025ZEx1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.countingsort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.countingsort" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.countingsort.PerformanceCSortDataTypeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PerformanceCSortDataTypeTest.measure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AiSD2025ZEx1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.countingsort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.countingsort" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.countingsort.PerformanceCSortDataTypeTest" />
-      <option name="METHOD_NAME" value="measure" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PerformanceQsortInsortSubproblemTest.measure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AiSD2025ZEx1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.qsortinsort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.qsortinsort" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.qsortinsort.PerformanceQsortInsortSubproblemTest" />
-      <option name="METHOD_NAME" value="measure" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PerformanceRandNonRepeatingDataTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SortLinkedListProblemTest">
+    <configuration name="GeneralSortTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <option name="TEST_OBJECT" value="pattern" />
       <patterns>
-        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.countingsort.PerformanceRandNonRepeatingDataTest" />
-        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.countingsort.PerformanceRandRepeatingDataTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.utils.GeneralSortTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.primitive.InsertionSortPrimitiveTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.primitive.SelectionSortPrimitiveTest" />
       </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortIterativeRandomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeapSortTest and 11 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.*" />
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.QuickSortIterativeRandomTest" />
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.utils" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.utils.GeneralSortTest" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.heapsort.HeapSortTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.insort.InsertionSortTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.mergesort.MergeSortTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.QuickSortIterativeHoareTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.QuickSortIterativeLomutoTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.QuickSortIterativeMedian3Test" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.QuickSortIterativeRandomTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.QuickSortIterativeWithInSortTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.recursive.QuickSortRecursiveHoareTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.recursive.QuickSortRecursiveLomutoTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.referencesort.ReferenceAlgSortTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.selectionsort.SelectionSortTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2025ZEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.heapsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.heapsort" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.heapsort.HeapSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortLinkedListProblemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2025ZEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.services.extratasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.services.extratasks" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.services.extratasks.SortLinkedListProblemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortLinkedListProblemTest.shouldSort_ForRandomSmallData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2025ZEx1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.services.extratasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.services.extratasks" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.services.extratasks.SortLinkedListProblemTest" />
+      <option name="METHOD_NAME" value="shouldSort_ForRandomSmallData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.PerformanceCSortDataTypeTest" />
-      <item itemvalue="JUnit.PerformanceCSortDataTypeTest.measure" />
-      <item itemvalue="JUnit.PerformanceQsortInsortSubproblemTest.measure" />
-      <item itemvalue="JUnit.PerformanceRandNonRepeatingDataTest and 1 more" />
-      <item itemvalue="JUnit.QuickSortIterativeRandomTest" />
+      <item itemvalue="JUnit.GeneralSortTest and 2 more" />
+      <item itemvalue="JUnit.HeapSortTest" />
+      <item itemvalue="JUnit.HeapSortTest and 11 more" />
+      <item itemvalue="JUnit.SortLinkedListProblemTest" />
+      <item itemvalue="JUnit.SortLinkedListProblemTest.shouldSort_ForRandomSmallData" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PerformanceCSortDataTypeTest" />
-        <item itemvalue="JUnit.PerformanceCSortDataTypeTest.measure" />
-        <item itemvalue="JUnit.PerformanceQsortInsortSubproblemTest.measure" />
-        <item itemvalue="JUnit.PerformanceRandNonRepeatingDataTest and 1 more" />
-        <item itemvalue="JUnit.QuickSortIterativeRandomTest" />
+        <item itemvalue="JUnit.SortLinkedListProblemTest" />
+        <item itemvalue="JUnit.HeapSortTest and 11 more" />
+        <item itemvalue="JUnit.HeapSortTest" />
+        <item itemvalue="JUnit.SortLinkedListProblemTest.shouldSort_ForRandomSmallData" />
+        <item itemvalue="JUnit.HeapSortTest and 11 more" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +283,7 @@
       <workItem from="1760809127846" duration="9343000" />
       <workItem from="1760877128552" duration="14968000" />
       <workItem from="1760956767735" duration="7028000" />
-      <workItem from="1760965964329" duration="3977000" />
+      <workItem from="1760965964329" duration="19100000" />
     </task>
     <servers />
   </component>

@@ -10,7 +10,7 @@ import pl.edu.pw.ee.aisd2025zex1.services.Sorting;
 
 import java.util.Arrays;
 
-public class GeneralSortPrimitiveIntTest {
+public abstract class GeneralSortPrimitiveIntTest {
 
     protected Sorting sorter;
 

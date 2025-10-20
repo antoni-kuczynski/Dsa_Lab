@@ -30,4 +30,17 @@ public class ListItem {
         this.next = next;
     }
 
+    @Override
+    public String toString() {
+        ListItem temp = this;
+        StringBuilder builder = new StringBuilder();
+        builder.append("[");
+
+        while (temp != null) {
+            builder.append(temp.value).append(", ");
+            temp = temp.getNext();
+        }
+        builder.append("]");
+        return builder.toString();
+    }
 }

@@ -7,4 +7,6 @@ class QuickSortIterativeMedian3Test<T extends Comparable<T>> extends GeneralSort
     public QuickSortIterativeMedian3Test() {
         super(new QuickSortIterativeMedian3<>());
     }
+
+
 }

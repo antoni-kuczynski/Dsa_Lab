@@ -143,4 +143,89 @@ public abstract class GeneralSortTest<T extends Comparable<T>> {
         assertThat(nums)
                 .isSorted();
     }
+
+    @Test
+    public void should_CorrectlySort_When_AllElementsAreEqual() {
+        // given
+        T[] nums = (T[]) new Integer[]{5, 5, 5, 5, 5};
+
+        // when
+        sorter.sort(nums);
+
+        // then
+        assertThat(nums).isSorted();
+    }
+
+    @Test
+    public void should_CorrectlySort_When_AlreadySorted() {
+        // given
+        T[] nums = (T[]) new Integer[]{1, 2, 3, 4, 5};
+
+        // when
+        sorter.sort(nums);
+
+        // then
+        assertThat(nums).isSorted();
+    }
+
+    @Test
+    public void should_CorrectlySort_When_ReverseSorted() {
+        // given
+        T[] nums = (T[]) new Integer[]{5, 4, 3, 2, 1};
+
+        // when
+        sorter.sort(nums);
+
+        // then
+        assertThat(nums).isSorted();
+    }
+
+    @Test
+    public void should_CorrectlySort_When_DataContainsDuplicates() {
+        // given
+        T[] nums = (T[]) new Integer[]{4, 2, 5, 2, 3, 1, 4};
+
+        // when
+        sorter.sort(nums);
+
+        // then
+        assertThat(nums).isSorted();
+    }
+
+    @Test
+    public void should_ReturnSameArray_When_OnlyOneElement() {
+        // given
+        T[] nums = (T[]) new Integer[]{1213};
+
+        // when
+        sorter.sort(nums);
+
+        // then
+        assertThat(nums).isSorted();
+    }
+
+    @Test
+    public void should_ReturnSameArray_When_ZeroElements() {
+        // given
+        T[] nums = (T[]) new Integer[]{};
+
+        // when
+        sorter.sort(nums);
+
+        // then
+        assertThat(nums).isSorted();
+    }
+
+    @Test
+    public void should_ReturnSameArray_When_TwoElements() {
+        // given
+        T[] nums = (T[]) new Integer[]{3124,322};
+
+        // when
+        sorter.sort(nums);
+
+        // then
+        assertThat(nums).isSorted();
+    }
+
 }

@@ -16,39 +16,6 @@ public class HeapSortTest<T extends Comparable<T>> extends GeneralSortTest<T> {
         super(new HeapSort<>());
     }
 
-
-    @Test
-    public void shouldSortStably_WhenInputIsAlreadySorted() {
-        //given
-        StableSortTestClass[] data = {
-                new StableSortTestClass("a", 1),
-                new StableSortTestClass("b", 2),
-                new StableSortTestClass("c", 3),
-                new StableSortTestClass("d", 4),
-                new StableSortTestClass("e", 5),
-                new StableSortTestClass("f", 6),
-                new StableSortTestClass("g", 7),
-                new StableSortTestClass("h", 8)
-        };
-
-        //when
-        StableSortTestClass[] sortedStable = {
-                new StableSortTestClass("a", 1),
-                new StableSortTestClass("b", 2),
-                new StableSortTestClass("c", 3),
-                new StableSortTestClass("d", 4),
-                new StableSortTestClass("e", 5),
-                new StableSortTestClass("f", 6),
-                new StableSortTestClass("g", 7),
-                new StableSortTestClass("h", 8)
-        };
-        sorter.sort((T[]) data);
-
-
-        //then
-        assertArrayEquals(sortedStable, data);
-    }
-
     @Test
     public void shouldSort_IfValuesAreAlternatingBetweenVeryHighAndLow() {
         //given
