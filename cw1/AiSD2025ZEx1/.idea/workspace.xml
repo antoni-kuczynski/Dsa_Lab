@@ -71,6 +71,8 @@
     "JUnit.MergeSortTest.executor": "Run",
     "JUnit.PerformanceAscDataTest and 2 more.executor": "Run",
     "JUnit.PerformanceAscDataTest.executor": "Run",
+    "JUnit.PerformanceCSortDataTypeTest.executor": "Run",
+    "JUnit.PerformanceCSortDataTypeTest.measure.executor": "Run",
     "JUnit.PerformanceChartsAscDataTest and 2 more (1).executor": "Run",
     "JUnit.PerformanceChartsAscDataTest and 2 more.executor": "Run",
     "JUnit.PerformanceChartsAscDataTest,runPerformanceChartTest_CmpSorters and 2 more.executor": "Run",
@@ -141,29 +143,34 @@
       <recent name="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PerformanceQsortInsortSubproblemTest.measure">
-    <configuration name="InsertionSortPrimitiveTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PerformanceCSortDataTypeTest">
+    <configuration name="PerformanceCSortDataTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.primitive.InsertionSortPrimitiveTest" />
-        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.primitive.SelectionSortPrimitiveTest" />
-      </patterns>
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.countingsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.countingsort" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.countingsort.PerformanceCSortDataTypeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PerformanceCSortDataTypeTest.measure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.mergesort.*" />
+          <option name="PATTERN" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.countingsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.mergesort" />
-      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.mergesort.MergeSortTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.countingsort" />
+      <option name="MAIN_CLASS_NAME" value="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts.countingsort.PerformanceCSortDataTypeTest" />
+      <option name="METHOD_NAME" value="measure" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,19 +218,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.PerformanceCSortDataTypeTest" />
+      <item itemvalue="JUnit.PerformanceCSortDataTypeTest.measure" />
       <item itemvalue="JUnit.PerformanceQsortInsortSubproblemTest.measure" />
-      <item itemvalue="JUnit.InsertionSortPrimitiveTest and 1 more" />
-      <item itemvalue="JUnit.MergeSortTest" />
       <item itemvalue="JUnit.PerformanceRandNonRepeatingDataTest and 1 more" />
       <item itemvalue="JUnit.QuickSortIterativeRandomTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PerformanceCSortDataTypeTest" />
+        <item itemvalue="JUnit.PerformanceCSortDataTypeTest.measure" />
         <item itemvalue="JUnit.PerformanceQsortInsortSubproblemTest.measure" />
         <item itemvalue="JUnit.PerformanceRandNonRepeatingDataTest and 1 more" />
         <item itemvalue="JUnit.QuickSortIterativeRandomTest" />
-        <item itemvalue="JUnit.InsertionSortPrimitiveTest and 1 more" />
-        <item itemvalue="JUnit.MergeSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +263,7 @@
       <workItem from="1760809127846" duration="9343000" />
       <workItem from="1760877128552" duration="14968000" />
       <workItem from="1760956767735" duration="7028000" />
-      <workItem from="1760965964329" duration="1277000" />
+      <workItem from="1760965964329" duration="3977000" />
     </task>
     <servers />
   </component>

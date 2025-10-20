@@ -100,7 +100,7 @@ public class Generators {
         assert size >= 0;
 
         int start = 0;
-        int distinctValues = Math.max(1, size / 10); // pool size
+        int distinctValues = Math.max(1, size / 10);
 
         int[] pool = IntStream.range(0, distinctValues)
                 .map(i -> start + i)

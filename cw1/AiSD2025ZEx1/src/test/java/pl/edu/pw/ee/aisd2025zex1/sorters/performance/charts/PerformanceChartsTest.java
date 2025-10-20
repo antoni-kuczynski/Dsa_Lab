@@ -57,27 +57,6 @@ public abstract class PerformanceChartsTest<T extends Comparable<T>> {
             }
     }
 
-//    @Test
-//    public void runPerformanceChartTest_DetailedQSortWithInsort() {
-//        int dataSize = 1000;
-//        T[] data;
-//        QuickSortIterativeWithInSort<T> sorter = new QuickSortIterativeWithInSort<>();
-//
-//        int subProblemStep = 10;
-//        int maxSubProblemSize = 1000;
-//
-//        System.out.println("dataSize" + "\t|\t" + "subProblemSize" + "\t|\t" + "time");
-//        for (int i = 0; i <= maxSubProblemSize; i += subProblemStep) {
-//            data = (T[]) createDataByType(dataSize);
-//            sorter.setSubProblemSize(i);
-//
-//            String sorterName = sorter.getClass().getSimpleName();
-//            resultFilename = sorterName + "_" + getDataTypeName() + "prob_size_cmp_sorter_charts_performance.txt";
-//            long time = measureTimeForCmpSorter(sorter, data);
-//            System.out.println(dataSize + "\t|\t" + i + "\t|\t" + time);
-//        }
-//    }
-
     private List<SortingCmp<T>> getCmpSorters() {
         List<SortingCmp<T>> arr = new ArrayList<>();
         arr.add(new InsertionSort<>());
