@@ -11,7 +11,7 @@ public class PerformanceQsortInsortSubproblemTest {
         QuickSortIterativeWithInSort<Double> sorter = new QuickSortIterativeWithInSort<>();
         int dataSize = 10_000;
         int subProblemStart = 0;
-        int subProblemStep = 1;
+        int subProblemStep = 10;
         int subProblemEnd = 1000;
 
         Double[] data;
