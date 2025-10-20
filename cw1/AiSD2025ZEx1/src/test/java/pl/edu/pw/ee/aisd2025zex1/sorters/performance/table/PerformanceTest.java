@@ -22,6 +22,8 @@ import pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.QuickSortIterativeL
 import pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.QuickSortIterativeMedian3;
 import pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.QuickSortIterativeRandom;
 import pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.iterative.improvements.QuickSortIterativeWithInSort;
+import pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.recursive.QuickSortRecursiveHoare;
+import pl.edu.pw.ee.aisd2025zex1.sorters.quicksort.recursive.QuickSortRecursiveLomuto;
 import pl.edu.pw.ee.aisd2025zex1.sorters.referencesort.ReferenceAlgSort;
 import pl.edu.pw.ee.aisd2025zex1.sorters.selectionsort.SelectionSort;
 
@@ -49,7 +51,13 @@ public abstract class PerformanceTest<T extends Comparable<T>> {
 //        sorters.add(new QuickSortIterativeWithInSort<>());
 //        sorters.add(new MergeSort<>());
 //        sorters.add(new HeapSort<>());
-        sorters.add(new ReferenceAlgSort<>());
+//        sorters.add(new ReferenceAlgSort<>());
+
+        sorters.add(new QuickSortRecursiveLomuto<>());
+        sorters.add(new QuickSortRecursiveHoare<>());
+        sorters.add(new QuickSortIterativeLomuto<>());
+        sorters.add(new QuickSortIterativeHoare<>());
+
         return sorters;
     }
 

@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
+      <change afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/test_results/ex4/results_more_qsorts.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/services/extratasks/ListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/services/extratasks/ListItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/services/extratasks/SortLinkedListProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/services/extratasks/SortLinkedListProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/heapsort/HeapSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/heapsort/HeapSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeMedian3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/improvements/QuickSortIterativeMedian3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/utils/GeneralSortPrimitiveIntTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/utils/GeneralSortPrimitiveIntTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/utils/GeneralSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/utils/GeneralSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/services/extratasks/ListItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/services/extratasks/ListItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/services/extratasks/SortLinkedListProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/services/extratasks/SortLinkedListProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/heapsort/HeapSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/heapsort/HeapSortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/utils/GeneralSortPrimitiveIntTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/utils/GeneralSortPrimitiveIntTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/utils/GeneralSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/utils/GeneralSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +140,7 @@
       <workItem from="1760809138954" duration="1785000" />
       <workItem from="1760877129369" duration="5317000" />
       <workItem from="1760956768159" duration="1187000" />
-      <workItem from="1760965965281" duration="6576000" />
+      <workItem from="1760965965281" duration="7664000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -222,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760975167773</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="aasd">
+      <option name="closed" value="true" />
+      <created>1760994390169</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760994390169</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

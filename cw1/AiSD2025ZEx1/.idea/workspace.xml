@@ -149,19 +149,7 @@
       <recent name="pl.edu.pw.ee.aisd2025zex1.sorters.performance.charts" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortLinkedListProblemTest">
-    <configuration name="GeneralSortTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AiSD2025ZEx1" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.utils.GeneralSortTest" />
-        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.primitive.InsertionSortPrimitiveTest" />
-        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.primitive.SelectionSortPrimitiveTest" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PerformanceAscDataTest and 2 more">
     <configuration name="HeapSortTest and 11 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <extension name="coverage">
@@ -206,6 +194,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PerformanceAscDataTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AiSD2025ZEx1" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceAscDataTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceDescDataTest" />
+        <pattern testClass="pl.edu.pw.ee.aisd2025zex1.sorters.performance.table.PerformanceRandDataTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortLinkedListProblemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AiSD2025ZEx1" />
       <extension name="coverage">
@@ -238,19 +238,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GeneralSortTest and 2 more" />
       <item itemvalue="JUnit.HeapSortTest" />
       <item itemvalue="JUnit.HeapSortTest and 11 more" />
+      <item itemvalue="JUnit.PerformanceAscDataTest and 2 more" />
       <item itemvalue="JUnit.SortLinkedListProblemTest" />
       <item itemvalue="JUnit.SortLinkedListProblemTest.shouldSort_ForRandomSmallData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PerformanceAscDataTest and 2 more" />
         <item itemvalue="JUnit.SortLinkedListProblemTest" />
         <item itemvalue="JUnit.HeapSortTest and 11 more" />
         <item itemvalue="JUnit.HeapSortTest" />
         <item itemvalue="JUnit.SortLinkedListProblemTest.shouldSort_ForRandomSmallData" />
-        <item itemvalue="JUnit.HeapSortTest and 11 more" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +283,7 @@
       <workItem from="1760809127846" duration="9343000" />
       <workItem from="1760877128552" duration="14968000" />
       <workItem from="1760956767735" duration="7028000" />
-      <workItem from="1760965964329" duration="19100000" />
+      <workItem from="1760965964329" duration="20235000" />
     </task>
     <servers />
   </component>
