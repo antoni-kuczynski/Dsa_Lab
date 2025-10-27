@@ -128,4 +128,56 @@ public abstract class HashListChaining<T extends Comparable<T>> implements HashT
         return currentElem;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+
+        HashListChaining<?> that = (HashListChaining<?>) o;
+
+        if (this.mSize != that.mSize) {
+            return false;
+        }
+        if (this.nElem != that.nElem) {
+            return false;
+        }
+
+        for (int i = 0; i < mSize; i++) {
+            Elem<?> e1 = this.hashElems[i];
+            Elem<?> e2 = that.hashElems[i];
+
+            while (e1 != null && e2 != null) {
+                if (!e1.value.equals(e2.value)) {
+                    return false;
+                }
+                e1 = e1.next;
+                e2 = e2.next;
+            }
+            if (e1 != null || e2 != null) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Integer.hashCode(mSize);
+        result = 31 * result + Integer.hashCode(nElem);
+
+        for (int i = 0; i < mSize; i++) {
+            Elem<?> e = hashElems[i];
+            while (e != null) {
+                result = 31 * result + e.value.hashCode();
+                e = e.next;
+            }
+        }
+        return result;
+    }
+
 }

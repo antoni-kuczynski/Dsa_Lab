@@ -16,7 +16,7 @@ import static pl.edu.pw.ee.aisd2025zex2.utils.AdvancedGetters.getNumOfElems;
 public abstract class GeneralHashListChainingTest {
 
     private final Class<? extends HashListChaining> hashListClass;
-    private HashTable<String> hashString;
+    public HashTable<String> hashString;
 
     public GeneralHashListChainingTest(Class<? extends HashListChaining> hashListClass) {
         this.hashListClass = hashListClass;
@@ -25,6 +25,25 @@ public abstract class GeneralHashListChainingTest {
     @BeforeEach
     public void setup() {
         hashString = createHashInstance(hashListClass);
+    }
+
+    @Test
+    public void should_HandleCollisions_WhenManyElementsHashToSameBucket() {
+        //given
+        hashString = createHashInstance(1, hashListClass);
+
+        //when
+        hashString.add("Ala");
+        hashString.add("Ola");
+        hashString.add("Ewa");
+        hashString.add("Ula");
+        assertThat(getNumOfElems(hashString)).isEqualTo(4);
+
+        //then
+        assertThat(hashString.get("Ala")).isNotNull();
+        assertThat(hashString.get("Ola")).isNotNull();
+        assertThat(hashString.get("Ewa")).isNotNull();
+        assertThat(hashString.get("Ula")).isNotNull();
     }
 
     @Test
@@ -120,26 +139,78 @@ public abstract class GeneralHashListChainingTest {
         assertThat(returnedName).isEqualTo("Ola");
     }
 
+    //przeniesiono do ChainLengthStatsModularHashingTest - zadanie 4*
+//    @Test
+//    public void should_CorrectlyAddThreeDifferentElems_WhenHashSizeIsOne() {
+//        // given
+//        int hashSize = 1;
+//        HashTable<String> names = new HashListChainingModularHashing<>(hashSize);
+//        names.add("Ola");
+//        names.add("Ala");
+//        names.add("Ula");
+//
+//        // when
+//        int nOfElemsInHash = getNumOfElems(names);
+//        String firstName = getHashElemById(names, 0);
+//        String secondName = getHashElemById(names, 1);
+//        String thirdName = getHashElemById(names, 2);
+//
+//        // then
+//        assertThat(nOfElemsInHash).isEqualTo(3);
+//        assertThat(firstName).isEqualTo("Ula");
+//        assertThat(secondName).isEqualTo("Ala");
+//        assertThat(thirdName).isEqualTo("Ola");
+//    }
+
     @Test
-    public void should_CorrectlyAddThreeDifferentElems_WhenHashSizeIsOne() {
-        // given
-        int hashSize = 1;
-        HashTable<String> names = new HashListChainingModularHashing<>(hashSize);
-        names.add("Ola");
-        names.add("Ala");
-        names.add("Ula");
+    public void should_NotIncreaseSize_WhenAddingDuplicate() {
+        //given
+        hashString.add("Ala");
+        int before = getNumOfElems(hashString);
 
-        // when
-        int nOfElemsInHash = getNumOfElems(names);
-        String firstName = getHashElemById(names, 0);
-        String secondName = getHashElemById(names, 1);
-        String thirdName = getHashElemById(names, 2);
+        //when
+        hashString.add("Ala");
 
-        // then
-        assertThat(nOfElemsInHash).isEqualTo(3);
-        assertThat(firstName).isEqualTo("Ula");
-        assertThat(secondName).isEqualTo("Ala");
-        assertThat(thirdName).isEqualTo("Ola");
+        //then
+        int after = getNumOfElems(hashString);
+        assertThat(after).isEqualTo(before);
     }
 
+    @Test
+    public void should_NotChangeSize_WhenDeletingNonExistentElement() {
+        //given
+        hashString.add("Ala");
+        int before = getNumOfElems(hashString);
+
+        //when
+        hashString.delete("123456");
+
+        //then
+        int after = getNumOfElems(hashString);
+        assertThat(after).isEqualTo(before);
+    }
+
+    @Test
+    public void should_ReturnNull_WhenGettingFromEmptyTable() {
+        //given
+        String result = hashString.get("Ala");
+
+        //then
+        assertThat(result).isNull();
+    }
+
+    @Test
+    public void should_CalculateCorrectLoadFactor() {
+        //given
+        int size = 10;
+        hashString = createHashInstance(size, hashListClass);
+
+        //when
+        hashString.add("Ala");
+        hashString.add("Ola");
+
+        //then
+        double loadFactor = hashString.countLoadFactor();
+        assertThat(loadFactor).isEqualTo(2.0 / size);
+    }
 }

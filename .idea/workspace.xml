@@ -5,39 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/HashListChaining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/HashListChainingModularHashing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/HashListChainingMultiplicative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/multiplicative/HashListChainingMultiplicativeHashingA2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/multiplicative/HashListChainingMultiplicativeHashingA3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/services/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/resources/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/HashListChainingModularHashingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceHashListChainingModularHashingSizePowerOf2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceHashListChainingModularHashingSizePrimeNumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceHashListChainingMultiplicativeHashingSizePowerOf2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/multiplicativeprime/PerformanceHashListChainingMultiplicativePrimeA1ConstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/multiplicativeprime/PerformanceHashListChainingMultiplicativePrimeA2ConstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/multiplicativeprime/PerformanceHashListChainingMultiplicativePrimeA3ConstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/utils/HashSizeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsModularHashingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsMultiplicativeHashingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/AdvancedConstructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/AdvancedGetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/DataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/GeneralHashListChainingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/HashDataTestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/test_results/zad2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/HashListChainingMultiplicativeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoare.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoareTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoare.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoareTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoareTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/HashListChaining.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/HashListChaining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/HashListChainingModularHashingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/HashListChainingModularHashingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsModularHashingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsModularHashingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/GeneralHashListChainingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/GeneralHashListChainingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/classes/pl/edu/pw/ee/aisd2025zex2/HashListChaining.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/classes/pl/edu/pw/ee/aisd2025zex2/HashListChaining.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/HashListChainingModularHashingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/HashListChainingModularHashingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsModularHashingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsModularHashingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/utils/GeneralHashListChainingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/utils/GeneralHashListChainingTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +154,7 @@
       <workItem from="1761345261234" duration="750000" />
       <workItem from="1761414925909" duration="2459000" />
       <workItem from="1761474850354" duration="630000" />
-      <workItem from="1761560222695" duration="673000" />
+      <workItem from="1761560222695" duration="3708000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -257,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760994390169</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="aasd">
+      <option name="closed" value="true" />
+      <created>1761581344105</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761581344105</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

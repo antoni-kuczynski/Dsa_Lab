@@ -1,6 +1,8 @@
 package pl.edu.pw.ee.aisd2025zex2.performance;
 
 import static java.lang.String.format;
+
+import java.util.Arrays;
 import java.util.List;
 import static java.util.logging.Level.INFO;
 import java.util.logging.Logger;
@@ -91,6 +93,7 @@ public abstract class PerformanceTest {
     }
 
     private long countAverageFromCenter10Values(long[] results) {
+        Arrays.sort(results); //dodano Arrays.sort() - tablica musi być posortowana żeby zliczanie od mediany do końca działało poprawnie
         int startId = (N_OF_REPETITIONS - NUM_OF_AVG_VALUES) / 2;
         int endId = startId + NUM_OF_AVG_VALUES;
 
