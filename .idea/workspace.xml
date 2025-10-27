@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
-      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/HashListChainingMultiplicativeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/HashListChaining.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/HashListChaining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/HashListChainingModularHashingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/HashListChainingModularHashingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsModularHashingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsModularHashingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/GeneralHashListChainingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/GeneralHashListChainingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/classes/pl/edu/pw/ee/aisd2025zex2/HashListChaining.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/classes/pl/edu/pw/ee/aisd2025zex2/HashListChaining.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/HashListChainingModularHashingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/HashListChainingModularHashingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsModularHashingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsModularHashingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/utils/GeneralHashListChainingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/target/test-classes/pl/edu/pw/ee/aisd2025zex2/utils/GeneralHashListChainingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoare.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +64,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/antekk/IdeaProjects/AISD/cw2/AiSD2025ZEx2",
+    "last_opened_file_path": "/home/antekk/IdeaProjects/AISD/cw1/AiSD2025ZEx1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -154,7 +145,7 @@
       <workItem from="1761345261234" duration="750000" />
       <workItem from="1761414925909" duration="2459000" />
       <workItem from="1761474850354" duration="630000" />
-      <workItem from="1761560222695" duration="3708000" />
+      <workItem from="1761560222695" duration="5064000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -244,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761581344105</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="aasd">
+      <option name="closed" value="true" />
+      <created>1761597678751</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1761597678751</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
