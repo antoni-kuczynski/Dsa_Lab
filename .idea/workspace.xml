@@ -5,11 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
-      <change afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/test_results/ex4/results_more_qsorts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/HashListChaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/HashListChainingModularHashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/HashListChainingMultiplicative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/multiplicative/HashListChainingMultiplicativeHashingA2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/multiplicative/HashListChainingMultiplicativeHashingA3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/java/pl/edu/pw/ee/aisd2025zex2/services/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/main/resources/words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/HashListChainingModularHashingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceHashListChainingModularHashingSizePowerOf2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceHashListChainingModularHashingSizePrimeNumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceHashListChainingMultiplicativeHashingSizePowerOf2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/PerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/multiplicativeprime/PerformanceHashListChainingMultiplicativePrimeA1ConstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/multiplicativeprime/PerformanceHashListChainingMultiplicativePrimeA2ConstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/multiplicativeprime/PerformanceHashListChainingMultiplicativePrimeA3ConstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/performance/utils/HashSizeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsModularHashingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsMultiplicativeHashingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/stats/ChainLengthStatsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/AdvancedConstructors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/AdvancedGetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/GeneralHashListChainingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/src/test/java/pl/edu/pw/ee/aisd2025zex2/utils/HashDataTestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw2/AiSD2025ZEx2/test_results/zad2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/performance/table/PerformanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoare.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/main/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/src/test/java/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoareTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoare.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoareTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/target/test-classes/pl/edu/pw/ee/aisd2025zex1/sorters/quicksort/iterative/QuickSortIterativeHoareTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,33 +81,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.All in aisd_ex_0.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MountainPeakProblemTest.testForPeakOnTheLeft.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.java in aisd_ex_0.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/antekk/IdeaProjects/AISD/cw1/AiSD2025ZEx1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in aisd_ex_0.executor": "Run",
+    "JUnit.MountainPeakProblemTest.testForPeakOnTheLeft.executor": "Debug",
+    "JUnit.java in aisd_ex_0.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/antekk/IdeaProjects/AISD/cw2/AiSD2025ZEx2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.general",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cw2" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -141,6 +172,10 @@
       <workItem from="1760877129369" duration="5317000" />
       <workItem from="1760956768159" duration="1187000" />
       <workItem from="1760965965281" duration="7664000" />
+      <workItem from="1761345261234" duration="750000" />
+      <workItem from="1761414925909" duration="2459000" />
+      <workItem from="1761474850354" duration="630000" />
+      <workItem from="1761560222695" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />

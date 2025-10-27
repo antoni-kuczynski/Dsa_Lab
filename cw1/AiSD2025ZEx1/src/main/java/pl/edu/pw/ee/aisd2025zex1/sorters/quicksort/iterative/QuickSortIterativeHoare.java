@@ -37,8 +37,9 @@ public class QuickSortIterativeHoare<T extends Comparable<T>> implements Sorting
                 if (pivot > left) {
                     starts.add(left);
                     ends.add(pivot);
+                    System.out.println(left + " " + pivot);
                     n++;
-                }
+                }`
 
                 if (pivot + 1 < right) {
                     starts.add(pivot + 1);
