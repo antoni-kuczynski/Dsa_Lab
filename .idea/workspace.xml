@@ -5,41 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/nbproject/private/profiler/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/HashDoubleHashing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/HashLinearProbing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/HashOpenAddressing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/HashQuadraticProbing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/dataUtils/WordsGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/exceptions/NotImplementedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/profiler/ProfilerRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/services/DeletedObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/services/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/main/resources/wordlist_100_000.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/HashDoubleHashingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/HashLinearProbingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/HashOpenAddressingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/HashQuadraticProbingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/GroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/HashDoubleHashingMitWordsGroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/HashDoubleHashingRandWordsGroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/HashLinearProbingMitWordsGroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/HashLinearProbingRandWordsGroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/MitWordsGroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/RandWordsGroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/HashDoubleHashingMitWordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/HashDoubleHashingRandWordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/HashLinearProbingMitWordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/HashLinearProbingRandWordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/MitWordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/RandWordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/WordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/utils/AdvancedConstructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/utils/AdvancedGetters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,32 +49,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.All in aisd_ex_0.executor": "Run",
-    "JUnit.MountainPeakProblemTest.testForPeakOnTheLeft.executor": "Debug",
-    "JUnit.java in aisd_ex_0.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/antekk/IdeaProjects/AISD/cw3_GR1/AiSD2025ZEx3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.general",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.All in aisd_ex_0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MountainPeakProblemTest.testForPeakOnTheLeft.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.java in aisd_ex_0.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/antekk/IdeaProjects/Region-Portals&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cw3_GR1" />
@@ -180,7 +146,11 @@
       <workItem from="1761474850354" duration="630000" />
       <workItem from="1761560222695" duration="5064000" />
       <workItem from="1762108897921" duration="4241000" />
-      <workItem from="1762166675133" duration="1839000" />
+      <workItem from="1762166675133" duration="4354000" />
+      <workItem from="1762555556618" duration="79000" />
+      <workItem from="1762555647478" duration="600000" />
+      <workItem from="1762976698369" duration="599000" />
+      <workItem from="1763046817244" duration="1412000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -278,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761597678751</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="aasd">
+      <option name="closed" value="true" />
+      <created>1762213175945</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762213175945</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

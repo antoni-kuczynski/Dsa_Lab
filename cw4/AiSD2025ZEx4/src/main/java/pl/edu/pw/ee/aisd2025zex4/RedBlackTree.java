@@ -5,7 +5,6 @@ import static pl.edu.pw.ee.aisd2025zex4.Color.RED;
 import pl.edu.pw.ee.aisd2025zex4.exception.NotYetImplementedException;
 
 public class RedBlackTree<K extends Comparable<K>, V> {
-
     private Node<K, V> root;
     private int currentNumOfPut = 0;
 
@@ -57,8 +56,30 @@ public class RedBlackTree<K extends Comparable<K>, V> {
     }
 
     private Node<K, V> deleteMin(Node<K, V> node) {
-        throw new NotYetImplementedException("This method is not yet implemented. This is a task for you.");
+        if (node.getLeft() == null) {
+            return null;
+        }
+
+        if (isBlack(node.getLeft()) && isBlack(node.getLeft().getLeft())) {
+            node = moveRedLeft(node);
+        }
+
+        node.setLeft(deleteMin(node.getLeft()));
+
+        return reorganizeTree(node);
     }
+
+    private Node<K, V> moveRedLeft(Node<K, V> node) {
+        changeColors(node);
+
+        if (isRed(node.getRight()) && isRed(node.getRight().getLeft())) {
+            node.setRight(rotateRight(node.getRight()));
+            node = rotateLeft(node);
+            changeColors(node);
+        }
+        return node;
+    }
+
 
     private boolean shouldCheckOnTheLeft(K key, Node<K, V> node) {
         return key.compareTo(node.getKey()) < 0;
@@ -147,7 +168,12 @@ public class RedBlackTree<K extends Comparable<K>, V> {
     }
 
     private Node<K, V> rotateRight(Node<K, V> node) {
-        throw new NotYetImplementedException("This method has not yet been implemented. This is a task for you.");
+        Node<K, V> x = node.getLeft();
+        node.setLeft(x.getRight());
+        x.setRight(node);
+        x.setColor(node.getColor());
+        node.setColor(RED);
+        return x;
     }
 
     private void changeColorsIfNeeded(Node<K, V> node) {
@@ -178,5 +204,9 @@ public class RedBlackTree<K extends Comparable<K>, V> {
         return node == null
                 ? false
                 : node.isRed();
+    }
+
+    public Node<K, V> getRoot() {
+        return root;
     }
 }
