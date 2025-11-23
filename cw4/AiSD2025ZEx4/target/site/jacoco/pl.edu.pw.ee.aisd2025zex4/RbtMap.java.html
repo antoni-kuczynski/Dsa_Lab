@@ -20,8 +20,8 @@ public class RbtMap&lt;K extends Comparable&lt;K&gt;, V&gt; implements MapInterf
 
     @Override
     public V getValue(K key) {
-<span class="nc bnc" id="L23" title="All 2 branches missed.">        if (key == null) {</span>
-<span class="nc" id="L24">            throw new IllegalArgumentException(&quot;Cannot get value by null key.&quot;);</span>
+<span class="pc bpc" id="L23" title="1 of 2 branches missed.">        if (key == null) {</span>
+<span class="fc" id="L24">            throw new IllegalArgumentException(&quot;Cannot get value by null key.&quot;);</span>
         }
 <span class="nc" id="L26">        return tree.get(key);</span>
     }

@@ -32,4 +32,19 @@ public class RbtMapTest {
                 .hasMessage("Params (key, value) cannot be null.");
     }
 
+    @Test
+    public void should_ThrowException_When_GettingValueByNullKey() {
+        // when
+        Throwable thrown = catchThrowable(() -> {
+            students.getValue(null);
+        });
+
+        // then
+        assertThat(thrown)
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessage("Cannot get value by null key.");
+    }
+
+
+
 }
