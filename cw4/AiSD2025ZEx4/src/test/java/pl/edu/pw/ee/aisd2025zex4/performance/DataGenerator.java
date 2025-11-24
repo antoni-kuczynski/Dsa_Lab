@@ -2,9 +2,11 @@ package pl.edu.pw.ee.aisd2025zex4.performance;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Random;
 
 public class DataGenerator {
     private final int stringLength;
+    private final Random rand = new Random(31337);
 
     public DataGenerator() {
         stringLength = 16;
@@ -21,7 +23,7 @@ public class DataGenerator {
         for (int i = 0; i < size; i++) {
             StringBuilder s = new StringBuilder();
             for (int j = 0; j < stringLength; j++) {
-                char c = (char) (33 + Math.random() * (126 - 33));
+                char c = (char) rand.nextInt(33, 126-33);
                 s.append(c);
             }
             data[i] = s.toString();
@@ -30,16 +32,22 @@ public class DataGenerator {
     }
 
     public String[] generateAscData(int size) {
-        String[] data = generateRandData(size);
-        Arrays.sort(data, Comparator.naturalOrder());
+        validateParam(size);
 
+        String[] data = new String[size];
+        for (int i = 0; i < size; i++) {
+            data[i] = String.valueOf(i);
+        }
         return data;
     }
 
     public String[] generateDescData(int size) {
-        String[] data = generateRandData(size);
-        Arrays.sort(data, Comparator.reverseOrder());
+        validateParam(size);
 
+        String[] data = new String[size];
+        for (int i = 0; i < size; i++) {
+            data[i] = String.valueOf(size - 1 - i);
+        }
         return data;
     }
 

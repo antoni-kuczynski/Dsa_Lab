@@ -153,7 +153,7 @@ public class RedBlackTree<K extends Comparable<K>, V> {
     }
 
     private Node<K, V> rotateLeft(Node<K, V> node) {
-        Node<K, V> head = node.getRight();
+        Node<K, V> head = node.getRight();  //TODO: NULL CHECKS
         node.setRight(head.getLeft());
         head.setLeft(node);
         head.setColor(node.getColor());
@@ -170,7 +170,7 @@ public class RedBlackTree<K extends Comparable<K>, V> {
     }
 
     private Node<K, V> rotateRight(Node<K, V> node) {
-        Node<K, V> x = node.getLeft();
+        Node<K, V> x = node.getLeft();  //TODO: NULL CHECKS
         node.setLeft(x.getRight());
         x.setRight(node);
         x.setColor(node.getColor());
@@ -211,4 +211,91 @@ public class RedBlackTree<K extends Comparable<K>, V> {
     public Node<K, V> getRoot() {
         return root;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public void delete(K key) {
+        validateKey(key);
+        if (root == null) {
+            return;
+        }
+
+        // jeśli oba dzieci root są czarne, ustaw root na czerwony
+        if (!isRed(root.getLeft()) && !isRed(root.getRight())) {
+            root.setColor(RED);
+        }
+
+        root = delete(root, key);
+
+        if (root != null) {
+            root.setColor(BLACK);
+        }
+    }
+
+    private Node<K, V> delete(Node<K, V> node, K key) {
+        if (key.compareTo(node.getKey()) < 0) {
+            if (node.getLeft() != null) {
+                if (isBlack(node.getLeft()) && isBlack(node.getLeft().getLeft())) {
+                    node = moveRedLeft(node);
+                }
+                node.setLeft(delete(node.getLeft(), key));
+            }
+        } else {
+            if (isRed(node.getLeft())) {
+                node = rotateRight(node);
+            }
+            if (key.compareTo(node.getKey()) == 0 && node.getRight() == null) {
+                return null; // usuwamy liść
+            }
+            if (node.getRight() != null) {
+                if (isBlack(node.getRight()) && isBlack(node.getRight().getLeft())) {
+                    node = moveRedRight(node);
+                }
+                if (key.compareTo(node.getKey()) == 0) {
+                    // zamiana z następnikiem
+                    Node<K, V> min = getMin(node.getRight());
+                    node.setValue(min.getValue());
+                    node = replaceKey(node, min.getKey());
+                    node.setRight(deleteMin(node.getRight()));
+                } else {
+                    node.setRight(delete(node.getRight(), key));
+                }
+            }
+        }
+        return reorganizeTree(node);
+    }
+
+    private Node<K, V> moveRedRight(Node<K, V> node) {
+        changeColors(node);
+        if (isRed(node.getLeft().getLeft())) {
+            node = rotateRight(node);
+            changeColors(node);
+        }
+        return node;
+    }
+
+    private Node<K, V> getMin(Node<K, V> node) {
+        while (node.getLeft() != null) {
+            node = node.getLeft();
+        }
+        return node;
+    }
+
+    // pomocnicza metoda do podmiany klucza
+    private Node<K, V> replaceKey(Node<K, V> node, K newKey) {
+        node = new Node<>(newKey, node.getValue());
+        return node;
+    }
+
+
 }

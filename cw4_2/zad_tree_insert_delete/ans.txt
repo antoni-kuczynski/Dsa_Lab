@@ -1,0 +1,23 @@
+Załóżmy, że do niepustego drzewa RB (jednostronnie, lewostronnie czerwonego)
+wstawiliśmy węzeł ”x”, a następnie (od razu po wstawieniu) usunęliśmy ten
+węzeł. Czy drzewo, które powstało po usunięciu ”x” jest takie samo jak drzewo
+przed wstawieniem ”x”?
+Proszę podać uzasadnienie wraz z narysowaniem (właściwych z punktu wi-
+dzenia odpowiedzi) sekwencji tworzenia drzew. Proszę oszczędnie wykorzysty-
+wać miejsce – odpowiedź powinna zmieścić się na jednej stronie.
+Miejsce na odpowiedź i rysunki:
+--------------------------------START----------------------------------
+Nie zawsze, zależy to od rodzaju wymaganych do wstawienia węzła x operacji oraz od ilości synów x po wykonaniu rb-fixup. Jeżeli:
+ - wstawienie x nie wymaga operacji rotacji i zamiany kolorów, to struktura drzewa pozostanie taka sama jak na rys.1.
+ - wstawienie x wymagało operacji rotacji i miał on po niej tylko jednego syna, to struktura drzewa nie zmieni się jak na rys.2.
+ - wstawienie x wymagało powyższych operacji i po ich wykonaniu posiada on dwóch synów, to struktura drzewa zmieni się jak na rys.3.
+
+
+[tree1]
+Rysunek 1: Drzewo RBT przed wstawieniem "Y", po wstawieniu "Y" i po usunięciu "Y". Jako że "Y" nie posiadał synów, struktura drzewa się nie zmieniła.
+
+[tree2]
+Rysunek 2: Drzewo RBT przed wstawieniem "Y", po wstawieniu "Y" i po usunięciu "Y". Jako że "Y" nie posiadał synów, struktura drzewa się nie zmieniła.
+
+
+
