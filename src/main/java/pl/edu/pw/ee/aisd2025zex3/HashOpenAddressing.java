@@ -58,7 +58,9 @@ public abstract class HashOpenAddressing<T extends Comparable<T>> implements Has
         int i = 0;
         int hashIndex = hashFunc(key, i);
 
-        while (hashElems[hashIndex] != nil) {
+        //W tej pętli nie było warunku "hashElems[hashIndex] != deleted"
+//        while (hashElems[hashIndex] != nil) {
+        while (hashElems[hashIndex] != nil || hashElems[hashIndex] != deleted) {
             T current = hashElems[hashIndex];
             if (current != deleted && current.equals(elem)) {
                 return current;
