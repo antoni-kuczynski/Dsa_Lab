@@ -1,0 +1,17 @@
+Proszę, wykorzystując suplement z kodem źródłowym (załącznik z ISOD-a),
+przygotować wykres (rys. 1) pokazujący, jak zmienia się wysokość drzewa czerwono-
+czarnego (jednostronnie, lewostronnie czerwonego), gdy wstawiamy do niego
+klucze w porządku losowym. Proszę, odwołując się do teorii i swojej wiedzy,
+ustalić, czy wynikowy wykres jest „sensowny”. Proszę odpowiedzieć, jak wy-
+glądałby wynikowy wykres, gdyby wstawiane dane (klucze) były wstawiane w
+porządku rosnącym. A jak wyglądałyby dane wstawiane w porządku maleją-
+cym?
+------------------------------
+
+[wykres  dane losowy]
+Podany wykres jest zgodny ze spodziewanym rezultatem - widoczna jest logarytmiczna zależność ilości put() od wysokości drzewa - O( \log_2(n) ).
+Jest to poprawne, ponieważ wysokość BST jest właśnie dana tym wzorem.
+Dla danych rosnących byłby to podobny wykres, jednak ilości wywołań put() byłyby większe, ponieważ zachodzi tam większa ilość rotacji, które
+konieczne są żeby drzewo nie było "łańcuchem" i było poprawnie wyważone.
+Dla danych malejących wykres przypominać będzie ten dla danych rosnących, ponieważ ponownie, wymagana jest tam większa ilość rotacji niż dla danych
+losowych, gdzie wartości są rozkładane bardziej równomiernie.

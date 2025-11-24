@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_counttreeheight/test/java/pl/edu/pw/ee/aisd2025zex4/performance/chart/RbtMapAscDataTreeHeightTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_counttreeheight/test/java/pl/edu/pw/ee/aisd2025zex4/performance/chart/RbtMapDescDataTreeHeightTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_counttreeheight/test/java/pl/edu/pw/ee/aisd2025zex4/performance/chart/RbtMapRandDataTreeHeightTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_counttreeheight/test/java/pl/edu/pw/ee/aisd2025zex4/performance/chart/RbtMapTreeHeightTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_tree_insert_delete/AISD_cw4.2_tree1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_tree_insert_delete/AISD_cw4.2_tree2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_tree_insert_delete/AISD_cw4.2_tree3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_tree_insert_delete/ans.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/src/main/java/pl/edu/pw/ee/aisd2025zex4/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/src/main/java/pl/edu/pw/ee/aisd2025zex4/RedBlackTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/src/test/java/pl/edu/pw/ee/aisd2025zex4/performance/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/src/test/java/pl/edu/pw/ee/aisd2025zex4/performance/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/test-classes/pl/edu/pw/ee/aisd2025zex4/RedBlackTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/test-classes/pl/edu/pw/ee/aisd2025zex4/RedBlackTreeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/test-classes/pl/edu/pw/ee/aisd2025zex4/performance/DataGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/test-classes/pl/edu/pw/ee/aisd2025zex4/performance/DataGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/AISD_cw4.2_wykres_put_size_RBT_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/AISD_cw4.2_wykres_put_size_RBT_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/AISD_cw4.2_wykres_put_size_RBT_rand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/ans.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/put_od_size.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/rbtAscDataTreeHeightResults.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/rbtDescDataTreeHeightResults.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/rbtRandDataTreeHeightResults.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +69,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/antekk/IdeaProjects/AISD/cw4_2/zad_counttreeheight/test/java/pl/edu/pw/ee/aisd2025zex4/performance/chart",
+    "last_opened_file_path": "/home/antekk/IdeaProjects/AISD/cw4_2/zad_wykres_put_height",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,11 +84,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cw4_2/zad_counttreeheight/test/java/pl/edu/pw/ee/aisd2025zex4/performance/chart" />
+      <recent name="$PROJECT_DIR$/cw4_2/zad_wykres_put_height" />
       <recent name="$PROJECT_DIR$/cw4_2/zad_counttreeheight" />
+      <recent name="$PROJECT_DIR$/cw4_2/zad_counttreeheight/test/java/pl/edu/pw/ee/aisd2025zex4/performance/chart" />
       <recent name="$PROJECT_DIR$/cw4_2/zad_tree_insert_delete" />
       <recent name="$PROJECT_DIR$/cw3_GR1" />
-      <recent name="$PROJECT_DIR$/cw2" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -166,7 +161,7 @@
       <workItem from="1762555647478" duration="600000" />
       <workItem from="1762976698369" duration="599000" />
       <workItem from="1763046817244" duration="1412000" />
-      <workItem from="1763998464742" duration="5556000" />
+      <workItem from="1763998464742" duration="8047000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -280,7 +275,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763998550275</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="aasd">
+      <option name="closed" value="true" />
+      <created>1764010290410</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1764010290410</updated>
+    </task>
+    <task id="LOCAL-00016" summary="aasd">
+      <option name="closed" value="true" />
+      <created>1764010407634</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1764010407634</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
