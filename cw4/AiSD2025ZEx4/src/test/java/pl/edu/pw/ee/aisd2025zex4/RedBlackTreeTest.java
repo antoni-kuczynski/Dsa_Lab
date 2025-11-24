@@ -85,6 +85,25 @@ class RedBlackTreeTest {
     }
 
     @Test
+    public void should_MaintainRedBlackProperties_IfDoubleBlackNodeOccured() {
+        tree.put(30, "a");
+        tree.put(20, "a");
+        tree.put(50, "a");
+        tree.put(40, "a");
+
+        tree.deleteMin(); //20 replaced by double black NIL
+
+        boolean isRootBlack = tree.getRoot().getColor().equals(Color.BLACK);
+        boolean containsTwoConsecutiveRedNodes = containsTwoConsecutiveRedNodes();
+        boolean areAllBlackPathsFromRootTheSameLength = areBlackPathsTheSameLength();
+
+
+        assertTrue(isRootBlack, "The root is not black");
+        assertFalse(containsTwoConsecutiveRedNodes, "A son of a red node is red which is invalid");
+        assertTrue(areAllBlackPathsFromRootTheSameLength, "The black path lengths are not the same which is invalid");
+    }
+
+    @Test
     public void should_CorrectlyRemoveMinNode() {
         for (int i = 6; i < 25; i++) {
             tree.put(i, "val" + i);

@@ -2,6 +2,8 @@ package pl.edu.pw.ee.aisd2025zex4;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.assertj.core.api.ThrowableAssert.catchThrowable;
+
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pl.edu.pw.ee.aisd2025zex4.service.MapInterface;
@@ -45,6 +47,18 @@ public class RbtMapTest {
                 .hasMessage("Cannot get value by null key.");
     }
 
+    @Test
+    public void should_PutAndGetValueProperly() {
+        // given
+        Integer studentId = 1234;
+        String studentFullName = "Miś Uszatek";
 
+        //when
+        students.setValue(studentId, studentFullName);
+        String expectedName = students.getValue(studentId);
+
+        // then
+        Assertions.assertEquals(studentFullName, expectedName);
+    }
 
 }

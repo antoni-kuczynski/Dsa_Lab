@@ -28,22 +28,23 @@ class DataGeneratorTest {
 
     private static boolean isSorted(String[] s) {
         for (int i = 1; i < s.length; i++) {
-            String s1 = s[i - 1];
-            String s2 = s[i];
+            int n1 = Integer.parseInt(s[i - 1]);
+            int n2 = Integer.parseInt(s[i]);
 
-            if (s2.compareTo(s1) < 0) {
+            if (n2 < n1) {
                 return false;
             }
         }
         return true;
     }
 
+
     private static boolean isReverseSorted(String[] s) {
         for (int i = 1; i < s.length; i++) {
-            String s1 = s[i - 1];
-            String s2 = s[i];
+            int n1 = Integer.parseInt(s[i - 1]);
+            int n2 = Integer.parseInt(s[i]);
 
-            if (s2.compareTo(s1) > 0) {
+            if (n2 > n1) {
                 return false;
             }
         }

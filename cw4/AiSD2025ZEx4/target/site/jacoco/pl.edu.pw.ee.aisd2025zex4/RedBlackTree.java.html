@@ -54,158 +54,162 @@ import static pl.edu.pw.ee.aisd2025zex4.Color.RED;
 <span class="fc" id="L54">    }</span>
 
     private Node&lt;K, V&gt; deleteMin(Node&lt;K, V&gt; node) {
-<span class="fc bfc" id="L57" title="All 2 branches covered.">        if (node.getLeft() == null) {</span>
-<span class="fc" id="L58">            return null;</span>
+<span class="pc bpc" id="L57" title="1 of 2 branches missed.">        if (node == null) {</span>
+<span class="nc" id="L58">            return null;</span>
         }
 
-<span class="fc bfc" id="L61" title="All 4 branches covered.">        if (isBlack(node.getLeft()) &amp;&amp; isBlack(node.getLeft().getLeft())) {</span>
-<span class="fc" id="L62">            node = moveRedLeft(node);</span>
+<span class="fc bfc" id="L61" title="All 2 branches covered.">        if (node.getLeft() == null) {</span>
+<span class="fc" id="L62">            return null;</span>
         }
 
-<span class="fc" id="L65">        node.setLeft(deleteMin(node.getLeft()));</span>
+<span class="fc bfc" id="L65" title="All 4 branches covered.">        if (isBlack(node.getLeft()) &amp;&amp; isBlack(node.getLeft().getLeft())) {</span>
+<span class="fc" id="L66">            node = moveRedLeft(node);</span>
+        }
 
-<span class="fc" id="L67">        return reorganizeTree(node);</span>
+<span class="fc" id="L69">        node.setLeft(deleteMin(node.getLeft()));</span>
+
+<span class="fc" id="L71">        return reorganizeTree(node);</span>
     }
 
     private Node&lt;K, V&gt; moveRedLeft(Node&lt;K, V&gt; node) {
-<span class="fc" id="L71">        changeColors(node);</span>
+<span class="fc" id="L75">        changeColors(node);</span>
 
-<span class="pc bpc" id="L73" title="1 of 4 branches missed.">        if (isRed(node.getRight()) &amp;&amp; isRed(node.getRight().getLeft())) {</span>
-<span class="fc" id="L74">            node.setRight(rotateRight(node.getRight()));</span>
-<span class="fc" id="L75">            node = rotateLeft(node);</span>
-<span class="fc" id="L76">            changeColors(node);</span>
+<span class="pc bpc" id="L77" title="1 of 4 branches missed.">        if (isRed(node.getRight()) &amp;&amp; isRed(node.getRight().getLeft())) {</span>
+<span class="fc" id="L78">            node.setRight(rotateRight(node.getRight()));</span>
+<span class="fc" id="L79">            node = rotateLeft(node);</span>
+<span class="fc" id="L80">            changeColors(node);</span>
         }
-<span class="fc" id="L78">        return node;</span>
+<span class="fc" id="L82">        return node;</span>
     }
 
 
     private boolean shouldCheckOnTheLeft(K key, Node&lt;K, V&gt; node) {
-<span class="fc bfc" id="L83" title="All 2 branches covered.">        return key.compareTo(node.getKey()) &lt; 0;</span>
+<span class="fc bfc" id="L87" title="All 2 branches covered.">        return key.compareTo(node.getKey()) &lt; 0;</span>
     }
 
     private boolean shouldCheckOnTheRight(K key, Node&lt;K, V&gt; node) {
-<span class="pc bpc" id="L87" title="1 of 2 branches missed.">        return key.compareTo(node.getKey()) &gt; 0;</span>
+<span class="pc bpc" id="L91" title="1 of 2 branches missed.">        return key.compareTo(node.getKey()) &gt; 0;</span>
     }
 
     private void validateParams(K key, V value) {
-<span class="pc bpc" id="L91" title="1 of 4 branches missed.">        if (key == null || value == null) {</span>
-<span class="fc" id="L92">            throw new IllegalArgumentException(&quot;Input params (key, value) cannot be null.&quot;);</span>
+<span class="pc bpc" id="L95" title="1 of 4 branches missed.">        if (key == null || value == null) {</span>
+<span class="fc" id="L96">            throw new IllegalArgumentException(&quot;Input params (key, value) cannot be null.&quot;);</span>
         }
-<span class="fc" id="L94">    }</span>
+<span class="fc" id="L98">    }</span>
 
     private Node&lt;K, V&gt; put(Node&lt;K, V&gt; node, K key, V value) {
-<span class="fc" id="L97">        currentNumOfPut++;</span>
+<span class="fc" id="L101">        currentNumOfPut++;</span>
 
-<span class="fc bfc" id="L99" title="All 2 branches covered.">        if (node == null) {</span>
-<span class="fc" id="L100">            return new Node&lt;&gt;(key, value);</span>
+<span class="fc bfc" id="L103" title="All 2 branches covered.">        if (node == null) {</span>
+<span class="fc" id="L104">            return new Node&lt;&gt;(key, value);</span>
         }
 
-<span class="fc bfc" id="L103" title="All 2 branches covered.">        if (isKeyBiggerThanNode(key, node)) {</span>
-<span class="fc" id="L104">            putOnTheRight(node, key, value);</span>
+<span class="fc bfc" id="L107" title="All 2 branches covered.">        if (isKeyBiggerThanNode(key, node)) {</span>
+<span class="fc" id="L108">            putOnTheRight(node, key, value);</span>
 
-<span class="pc bpc" id="L106" title="1 of 2 branches missed.">        } else if (isKeySmallerThanNode(key, node)) {</span>
-<span class="fc" id="L107">            putOnTheLeft(node, key, value);</span>
+<span class="pc bpc" id="L110" title="1 of 2 branches missed.">        } else if (isKeySmallerThanNode(key, node)) {</span>
+<span class="fc" id="L111">            putOnTheLeft(node, key, value);</span>
 
         } else {
-<span class="nc" id="L110">            node.setValue(value);</span>
+<span class="nc" id="L114">            node.setValue(value);</span>
         }
 
-<span class="fc" id="L113">        node = reorganizeTree(node);</span>
+<span class="fc" id="L117">        node = reorganizeTree(node);</span>
 
-<span class="fc" id="L115">        return node;</span>
+<span class="fc" id="L119">        return node;</span>
     }
 
     private boolean isKeyBiggerThanNode(K key, Node&lt;K, V&gt; node) {
-<span class="fc bfc" id="L119" title="All 2 branches covered.">        return key.compareTo(node.getKey()) &gt; 0;</span>
+<span class="fc bfc" id="L123" title="All 2 branches covered.">        return key.compareTo(node.getKey()) &gt; 0;</span>
     }
 
     private void putOnTheRight(Node&lt;K, V&gt; node, K key, V value) {
-<span class="fc" id="L123">        Node&lt;K, V&gt; rightChild = put(node.getRight(), key, value);</span>
-<span class="fc" id="L124">        node.setRight(rightChild);</span>
-<span class="fc" id="L125">    }</span>
+<span class="fc" id="L127">        Node&lt;K, V&gt; rightChild = put(node.getRight(), key, value);</span>
+<span class="fc" id="L128">        node.setRight(rightChild);</span>
+<span class="fc" id="L129">    }</span>
 
     private boolean isKeySmallerThanNode(K key, Node&lt;K, V&gt; node) {
-<span class="pc bpc" id="L128" title="1 of 2 branches missed.">        return key.compareTo(node.getKey()) &lt; 0;</span>
+<span class="pc bpc" id="L132" title="1 of 2 branches missed.">        return key.compareTo(node.getKey()) &lt; 0;</span>
     }
 
     private void putOnTheLeft(Node&lt;K, V&gt; node, K key, V value) {
-<span class="fc" id="L132">        Node&lt;K, V&gt; leftChild = put(node.getLeft(), key, value);</span>
-<span class="fc" id="L133">        node.setLeft(leftChild);</span>
-<span class="fc" id="L134">    }</span>
+<span class="fc" id="L136">        Node&lt;K, V&gt; leftChild = put(node.getLeft(), key, value);</span>
+<span class="fc" id="L137">        node.setLeft(leftChild);</span>
+<span class="fc" id="L138">    }</span>
 
     private Node&lt;K, V&gt; reorganizeTree(Node&lt;K, V&gt; node) {
-<span class="fc" id="L137">        node = rotateLeftIfNeeded(node);</span>
-<span class="fc" id="L138">        node = rotateRightIfNeeded(node);</span>
-<span class="fc" id="L139">        changeColorsIfNeeded(node);</span>
+<span class="fc" id="L141">        node = rotateLeftIfNeeded(node);</span>
+<span class="fc" id="L142">        node = rotateRightIfNeeded(node);</span>
+<span class="fc" id="L143">        changeColorsIfNeeded(node);</span>
 
-<span class="fc" id="L141">        return node;</span>
+<span class="fc" id="L145">        return node;</span>
     }
 
     private Node&lt;K, V&gt; rotateLeftIfNeeded(Node&lt;K, V&gt; node) {
-<span class="fc bfc" id="L145" title="All 4 branches covered.">        if (isBlack(node.getLeft()) &amp;&amp; isRed(node.getRight())) {</span>
-<span class="fc" id="L146">            node = rotateLeft(node);</span>
+<span class="fc bfc" id="L149" title="All 4 branches covered.">        if (isBlack(node.getLeft()) &amp;&amp; isRed(node.getRight())) {</span>
+<span class="fc" id="L150">            node = rotateLeft(node);</span>
         }
-<span class="fc" id="L148">        return node;</span>
+<span class="fc" id="L152">        return node;</span>
     }
 
     private Node&lt;K, V&gt; rotateLeft(Node&lt;K, V&gt; node) {
-<span class="fc" id="L152">        Node&lt;K, V&gt; head = node.getRight();</span>
-<span class="fc" id="L153">        node.setRight(head.getLeft());</span>
-<span class="fc" id="L154">        head.setLeft(node);</span>
-<span class="fc" id="L155">        head.setColor(node.getColor());</span>
-<span class="fc" id="L156">        node.setColor(RED);</span>
+<span class="fc" id="L156">        Node&lt;K, V&gt; head = node.getRight();</span>
+<span class="fc" id="L157">        node.setRight(head.getLeft());</span>
+<span class="fc" id="L158">        head.setLeft(node);</span>
+<span class="fc" id="L159">        head.setColor(node.getColor());</span>
+<span class="fc" id="L160">        node.setColor(RED);</span>
 
-<span class="fc" id="L158">        return head;</span>
+<span class="fc" id="L162">        return head;</span>
     }
 
     private Node&lt;K, V&gt; rotateRightIfNeeded(Node&lt;K, V&gt; node) {
-<span class="pc bpc" id="L162" title="1 of 4 branches missed.">        if (isRed(node.getLeft()) &amp;&amp; isRed(node.getLeft().getLeft())) {</span>
-<span class="nc" id="L163">            node = rotateRight(node);</span>
+<span class="pc bpc" id="L166" title="1 of 4 branches missed.">        if (isRed(node.getLeft()) &amp;&amp; isRed(node.getLeft().getLeft())) {</span>
+<span class="nc" id="L167">            node = rotateRight(node);</span>
         }
-<span class="fc" id="L165">        return node;</span>
+<span class="fc" id="L169">        return node;</span>
     }
 
     private Node&lt;K, V&gt; rotateRight(Node&lt;K, V&gt; node) {
-<span class="fc" id="L169">        Node&lt;K, V&gt; x = node.getLeft();</span>
-<span class="fc" id="L170">        node.setLeft(x.getRight());</span>
-<span class="fc" id="L171">        x.setRight(node);</span>
-<span class="fc" id="L172">        x.setColor(node.getColor());</span>
-<span class="fc" id="L173">        node.setColor(RED);</span>
-<span class="fc" id="L174">        return x;</span>
+<span class="fc" id="L173">        Node&lt;K, V&gt; x = node.getLeft();</span>
+<span class="fc" id="L174">        node.setLeft(x.getRight());</span>
+<span class="fc" id="L175">        x.setRight(node);</span>
+<span class="fc" id="L176">        x.setColor(node.getColor());</span>
+<span class="fc" id="L177">        node.setColor(RED);</span>
+<span class="fc" id="L178">        return x;</span>
     }
 
     private void changeColorsIfNeeded(Node&lt;K, V&gt; node) {
-<span class="fc bfc" id="L178" title="All 4 branches covered.">        if (isRed(node.getLeft()) &amp;&amp; isRed(node.getRight())) {</span>
-<span class="fc" id="L179">            changeColors(node);</span>
+<span class="fc bfc" id="L182" title="All 4 branches covered.">        if (isRed(node.getLeft()) &amp;&amp; isRed(node.getRight())) {</span>
+<span class="fc" id="L183">            changeColors(node);</span>
         }
-<span class="fc" id="L181">    }</span>
+<span class="fc" id="L185">    }</span>
 
     private void changeColors(Node&lt;K, V&gt; node) {
-<span class="fc" id="L184">        swapColor(node);</span>
-<span class="fc" id="L185">        swapColor(node.getLeft());</span>
-<span class="fc" id="L186">        swapColor(node.getRight());</span>
-<span class="fc" id="L187">    }</span>
+<span class="fc" id="L188">        swapColor(node);</span>
+<span class="fc" id="L189">        swapColor(node.getLeft());</span>
+<span class="fc" id="L190">        swapColor(node.getRight());</span>
+<span class="fc" id="L191">    }</span>
 
     private void swapColor(Node&lt;K, V&gt; node) {
-<span class="fc bfc" id="L190" title="All 2 branches covered.">        if (node.isRed()) {</span>
-<span class="fc" id="L191">            node.setColor(BLACK);</span>
+<span class="fc bfc" id="L194" title="All 2 branches covered.">        if (node.isRed()) {</span>
+<span class="fc" id="L195">            node.setColor(BLACK);</span>
         } else {
-<span class="fc" id="L193">            node.setColor(RED);</span>
+<span class="fc" id="L197">            node.setColor(RED);</span>
         }
-<span class="fc" id="L195">    }</span>
+<span class="fc" id="L199">    }</span>
 
     private boolean isBlack(Node&lt;K, V&gt; node) {
-<span class="fc bfc" id="L198" title="All 2 branches covered.">        return !isRed(node);</span>
+<span class="fc bfc" id="L202" title="All 2 branches covered.">        return !isRed(node);</span>
     }
 
     private boolean isRed(Node&lt;K, V&gt; node) {
-<span class="fc bfc" id="L202" title="All 2 branches covered.">        return node == null</span>
-<span class="fc" id="L203">                ? false</span>
-<span class="fc" id="L204">                : node.isRed();</span>
+<span class="fc bfc" id="L206" title="All 2 branches covered.">        return node == null</span>
+<span class="fc" id="L207">                ? false</span>
+<span class="fc" id="L208">                : node.isRed();</span>
     }
 
     public Node&lt;K, V&gt; getRoot() {
-<span class="fc" id="L208">        return root;</span>
+<span class="fc" id="L212">        return root;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.14.202510111229</span></div></body></html>

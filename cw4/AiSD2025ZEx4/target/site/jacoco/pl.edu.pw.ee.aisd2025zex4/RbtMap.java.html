@@ -12,18 +12,18 @@ public class RbtMap&lt;K extends Comparable&lt;K&gt;, V&gt; implements MapInterf
 
     @Override
     public void setValue(K key, V value) {
-<span class="pc bpc" id="L15" title="3 of 4 branches missed.">        if (key == null || value == null) {</span>
+<span class="pc bpc" id="L15" title="1 of 4 branches missed.">        if (key == null || value == null) {</span>
 <span class="fc" id="L16">            throw new IllegalArgumentException(&quot;Params (key, value) cannot be null.&quot;);</span>
         }
-<span class="nc" id="L18">        tree.put(key, value);</span>
-<span class="nc" id="L19">    }</span>
+<span class="fc" id="L18">        tree.put(key, value);</span>
+<span class="fc" id="L19">    }</span>
 
     @Override
     public V getValue(K key) {
-<span class="pc bpc" id="L23" title="1 of 2 branches missed.">        if (key == null) {</span>
+<span class="fc bfc" id="L23" title="All 2 branches covered.">        if (key == null) {</span>
 <span class="fc" id="L24">            throw new IllegalArgumentException(&quot;Cannot get value by null key.&quot;);</span>
         }
-<span class="nc" id="L26">        return tree.get(key);</span>
+<span class="fc" id="L26">        return tree.get(key);</span>
     }
 
 }
