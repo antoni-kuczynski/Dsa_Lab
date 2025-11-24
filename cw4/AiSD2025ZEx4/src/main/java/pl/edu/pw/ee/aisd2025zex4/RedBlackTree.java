@@ -54,6 +54,10 @@ public class RedBlackTree<K extends Comparable<K>, V> {
     }
 
     private Node<K, V> deleteMin(Node<K, V> node) {
+        if (node == null) {
+            return null;
+        }
+
         if (node.getLeft() == null) {
             return null;
         }
