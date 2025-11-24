@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/AISD_cw4.2_wykres_put_size_RBT_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/AISD_cw4.2_wykres_put_size_RBT_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/AISD_cw4.2_wykres_put_size_RBT_rand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/ans.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/put_od_size.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/rbtAscDataTreeHeightResults.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/rbtDescDataTreeHeightResults.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw4_2/zad_wykres_put_height/rbtRandDataTreeHeightResults.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +154,7 @@
       <workItem from="1762555647478" duration="600000" />
       <workItem from="1762976698369" duration="599000" />
       <workItem from="1763046817244" duration="1412000" />
-      <workItem from="1763998464742" duration="8047000" />
+      <workItem from="1763998464742" duration="10223000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -291,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764010407634</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="aasd">
+      <option name="closed" value="true" />
+      <created>1764012806016</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1764012806016</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
