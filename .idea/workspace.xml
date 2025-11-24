@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/src/test/java/pl/edu/pw/ee/aisd2025zex4/RedBlackTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/src/test/java/pl/edu/pw/ee/aisd2025zex4/RedBlackTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/src/test/java/pl/edu/pw/ee/aisd2025zex4/performance/DataGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/src/test/java/pl/edu/pw/ee/aisd2025zex4/performance/DataGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/AiSD2025ZEx4-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/AiSD2025ZEx4-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/jacoco.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/pl.edu.pw.ee.aisd2025zex4/RedBlackTree.html" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/pl.edu.pw.ee.aisd2025zex4/RedBlackTree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/pl.edu.pw.ee.aisd2025zex4/RedBlackTree.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/pl.edu.pw.ee.aisd2025zex4/RedBlackTree.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/pl.edu.pw.ee.aisd2025zex4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/pl.edu.pw.ee.aisd2025zex4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/pl.edu.pw.ee.aisd2025zex4/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/site/jacoco/pl.edu.pw.ee.aisd2025zex4/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/surefire-reports/TEST-pl.edu.pw.ee.aisd2025zex4.RbtMapTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/surefire-reports/TEST-pl.edu.pw.ee.aisd2025zex4.RbtMapTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/surefire-reports/TEST-pl.edu.pw.ee.aisd2025zex4.RedBlackTreeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/surefire-reports/TEST-pl.edu.pw.ee.aisd2025zex4.RedBlackTreeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/surefire-reports/TEST-pl.edu.pw.ee.aisd2025zex4.performance.DataGeneratorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/surefire-reports/TEST-pl.edu.pw.ee.aisd2025zex4.performance.DataGeneratorTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/surefire-reports/pl.edu.pw.ee.aisd2025zex4.RbtMapTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/surefire-reports/pl.edu.pw.ee.aisd2025zex4.RbtMapTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/surefire-reports/pl.edu.pw.ee.aisd2025zex4.RedBlackTreeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/surefire-reports/pl.edu.pw.ee.aisd2025zex4.RedBlackTreeTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/surefire-reports/pl.edu.pw.ee.aisd2025zex4.performance.DataGeneratorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/surefire-reports/pl.edu.pw.ee.aisd2025zex4.performance.DataGeneratorTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/test-classes/pl/edu/pw/ee/aisd2025zex4/RedBlackTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/test-classes/pl/edu/pw/ee/aisd2025zex4/RedBlackTreeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/test-classes/pl/edu/pw/ee/aisd2025zex4/performance/DataGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw4/AiSD2025ZEx4/target/test-classes/pl/edu/pw/ee/aisd2025zex4/performance/DataGeneratorTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +152,7 @@
       <workItem from="1762555647478" duration="600000" />
       <workItem from="1762976698369" duration="599000" />
       <workItem from="1763046817244" duration="1412000" />
-      <workItem from="1763998464742" duration="11729000" />
+      <workItem from="1763998464742" duration="11732000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
