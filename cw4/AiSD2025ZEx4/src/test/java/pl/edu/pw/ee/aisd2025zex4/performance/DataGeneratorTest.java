@@ -18,7 +18,7 @@ class DataGeneratorTest {
     private static boolean containsNonAsciiString(String[] s) {
         boolean b = true;
         for (String s1 : s) {
-            if (!StandardCharsets.US_ASCII.newEncoder().canEncode(s1)) { //checks if only contains ASCII chars
+            if (!StandardCharsets.US_ASCII.newEncoder().canEncode(s1)) {
                 b = false;
                 break;
             }
