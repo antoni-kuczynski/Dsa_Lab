@@ -5,36 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/nbproject/private/profiler/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/HashDoubleHashing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/HashLinearProbing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/HashOpenAddressing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/HashQuadraticProbing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/dataUtils/WordsGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/exceptions/NotImplementedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/profiler/ProfilerRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/main/java/pl/edu/pw/ee/aisd2025zex3/services/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/main/resources/wordlist_100_000.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/HashLinearProbingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/GroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/HashDoubleHashingMitWordsGroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/HashDoubleHashingRandWordsGroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/HashLinearProbingMitWordsGroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/HashLinearProbingRandWordsGroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/MitWordsGroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/grouping/RandWordsGroupingVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/HashDoubleHashingMitWordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/HashDoubleHashingRandWordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/HashLinearProbingMitWordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/HashLinearProbingRandWordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/MitWordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/RandWordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/performance/time/WordsPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/utils/AdvancedConstructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/src/test/java/pl/edu/pw/ee/aisd2025zex3/utils/AdvancedGetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OLD_test_results/visualization_HashDoubleHashingMitWordsGroupingVisualization_400_x_334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OLD_test_results/visualization_HashDoubleHashingRandWordsGroupingVisualization_400_x_334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OLD_test_results/visualization_HashLinearProbingMitWordsGroupingVisualization_400_x_334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OLD_test_results/visualization_HashLinearProbingRandWordsGroupingVisualization_400_x_334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/lcs/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderBottomUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderTopDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterBottomUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterExtendedResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterTopDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterWithSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/lcs/LongestCommonSubsequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/DataUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderBottomUpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderRecursiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderTopDownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/performance/MatrixChainOrderBottomUpPerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/performance/MatrixChainOrderPerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/performance/MatrixChainOrderRecursivePerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/performance/MatrixChainOrderTopDownPerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterBottomUpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterRecursiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterTopDownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterWithSolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/performance/RodCutterBottomUpPerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/performance/RodCutterPerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/performance/RodCutterRecursivePerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/performance/RodCutterTopDownPerformanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/target/test-classes/pl/edu/pw/ee/aisd2025zex3/HashOpenAddressingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw3_GR1/AiSD2025ZEx3/target/test-classes/pl/edu/pw/ee/aisd2025zex3/HashOpenAddressingTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,80 +91,80 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.All in aisd_ex_0.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CountingSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CountingSortTest.should_SortWhenMaxVal_IsMuchGreaterThanInput.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CountingSortTest.should_ThrowExpcetionWhen_MaxNumberIsSmallerThanInput.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CountingSortTest.should_ThrowExpcetionWhen_ThereIsANegativeNumberInData.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GeneralSortPrimitiveIntTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GeneralSortTest and 1 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GeneralSortTest and 2 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HeapSortTest and 10 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HeapSortTest and 11 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HeapSortTest,should_ThrowException_When_ThereIsNullElement and 10 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HeapSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HeapSortTest.shouldSortStably_WhenInputIsAlreadySorted.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HeapSortTest.shouldSort_IfInputIsMaxHeapButNotSorted.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HeapSortTest.shouldSort_IfValuesAreAlternatingBetweenVeryHighAndLow.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InsertionSortPrimitiveTest and 1 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InsertionSortPrimitiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InsertionSortTest.shouldSortStably_WhenInputIsAlreadySorted.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MergeSortStabilityTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MergeSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceAscDataTest and 2 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceAscDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceCSortDataTypeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceCSortDataTypeTest.measure.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsAscDataTest and 2 more (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsAscDataTest and 2 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsAscDataTest,runPerformanceChartTest_CmpSorters and 2 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsAscDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsDescDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsRandomDataTest and 2 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsRandomDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_CmpSorters.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_DetailedQSortWithInsort.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_PrimitiveSorters.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformancePrimitiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformancePrimitiveTest.runPerformanceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceQsortInsortSubproblemTest.measure.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceRandDataPrimitiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceRandDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceRandIntegerDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceRandNonRepeatingDataTest and 1 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceRandNonRepeatingDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PerformanceRandRepeatingDataTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QuickSortIterativeHoareTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QuickSortIterativeHoareTest.should_ThrowException_When_ThereIsNullElementInData.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QuickSortIterativeRandomTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QuickSortIterativeWithInSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SelectionSortPrimitiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SortLinkedListProblemTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SortLinkedListProblemTest.shouldSort_ForRandomSmallData.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.java in aisd_ex_0.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/antekk/IdeaProjects/AISD/cw1/AiSD2025ZEx1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in aisd_ex_0.executor": "Run",
+    "JUnit.CountingSortTest.executor": "Run",
+    "JUnit.CountingSortTest.should_SortWhenMaxVal_IsMuchGreaterThanInput.executor": "Run",
+    "JUnit.CountingSortTest.should_ThrowExpcetionWhen_MaxNumberIsSmallerThanInput.executor": "Run",
+    "JUnit.CountingSortTest.should_ThrowExpcetionWhen_ThereIsANegativeNumberInData.executor": "Run",
+    "JUnit.GeneralSortPrimitiveIntTest.executor": "Run",
+    "JUnit.GeneralSortTest and 1 more.executor": "Run",
+    "JUnit.GeneralSortTest and 2 more.executor": "Run",
+    "JUnit.HeapSortTest and 10 more.executor": "Run",
+    "JUnit.HeapSortTest and 11 more.executor": "Run",
+    "JUnit.HeapSortTest,should_ThrowException_When_ThereIsNullElement and 10 more.executor": "Run",
+    "JUnit.HeapSortTest.executor": "Run",
+    "JUnit.HeapSortTest.shouldSortStably_WhenInputIsAlreadySorted.executor": "Run",
+    "JUnit.HeapSortTest.shouldSort_IfInputIsMaxHeapButNotSorted.executor": "Run",
+    "JUnit.HeapSortTest.shouldSort_IfValuesAreAlternatingBetweenVeryHighAndLow.executor": "Run",
+    "JUnit.InsertionSortPrimitiveTest and 1 more.executor": "Run",
+    "JUnit.InsertionSortPrimitiveTest.executor": "Run",
+    "JUnit.InsertionSortTest.shouldSortStably_WhenInputIsAlreadySorted.executor": "Run",
+    "JUnit.MergeSortStabilityTest.executor": "Run",
+    "JUnit.MergeSortTest.executor": "Run",
+    "JUnit.PerformanceAscDataTest and 2 more.executor": "Run",
+    "JUnit.PerformanceAscDataTest.executor": "Run",
+    "JUnit.PerformanceCSortDataTypeTest.executor": "Run",
+    "JUnit.PerformanceCSortDataTypeTest.measure.executor": "Run",
+    "JUnit.PerformanceChartsAscDataTest and 2 more (1).executor": "Run",
+    "JUnit.PerformanceChartsAscDataTest and 2 more.executor": "Run",
+    "JUnit.PerformanceChartsAscDataTest,runPerformanceChartTest_CmpSorters and 2 more.executor": "Run",
+    "JUnit.PerformanceChartsAscDataTest.executor": "Run",
+    "JUnit.PerformanceChartsDescDataTest.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest and 2 more.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_CmpSorters.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_DetailedQSortWithInsort.executor": "Run",
+    "JUnit.PerformanceChartsRandomDataTest.runPerformanceChartTest_PrimitiveSorters.executor": "Run",
+    "JUnit.PerformancePrimitiveTest.executor": "Run",
+    "JUnit.PerformancePrimitiveTest.runPerformanceTest.executor": "Run",
+    "JUnit.PerformanceQsortInsortSubproblemTest.measure.executor": "Run",
+    "JUnit.PerformanceRandDataPrimitiveTest.executor": "Run",
+    "JUnit.PerformanceRandDataTest.executor": "Run",
+    "JUnit.PerformanceRandIntegerDataTest.executor": "Run",
+    "JUnit.PerformanceRandNonRepeatingDataTest and 1 more.executor": "Run",
+    "JUnit.PerformanceRandNonRepeatingDataTest.executor": "Run",
+    "JUnit.PerformanceRandRepeatingDataTest.executor": "Run",
+    "JUnit.QuickSortIterativeHoareTest.executor": "Run",
+    "JUnit.QuickSortIterativeHoareTest.should_ThrowException_When_ThereIsNullElementInData.executor": "Run",
+    "JUnit.QuickSortIterativeRandomTest.executor": "Run",
+    "JUnit.QuickSortIterativeWithInSortTest.executor": "Run",
+    "JUnit.SelectionSortPrimitiveTest.executor": "Run",
+    "JUnit.SortLinkedListProblemTest.executor": "Run",
+    "JUnit.SortLinkedListProblemTest.shouldSort_ForRandomSmallData.executor": "Run",
+    "JUnit.java in aisd_ex_0.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/antekk/IdeaProjects/AISD",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test_results/ex7" />
@@ -322,6 +334,7 @@
       <workItem from="1761600260665" duration="4728000" />
       <workItem from="1762108898368" duration="3106000" />
       <workItem from="1762166673384" duration="59000" />
+      <workItem from="1765664322198" duration="653000" />
     </task>
     <servers />
   </component>

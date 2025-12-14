@@ -9,5 +9,8 @@
         <module name="aisd_ex_0" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AISD" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

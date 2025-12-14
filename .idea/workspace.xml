@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd" />
+    <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
+      <change afterPath="$PROJECT_DIR$/OLD_test_results/visualization_HashDoubleHashingMitWordsGroupingVisualization_400_x_334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_test_results/visualization_HashDoubleHashingRandWordsGroupingVisualization_400_x_334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_test_results/visualization_HashLinearProbingMitWordsGroupingVisualization_400_x_334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_test_results/visualization_HashLinearProbingRandWordsGroupingVisualization_400_x_334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/lcs/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderBottomUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterBottomUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterExtendedResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterTopDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterWithSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/DataUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderBottomUpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderRecursiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterBottomUpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterRecursiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterTopDownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterWithSolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +52,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="cw3-fix" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,39 +78,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.All in aisd_ex_0.executor": "Run",
-    "JUnit.MountainPeakProblemTest.testForPeakOnTheLeft.executor": "Debug",
-    "JUnit.java in aisd_ex_0.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/antekk/IdeaProjects/AISD/cw4_2/zad_wykres_put_height",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.general",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.All in aisd_ex_0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MountainPeakProblemTest.testForPeakOnTheLeft.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.java in aisd_ex_0.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/antekk/IdeaProjects/AISD/cw6/AiSD2025ZEx6&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cw6" />
       <recent name="$PROJECT_DIR$/cw4_2/zad_wykres_put_height" />
       <recent name="$PROJECT_DIR$/cw4_2/zad_counttreeheight" />
       <recent name="$PROJECT_DIR$/cw4_2/zad_counttreeheight/test/java/pl/edu/pw/ee/aisd2025zex4/performance/chart" />
       <recent name="$PROJECT_DIR$/cw4_2/zad_tree_insert_delete" />
-      <recent name="$PROJECT_DIR$/cw3_GR1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -153,6 +184,12 @@
       <workItem from="1762976698369" duration="599000" />
       <workItem from="1763046817244" duration="1412000" />
       <workItem from="1763998464742" duration="11732000" />
+      <workItem from="1764800074938" duration="10000" />
+      <workItem from="1765102066016" duration="1316000" />
+      <workItem from="1765476906988" duration="627000" />
+      <workItem from="1765479736304" duration="1200000" />
+      <workItem from="1765568864962" duration="1200000" />
+      <workItem from="1765617425306" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
