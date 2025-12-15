@@ -18,6 +18,5 @@ public abstract class RodCutter {
         if (prices.length < rodLength) {
             throw new IllegalArgumentException("The size of the price array cannot be smaller than the length of the rod!");
         }
-
     }
 }

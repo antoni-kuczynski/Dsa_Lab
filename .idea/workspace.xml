@@ -5,36 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
-      <change afterPath="$PROJECT_DIR$/OLD_test_results/visualization_HashDoubleHashingMitWordsGroupingVisualization_400_x_334.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OLD_test_results/visualization_HashDoubleHashingRandWordsGroupingVisualization_400_x_334.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OLD_test_results/visualization_HashLinearProbingMitWordsGroupingVisualization_400_x_334.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OLD_test_results/visualization_HashLinearProbingRandWordsGroupingVisualization_400_x_334.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/lcs/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderBottomUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterBottomUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterExtendedResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterTopDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterWithSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/DataUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderBottomUpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderRecursiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterBottomUpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterRecursiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterTopDownTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutterWithSolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/lcs/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/lcs/LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/lcs/LongestCommonSubsequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/lcs/LongestCommonSubsequenceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +67,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/antekk/IdeaProjects/AISD/cw6/AiSD2025ZEx6&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/antekk/IdeaProjects/AISD&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -190,6 +166,9 @@
       <workItem from="1765479736304" duration="1200000" />
       <workItem from="1765568864962" duration="1200000" />
       <workItem from="1765617425306" duration="645000" />
+      <workItem from="1765671416597" duration="379000" />
+      <workItem from="1765705795135" duration="1200000" />
+      <workItem from="1765803251539" duration="1798000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -335,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764019689373</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="aasd">
+      <option name="closed" value="true" />
+      <created>1765671431153</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1765671431153</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

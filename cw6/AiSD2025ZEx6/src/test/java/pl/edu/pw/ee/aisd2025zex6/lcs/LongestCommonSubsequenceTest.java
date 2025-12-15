@@ -28,7 +28,7 @@ public class LongestCommonSubsequenceTest {
     }
 
     @Test
-    public void shouldWork_ForReversedWordCombination() {
+    public void shouldWork_ForReversedOrderWordCombination() {
         //given
         String left = "kaczka";
         String top = "kratka";
@@ -38,6 +38,62 @@ public class LongestCommonSubsequenceTest {
 
         //then
         String expected = "kaka";
+        assertEquals(expected, s);
+    }
+
+    @Test
+    public void shouldWork_WhenWordsAreDifferent() {
+        //given
+        String left = "komputer";
+        String top = "muzeum";
+
+        //when
+        String s = lcs.findLcs(left, top);
+
+        //then
+        String expected = "mue";
+        assertEquals(expected, s);
+    }
+
+    @Test
+    public void shouldWork_ForBothEmptyWords() {
+        //given
+        String left = "";
+        String top = "";
+
+        //when
+        String s = lcs.findLcs(left, top);
+
+        //then
+        String expected = "";
+        assertEquals(expected, s);
+    }
+
+    @Test
+    public void shouldWork_WhenTheLastArrayFieldIsNotDiagonalDirection() {
+        //given
+        String left = "abc";
+        String top = "abcd";
+
+        //when
+        String s = lcs.findLcs(left, top);
+
+        //then
+        String expected = "abc";
+        assertEquals(expected, s);
+    }
+
+    @Test
+    public void shouldWork_WhenTopWordShorterThanBottom() {
+        //given
+        String left = "abcd";
+        String top = "ab";
+
+        //when
+        String s = lcs.findLcs(left, top);
+
+        //then
+        String expected = "ab";
         assertEquals(expected, s);
     }
 
