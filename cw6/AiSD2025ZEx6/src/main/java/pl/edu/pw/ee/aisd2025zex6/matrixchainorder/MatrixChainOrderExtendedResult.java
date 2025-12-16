@@ -19,6 +19,20 @@ public class MatrixChainOrderExtendedResult extends MatrixChainOrderResult {
                 throw new IllegalArgumentException("Solution array can't contain null subarrays!");
             }
         }
+
+        for (int i = 1; i < solutions.length; i++) {
+            for (int j = i + 1; j < solutions.length; j++) {
+                int solution = solutions[i][j];
+
+                if (solution == 0) {
+                    continue;
+                }
+
+                if (solution < i || solution >= j) {
+                    throw new IllegalArgumentException("Invalid split index for " + i + " " + j);
+                }
+            }
+        }
     }
 
     public String reconstructOptimalSolutions() {

@@ -22,7 +22,7 @@ public class MatrixChainOrderExtendedResultTest {
     }
 
     @Test
-    public void shouldReturnSingleMatrix_WhenOnlyOneMatrix2() {
+    public void shouldThrowException_WhenInvalidSplitOccured() {
         //given
         int[][] solutions = new int[4][4];
         solutions[1][3] = 1; //A1..A3
@@ -32,10 +32,23 @@ public class MatrixChainOrderExtendedResultTest {
         //when
         MatrixChainOrderExtendedResult result =
                 new MatrixChainOrderExtendedResult(0, solutions);
+        assertThrows(IllegalArgumentException.class, result::reconstructOptimalSolutions);
+    }
+
+    @Test
+    public void shouldReturnSingleMatrix_WhenOnlyOneMatrix2() {
+        //given
+        int[][] solutions = new int[4][4];
+        solutions[1][3] = 1;
+        solutions[2][3] = 2;
+
+        //when
+        MatrixChainOrderExtendedResult result =
+                new MatrixChainOrderExtendedResult(0, solutions);
         String reconstruction = result.reconstructOptimalSolutions();
 
         //then
-        assertEquals("A1", reconstruction);
+        assertEquals("(A1 x (A2 x A3))", reconstruction);
     }
 
     @Test

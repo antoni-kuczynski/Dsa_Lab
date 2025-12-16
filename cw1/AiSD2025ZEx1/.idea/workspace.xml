@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/lcs/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/lcs/LongestCommonSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/lcs/LongestCommonSubsequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/lcs/LongestCommonSubsequenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/target/classes/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/target/classes/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/target/classes/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/target/classes/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/target/test-classes/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/target/test-classes/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -18,10 +18,8 @@ public class DataUtils {
         Random rand = new Random();
         int[] dims = new int[numberOfMatrices + 1];
 
-        // generate first dimension
         dims[0] = rand.nextInt(maxDim - minDim + 1) + minDim;
 
-        // generate subsequent dimensions
         for (int i = 1; i <= numberOfMatrices; i++) {
             dims[i] = rand.nextInt(maxDim - minDim + 1) + minDim;
         }
