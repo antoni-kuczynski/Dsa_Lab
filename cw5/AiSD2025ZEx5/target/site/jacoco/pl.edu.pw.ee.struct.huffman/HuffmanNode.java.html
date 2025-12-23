@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>HuffmanNode.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">AiSD2025ZEx5</a> &gt; <a href="index.source.html" class="el_package">pl.edu.pw.ee.struct.huffman</a> &gt; <span class="el_source">HuffmanNode.java</span></div><h1>HuffmanNode.java</h1><pre class="source lang-java linenums">package pl.edu.pw.ee.struct.huffman;
+
+import pl.edu.pw.ee.binary.io.BitWriter;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class HuffmanNode implements Comparable&lt;HuffmanNode&gt; {
+
+    private HuffmanNode left;
+    private HuffmanNode right;
+    private byte[] key;
+    private long frequency;
+    private String code;
+
+<span class="fc" id="L16">    public static int FLAG_INTERNAL_NODE = 0;</span>
+<span class="fc" id="L17">    public static int FLAG_KEY_NODE = 1;</span>
+
+    public static HuffmanNode newEmptyNode(long frequency, String code) {
+<span class="fc" id="L20">        return new HuffmanNode(null, frequency, code);</span>
+    }
+
+    public static HuffmanNode newKeyNode(byte[] key, long frequency, String code) {
+<span class="fc" id="L24">        return new HuffmanNode(key, frequency, code);</span>
+    }
+
+
+<span class="fc" id="L28">    private HuffmanNode(byte[] key, long frequency, String code) {</span>
+<span class="fc" id="L29">        this.key = key;</span>
+<span class="fc" id="L30">        this.frequency = frequency;</span>
+<span class="fc" id="L31">        this.code = code;</span>
+<span class="fc" id="L32">    }</span>
+
+    public HuffmanNode getLeft() {
+<span class="fc" id="L35">        return left;</span>
+    }
+
+    public void setLeft(HuffmanNode left) {
+<span class="fc" id="L39">        this.left = left;</span>
+<span class="fc" id="L40">    }</span>
+
+    public HuffmanNode getRight() {
+<span class="fc" id="L43">        return right;</span>
+    }
+
+    public void setRight(HuffmanNode right) {
+<span class="fc" id="L47">        this.right = right;</span>
+<span class="fc" id="L48">    }</span>
+
+    public byte[] getKey() {
+<span class="fc" id="L51">        return key;</span>
+    }
+
+    public long getFrequency() {
+<span class="fc" id="L55">        return frequency;</span>
+    }
+
+    public String getCode() {
+<span class="fc" id="L59">        return code;</span>
+    }
+
+    public void setCode(String code) {
+<span class="fc" id="L63">        this.code = code;</span>
+<span class="fc" id="L64">    }</span>
+
+    public boolean isLeaf() {
+<span class="pc bpc" id="L67" title="1 of 4 branches missed.">        return this.right == null &amp;&amp; this.left == null;</span>
+    }
+
+    @Override
+    public int compareTo(HuffmanNode o) {
+<span class="fc bfc" id="L72" title="All 2 branches covered.">        if (frequency &gt; o.frequency) {</span>
+<span class="fc" id="L73">            return 1;</span>
+<span class="fc bfc" id="L74" title="All 2 branches covered.">        } else if (frequency &lt; o.frequency) {</span>
+<span class="fc" id="L75">            return -1;</span>
+        }
+
+<span class="fc bfc" id="L78" title="All 4 branches covered.">        if (key != null &amp;&amp; o.key != null)</span>
+<span class="fc" id="L79">            return BitWriter.compareByteArrays(key, o.key);</span>
+
+<span class="fc bfc" id="L81" title="All 4 branches covered.">        if (key == null &amp;&amp; o.key != null)</span>
+<span class="fc" id="L82">            return 1;</span>
+
+<span class="fc bfc" id="L84" title="All 2 branches covered.">        if (key != null)</span>
+<span class="fc" id="L85">            return -1;</span>
+
+<span class="fc" id="L87">        return 0;</span>
+    }
+
+    protected void printNode(String prefix, boolean isTail) {
+<span class="nc bnc" id="L91" title="All 2 branches missed.">        System.out.println(prefix + (isTail ? &quot;└── &quot; : &quot;├── &quot;)</span>
+<span class="nc bnc" id="L92" title="All 2 branches missed.">                + (this.getKey() == null ? &quot;*&quot; : Arrays.toString(this.getKey()))</span>
+<span class="nc" id="L93">                + &quot; (&quot; + this.getFrequency() + &quot;)&quot;</span>
+<span class="nc" id="L94">                + &quot; [w=&quot; + this.getCode() + &quot;]&quot;);</span>
+
+<span class="nc" id="L96">        ArrayList&lt;HuffmanNode&gt; children = new ArrayList&lt;&gt;();</span>
+<span class="nc bnc" id="L97" title="All 2 branches missed.">        if (this.getLeft() != null) children.add(this.getLeft());</span>
+<span class="nc bnc" id="L98" title="All 2 branches missed.">        if (this.getRight() != null) children.add(this.getRight());</span>
+
+<span class="nc bnc" id="L100" title="All 2 branches missed.">        for (int i = 0; i &lt; children.size() - 1; i++) {</span>
+<span class="nc bnc" id="L101" title="All 2 branches missed.">            children.get(i).printNode(prefix + (isTail ? &quot;    &quot; : &quot;│   &quot;), false);</span>
+        }
+
+<span class="nc bnc" id="L104" title="All 2 branches missed.">        if (children.size() &gt; 0) {</span>
+<span class="nc bnc" id="L105" title="All 2 branches missed.">            children.get(children.size() - 1).printNode(prefix + (isTail ? &quot;    &quot; : &quot;│   &quot;), true);</span>
+        }
+<span class="nc" id="L107">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.14.202510111229</span></div></body></html>

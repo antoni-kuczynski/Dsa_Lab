@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>HuffmanCompressor.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">AiSD2025ZEx5</a> &gt; <a href="index.source.html" class="el_package">pl.edu.pw.ee.services</a> &gt; <span class="el_source">HuffmanCompressor.java</span></div><h1>HuffmanCompressor.java</h1><pre class="source lang-java linenums">package pl.edu.pw.ee.services;
+
+import pl.edu.pw.ee.binary.CompressedHeader;
+import pl.edu.pw.ee.binary.io.BitWriter;
+import pl.edu.pw.ee.struct.huffman.HuffmanKeyLengthMap;
+import pl.edu.pw.ee.struct.huffman.HuffmanCodesMap;
+import pl.edu.pw.ee.struct.huffman.HuffmanPriorityQueue;
+import pl.edu.pw.ee.struct.huffman.HuffmanTree;
+import pl.edu.pw.ee.logging.ColorTag;
+import pl.edu.pw.ee.logging.LoggingUtils;
+
+import java.io.*;
+import java.nio.ByteBuffer;
+import java.nio.channels.Channels;
+import java.nio.channels.FileChannel;
+import java.nio.file.StandardOpenOption;
+import java.util.Arrays;
+
+<span class="fc" id="L19">public class HuffmanCompressor implements HuffmanService {</span>
+    private HuffmanKeyLengthMap byteOccurenceMap;
+    private HuffmanPriorityQueue huffmanNodeQueue;
+
+    private void writeHuffmanTreeString(String tree, BitWriter writer) throws IOException {
+<span class="fc" id="L24">        writer.writeBits(tree);</span>
+<span class="fc" id="L25">    }</span>
+
+    @Override
+    public void apply(File inputFile, File outputFile, int maxBytesPerKey, int bufSize) throws IOException {
+<span class="fc" id="L29">        System.out.println(&quot;=================================================&quot;);</span>
+<span class="fc" id="L30">        System.out.println(&quot;             STARTING COMPRESSION                &quot;);</span>
+<span class="fc" id="L31">        System.out.println(&quot;=================================================&quot;);</span>
+<span class="fc" id="L32">        long fileSize = inputFile.length();</span>
+<span class="fc" id="L33">        LoggingUtils.printInfo(&quot;File size is &quot; + fileSize + &quot; bytes&quot;);</span>
+<span class="fc" id="L34">        LoggingUtils.printInfo(&quot;Bytes per key: &quot; + maxBytesPerKey);</span>
+<span class="fc" id="L35">        LoggingUtils.printInfo(&quot;Compression in progress...&quot;);</span>
+<span class="fc" id="L36">        LoggingUtils.printProgressBar(0);</span>
+
+<span class="fc" id="L38">        long t0 = System.nanoTime();</span>
+<span class="fc" id="L39">        byteOccurenceMap = new HuffmanKeyLengthMap(</span>
+                inputFile,
+                fileSize,
+                maxBytesPerKey,
+                bufSize
+        );
+<span class="fc" id="L45">        huffmanNodeQueue = new HuffmanPriorityQueue(byteOccurenceMap);</span>
+<span class="fc" id="L46">        HuffmanTree tree = HuffmanTree.buildFromPriorityQueue(huffmanNodeQueue);</span>
+
+<span class="fc" id="L48">        HuffmanCodesMap map = HuffmanCodesMap.getInstanceFromTree(tree);</span>
+
+<span class="fc" id="L50">        long tComp = System.nanoTime() - t0;</span>
+<span class="fc" id="L51">        LoggingUtils.printInfo(&quot;Compression took &quot; + tComp + &quot; ns&quot;);</span>
+
+
+<span class="fc" id="L54">        FileChannel inputFileChannel = FileChannel.open(</span>
+<span class="fc" id="L55">                inputFile.toPath(),</span>
+                StandardOpenOption.CREATE,
+                StandardOpenOption.WRITE,
+                StandardOpenOption.READ
+        );
+
+<span class="fc" id="L61">        FileChannel outputFileChannel = FileChannel.open(</span>
+<span class="fc" id="L62">                outputFile.toPath(),</span>
+                StandardOpenOption.CREATE,
+                StandardOpenOption.WRITE,
+                StandardOpenOption.READ
+        );
+
+<span class="fc" id="L68">        LoggingUtils.printInfo(&quot;Writing to output file:&quot;);</span>
+
+<span class="fc" id="L70">        BufferedInputStream in = new BufferedInputStream(Channels.newInputStream(inputFileChannel), bufSize);</span>
+<span class="fc" id="L71">        BufferedOutputStream out = new BufferedOutputStream(Channels.newOutputStream(outputFileChannel), bufSize);</span>
+<span class="fc" id="L72">        BitWriter writer = new BitWriter(out, bufSize);</span>
+
+        //HEADER
+        int numberOfBitsRequiredToStoreMaxBytesPerKey;
+<span class="fc bfc" id="L76" title="All 2 branches covered.">        if (maxBytesPerKey == 1) {</span>
+<span class="fc" id="L77">            numberOfBitsRequiredToStoreMaxBytesPerKey = 0; //no need to store this - all keys are always equal length(1byte)</span>
+        } else {
+<span class="fc" id="L79">            numberOfBitsRequiredToStoreMaxBytesPerKey = 32 - Integer.numberOfLeadingZeros(maxBytesPerKey);</span>
+        }
+
+<span class="fc" id="L82">        CompressedHeader header = new CompressedHeader.Builder().</span>
+<span class="fc" id="L83">                setAmountOfAlignBitsAL(0b000).</span>
+<span class="fc" id="L84">                setTreeKeyBitCount(numberOfBitsRequiredToStoreMaxBytesPerKey &amp; 0b11111).</span>
+<span class="fc" id="L85">        build();</span>
+<span class="fc" id="L86">        header.write(writer);</span>
+
+        //TREE
+<span class="fc" id="L89">        String inorderTreeString = tree.asPreOrderString(numberOfBitsRequiredToStoreMaxBytesPerKey);</span>
+<span class="fc" id="L90">        writeHuffmanTreeString(inorderTreeString, writer);</span>
+
+        //DATA
+<span class="fc" id="L93">        long previousTime = System.nanoTime();</span>
+<span class="fc" id="L94">        long amountOfReadBytes = 0L;</span>
+<span class="fc" id="L95">        int lastProgressWrite = 0;</span>
+<span class="fc" id="L96">        int progressWriteThreshold = LoggingUtils.prepareProgressPrintThreshold(fileSize);</span>
+<span class="fc" id="L97">        LoggingUtils.printProgressBar(0);</span>
+
+<span class="fc" id="L99">        byte[] chain = new byte[maxBytesPerKey];</span>
+<span class="fc" id="L100">        int codeIndex = 0;</span>
+
+<span class="fc" id="L102">        byte[] buf = new byte[bufSize];</span>
+        int bytesRead;
+<span class="fc bfc" id="L104" title="All 2 branches covered.">        while ((bytesRead = in.read(buf)) &gt; 0) {</span>
+<span class="fc" id="L105">            int ptr = 0;</span>
+<span class="fc bfc" id="L106" title="All 2 branches covered.">            while (ptr &lt; bytesRead) {</span>
+<span class="fc" id="L107">                int readByte = buf[ptr++] &amp; 0xFF;</span>
+<span class="fc" id="L108">                amountOfReadBytes++;</span>
+<span class="fc" id="L109">                chain[codeIndex++] = (byte) readByte;</span>
+
+<span class="fc bfc" id="L111" title="All 2 branches covered.">                if (codeIndex == maxBytesPerKey) {</span>
+<span class="fc" id="L112">                    String value = map.get(chain);</span>
+<span class="pc bpc" id="L113" title="1 of 2 branches missed.">                    if (value == null) {</span>
+<span class="nc" id="L114">                        throw new IllegalStateException(&quot;No Huffman code for key&quot;);</span>
+                    }
+<span class="fc" id="L116">                    writer.writeBits(value);</span>
+<span class="fc" id="L117">                    codeIndex = 0;</span>
+<span class="fc" id="L118">                    chain = new byte[maxBytesPerKey];</span>
+                }
+
+<span class="fc bfc" id="L121" title="All 2 branches covered.">                if (lastProgressWrite &lt; progressWriteThreshold) {</span>
+<span class="fc" id="L122">                    lastProgressWrite++;</span>
+                } else {
+<span class="fc" id="L124">                    float progressValue = ((float) amountOfReadBytes / fileSize) * 100;</span>
+<span class="fc" id="L125">                    LoggingUtils.printProgressBar(progressValue);</span>
+<span class="fc" id="L126">                    lastProgressWrite = 0;</span>
+                }
+<span class="fc" id="L128">            }</span>
+<span class="fc" id="L129">        }</span>
+
+<span class="fc bfc" id="L131" title="All 2 branches covered.">        if (codeIndex &gt; 0) {</span>
+<span class="fc" id="L132">            String lastValue = map.get(Arrays.copyOf(chain, codeIndex));</span>
+<span class="pc bpc" id="L133" title="1 of 2 branches missed.">            if (lastValue == null) {</span>
+<span class="nc" id="L134">                throw new IllegalStateException(&quot;No Huffman code for last key&quot;);</span>
+            }
+<span class="fc" id="L136">            writer.writeBits(lastValue);</span>
+        }
+<span class="fc" id="L138">        writer.flush();</span>
+
+<span class="fc" id="L140">        int amountOfAlignBits = (int) (writer.getBitsConsumed() % 8);</span>
+<span class="fc bfc" id="L141" title="All 2 branches covered.">        if (amountOfAlignBits != 0) {</span>
+<span class="fc" id="L142">            amountOfAlignBits = 8 - amountOfAlignBits;</span>
+        }
+
+<span class="fc" id="L145">        byte remainderOfTheByte =  8 - STORED_ALIGN_BITS_BIT_LENGTH;</span>
+
+<span class="fc" id="L147">        try (FileChannel channelForHeaderWrite = FileChannel.open(</span>
+<span class="fc" id="L148">                outputFile.toPath(),</span>
+                StandardOpenOption.WRITE)) {
+
+<span class="fc" id="L151">            channelForHeaderWrite.position(HEADER_MEM_POSITION);</span>
+
+<span class="fc" id="L153">            ByteBuffer headerBuf = ByteBuffer.allocate(2);</span>
+<span class="fc" id="L154">            headerBuf.put((byte) (header.getBinaryRepresenation() | (amountOfAlignBits &lt;&lt; remainderOfTheByte)));</span>
+<span class="fc" id="L155">            headerBuf.flip();</span>
+
+<span class="fc" id="L157">            int writtenHeaderBytes = channelForHeaderWrite.write(headerBuf);</span>
+<span class="pc bpc" id="L158" title="1 of 2 branches missed.">            if (writtenHeaderBytes &lt;= 0) {</span>
+<span class="nc" id="L159">                throw new IOException(&quot;Failed to write header bits!&quot;);</span>
+            }
+
+<span class="nc" id="L162">        } catch (Exception e) {</span>
+<span class="nc" id="L163">            LoggingUtils.printError(&quot;Failed to write header!&quot;);</span>
+<span class="nc" id="L164">            in.close();</span>
+<span class="nc" id="L165">            writer.close();</span>
+<span class="nc" id="L166">            return;</span>
+<span class="fc" id="L167">        }</span>
+
+<span class="fc" id="L169">        in.close();</span>
+<span class="fc" id="L170">        writer.close();</span>
+
+<span class="fc" id="L172">        long time = System.nanoTime() - previousTime;</span>
+<span class="fc" id="L173">        LoggingUtils.printProgressBar(100, ColorTag.ANSI_GREEN);</span>
+<span class="fc" id="L174">        System.out.println();</span>
+<span class="fc" id="L175">        LoggingUtils.printInfo(&quot;Writing to file took: &quot; + time);</span>
+<span class="fc" id="L176">        LoggingUtils.printSuccess(&quot;Compression finished&quot;);</span>
+<span class="fc" id="L177">        System.out.println(ColorTag.ANSI_RESET);</span>
+<span class="fc" id="L178">    }</span>
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.14.202510111229</span></div></body></html>

@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/bonus/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/bonus/MaxRobberySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/bonus/WordMinDistance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/target/classes/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/target/classes/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/target/classes/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/target/classes/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/target/test-classes/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../cw6/AiSD2025ZEx6/target/test-classes/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +298,15 @@
       <workItem from="1762166673384" duration="59000" />
       <workItem from="1765664322198" duration="1032000" />
       <workItem from="1765705796112" duration="1201000" />
-      <workItem from="1765803252450" duration="1797000" />
+      <workItem from="1765803252450" duration="2408000" />
+      <workItem from="1765978718485" duration="599000" />
+      <workItem from="1766091665395" duration="599000" />
+      <workItem from="1766174743074" duration="599000" />
+      <workItem from="1766225618144" duration="599000" />
+      <workItem from="1766264854680" duration="600000" />
+      <workItem from="1766312418020" duration="599000" />
+      <workItem from="1766356308803" duration="599000" />
+      <workItem from="1766398659115" duration="2400000" />
     </task>
     <servers />
   </component>

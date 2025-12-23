@@ -5,13 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/OptionValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/binary/CompressedHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/binary/io/AbstractBitIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/binary/io/BitReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/binary/io/BitWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/binary/misc/BinaryConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/logging/ColorTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/logging/LoggingUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/services/HuffmanCompressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/services/HuffmanDecompressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/services/HuffmanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/huffman/HuffmanCodesMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/huffman/HuffmanKeyLengthMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/huffman/HuffmanNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/huffman/HuffmanPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/huffman/HuffmanTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/map/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/map/MapInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/map/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/map/RbtMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/map/RedBlackTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/queue/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/queue/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/test/java/pl/edu/pw/ee/LargeFileGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/test/java/pl/edu/pw/ee/PriorityQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/test/java/pl/edu/pw/ee/compressor/CompressionPerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/test/java/pl/edu/pw/ee/compressor/CompressorDecompressorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/test/java/pl/edu/pw/ee/compressor/TestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/test_files/original/abcd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/test_files/original/emoji.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/test_files/original/molly.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/bonus/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/bonus/MaxRobberySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/bonus/WordMinDistance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/test/java/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/target/classes/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/target/classes/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/target/classes/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutter.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/target/classes/pl/edu/pw/ee/aisd2025zex6/rodcuttingproblem/RodCutter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/target/test-classes/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/target/test-classes/pl/edu/pw/ee/aisd2025zex6/matrixchainorder/MatrixChainOrderExtendedResultTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,42 +93,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.All in aisd_ex_0.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MountainPeakProblemTest.testForPeakOnTheLeft.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.java in aisd_ex_0.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/antekk/IdeaProjects/AISD&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in aisd_ex_0.executor": "Run",
+    "JUnit.MountainPeakProblemTest.testForPeakOnTheLeft.executor": "Debug",
+    "JUnit.java in aisd_ex_0.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/antekk/IdeaProjects/AISD/cw5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.general",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cw5" />
       <recent name="$PROJECT_DIR$/cw6" />
       <recent name="$PROJECT_DIR$/cw4_2/zad_wykres_put_height" />
       <recent name="$PROJECT_DIR$/cw4_2/zad_counttreeheight" />
       <recent name="$PROJECT_DIR$/cw4_2/zad_counttreeheight/test/java/pl/edu/pw/ee/aisd2025zex4/performance/chart" />
-      <recent name="$PROJECT_DIR$/cw4_2/zad_tree_insert_delete" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cw5/AiSD2025ZEx5" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="pl.edu.pw.ee.aisd_ex_0.searcher" />
@@ -169,7 +211,15 @@
       <workItem from="1765617425306" duration="645000" />
       <workItem from="1765671416597" duration="379000" />
       <workItem from="1765705795135" duration="1200000" />
-      <workItem from="1765803251539" duration="2562000" />
+      <workItem from="1765803251539" duration="3262000" />
+      <workItem from="1765978716966" duration="606000" />
+      <workItem from="1766091663620" duration="781000" />
+      <workItem from="1766174742049" duration="638000" />
+      <workItem from="1766225617327" duration="644000" />
+      <workItem from="1766264853927" duration="622000" />
+      <workItem from="1766312417304" duration="670000" />
+      <workItem from="1766356307894" duration="599000" />
+      <workItem from="1766398658131" duration="5066000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -331,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765838817048</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="aasd">
+      <option name="closed" value="true" />
+      <created>1765844266764</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1765844266764</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
