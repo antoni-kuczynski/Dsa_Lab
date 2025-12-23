@@ -1,32 +1,35 @@
 package pl.edu.pw.ee.aisd2025zex6.bonus;
 
-import java.util.Arrays;
-
 public class WordMinDistance {
 
-    public static void main(String[] args) {
-        String first = "dom";
-        String second = "koty";
+    public int findMinDistance(String first, String second) {
+        int n = first.length();
+        int m = second.length();
 
-        int[] operationCount = new int[Math.max(first.length(), second.length())];
+        int[][] dp = new int[n + 1][m + 1];
 
-        if (first.charAt(0) != second.charAt(0))
-            operationCount[0] = 1;
-        else
-            operationCount[0] = 0;
-
-        for (int i = 1; i < Math.min(first.length(), second.length()); i++) {
-            if (first.charAt(i) != second.charAt(i))
-                operationCount[i] = operationCount[i-1] + 1;
-            else
-                operationCount[i] = operationCount[i-1];
+        // Warunki początkowe
+        for (int i = 0; i <= n; i++) {
+            dp[i][0] = i;
+        }
+        for (int j = 0; j <= m; j++) {
+            dp[0][j] = j;
         }
 
-        for (int i = Math.min(first.length(), second.length()); i < Math.max(first.length(), second.length()); i++) {
-            operationCount[i] = operationCount[i-1] + 1;
+        // Wypełnianie tablicy DP
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
+                if (first.charAt(i - 1) == second.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else {
+                    dp[i][j] = 1 + Math.min(
+                            dp[i - 1][j],
+                            Math.min(dp[i][j - 1], dp[i - 1][j - 1])
+                    );
+                }
+            }
         }
 
-        System.out.println(Arrays.toString(operationCount));
-
+        return dp[n][m];
     }
 }
