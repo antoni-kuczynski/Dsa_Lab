@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pl.edu.pw.ee.compressor.CompressorDecompressorTest" time="0.12" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pl.edu.pw.ee.compressor.CompressorDecompressorTest" time="0.118" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="ANSI_X3.4-1968"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk/lib"/>
-    <property name="sun.java.command" value="/home/antekk/IdeaProjects/AISD/cw5/AiSD2025ZEx5/target/surefire/surefirebooter-20251223004902780_3.jar /home/antekk/IdeaProjects/AISD/cw5/AiSD2025ZEx5/target/surefire 2025-12-23T00-49-02_747-jvmRun1 surefire-20251223004902780_1tmp surefire_0-20251223004902780_2tmp"/>
+    <property name="sun.java.command" value="/home/antekk/IdeaProjects/AISD/cw5/AiSD2025ZEx5/target/surefire/surefirebooter-20251223123722834_3.jar /home/antekk/IdeaProjects/AISD/cw5/AiSD2025ZEx5/target/surefire 2025-12-23T12-37-22_802-jvmRun1 surefire-20251223123722834_1tmp surefire_0-20251223123722834_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/antekk/IdeaProjects/AISD/cw5/AiSD2025ZEx5/target/test-classes:/home/antekk/IdeaProjects/AISD/cw5/AiSD2025ZEx5/target/classes:/home/antekk/.m2/repository/org/junit/jupiter/junit-jupiter/6.1.0-M1/junit-jupiter-6.1.0-M1.jar:/home/antekk/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.1.0-M1/junit-jupiter-api-6.1.0-M1.jar:/home/antekk/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/antekk/.m2/repository/org/junit/platform/junit-platform-commons/6.1.0-M1/junit-platform-commons-6.1.0-M1.jar:/home/antekk/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/antekk/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/home/antekk/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.1.0-M1/junit-jupiter-params-6.1.0-M1.jar:/home/antekk/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.1.0-M1/junit-jupiter-engine-6.1.0-M1.jar:/home/antekk/.m2/repository/org/junit/platform/junit-platform-engine/6.1.0-M1/junit-platform-engine-6.1.0-M1.jar:/home/antekk/.m2/repository/org/jacoco/jacoco-maven-plugin/0.8.14/jacoco-maven-plugin-0.8.14.jar:/home/antekk/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar:/home/antekk/.m2/repository/org/apache/maven/shared/file-management/3.2.0/file-management-3.2.0.jar:/home/antekk/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/antekk/.m2/repository/commons-io/commons-io/2.19.0/commons-io-2.19.0.jar:/home/antekk/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar:/home/antekk/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar:/home/antekk/.m2/repository/org/jacoco/org.jacoco.agent/0.8.14/org.jacoco.agent-0.8.14-runtime.jar:/home/antekk/.m2/repository/org/jacoco/org.jacoco.core/0.8.14/org.jacoco.core-0.8.14.jar:/home/antekk/.m2/repository/org/ow2/asm/asm/9.9/asm-9.9.jar:/home/antekk/.m2/repository/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar:/home/antekk/.m2/repository/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar:/home/antekk/.m2/repository/org/jacoco/org.jacoco.report/0.8.14/org.jacoco.report-0.8.14.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/antekk/IdeaProjects/AISD/cw5/AiSD2025ZEx5/target/surefire/surefirebooter-20251223004902780_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/antekk/IdeaProjects/AISD/cw5/AiSD2025ZEx5/target/surefire/surefirebooter-20251223123722834_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.17+10"/>
     <property name="user.name" value="antekk"/>
@@ -52,7 +52,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="should_CompressAndDecompressProperly(TestCase)[1]" classname="pl.edu.pw.ee.compressor.CompressorDecompressorTest" time="0.034">
+  <testcase name="should_CompressAndDecompressProperly(TestCase)[1]" classname="pl.edu.pw.ee.compressor.CompressorDecompressorTest" time="0.032">
     <system-out><![CDATA[=================================================
              STARTING COMPRESSION                
 =================================================
@@ -60,10 +60,10 @@
 &amp#27;[34m[Info] &amp#27;[0mBytes per key: 1
 &amp#27;[34m[Info] &amp#27;[0mCompression in progress...
 [                                                  ] 0.00%[                                                  ] 0.00%[##########                                        ] 20.00%[####################                              ] 40.00%[##############################                    ] 60.00%[########################################          ] 80.00%[##################################################] 100.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mCompression took 4794062 ns
+&amp#27;[34m[Info] &amp#27;[0mCompression took 4373484 ns
 &amp#27;[34m[Info] &amp#27;[0mWriting to output file:
 [                                                  ] 0.00%[##########                                        ] 20.00%[####################                              ] 40.00%[##############################                    ] 60.00%[########################################          ] 80.00%[##################################################] 100.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 1488267
+&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 1276898
 &amp#27;[32m[Success] Compression finished
 &amp#27;[0m
 =================================================
@@ -76,7 +76,7 @@
 &amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="should_CompressAndDecompressProperly(TestCase)[2]" classname="pl.edu.pw.ee.compressor.CompressorDecompressorTest" time="0.009">
+  <testcase name="should_CompressAndDecompressProperly(TestCase)[2]" classname="pl.edu.pw.ee.compressor.CompressorDecompressorTest" time="0.006">
     <system-out><![CDATA[=================================================
              STARTING COMPRESSION                
 =================================================
@@ -84,10 +84,10 @@
 &amp#27;[34m[Info] &amp#27;[0mBytes per key: 1
 &amp#27;[34m[Info] &amp#27;[0mCompression in progress...
 [                                                  ] 0.00%[                                                  ] 0.00%[############                                     ] 25.00%[#########################                         ] 50.00%[#####################################            ] 75.00%[##################################################] 100.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mCompression took 914470 ns
+&amp#27;[34m[Info] &amp#27;[0mCompression took 917849 ns
 &amp#27;[34m[Info] &amp#27;[0mWriting to output file:
 [                                                  ] 0.00%[############                                     ] 25.00%[#########################                         ] 50.00%[#####################################            ] 75.00%[##################################################] 100.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 1227693
+&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 734301
 &amp#27;[32m[Success] Compression finished
 &amp#27;[0m
 =================================================
@@ -108,10 +108,10 @@
 &amp#27;[34m[Info] &amp#27;[0mBytes per key: 2
 &amp#27;[34m[Info] &amp#27;[0mCompression in progress...
 [                                                  ] 0.00%[                                                  ] 0.00%[####################                              ] 40.00%[########################################          ] 80.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mCompression took 1072841 ns
+&amp#27;[34m[Info] &amp#27;[0mCompression took 625846 ns
 &amp#27;[34m[Info] &amp#27;[0mWriting to output file:
 [                                                  ] 0.00%[##########                                        ] 20.00%[####################                              ] 40.00%[##############################                    ] 60.00%[########################################          ] 80.00%[##################################################] 100.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 545042
+&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 621768
 &amp#27;[32m[Success] Compression finished
 &amp#27;[0m
 =================================================
@@ -132,10 +132,10 @@
 &amp#27;[34m[Info] &amp#27;[0mBytes per key: 2
 &amp#27;[34m[Info] &amp#27;[0mCompression in progress...
 [                                                  ] 0.00%[                                                  ] 0.00%[#########################                         ] 50.00%[##################################################] 100.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mCompression took 377704 ns
+&amp#27;[34m[Info] &amp#27;[0mCompression took 408223 ns
 &amp#27;[34m[Info] &amp#27;[0mWriting to output file:
 [                                                  ] 0.00%[############                                     ] 25.00%[#########################                         ] 50.00%[#####################################            ] 75.00%[##################################################] 100.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 352036
+&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 429083
 &amp#27;[32m[Success] Compression finished
 &amp#27;[0m
 =================================================
@@ -156,10 +156,10 @@
 &amp#27;[34m[Info] &amp#27;[0mBytes per key: 1
 &amp#27;[34m[Info] &amp#27;[0mCompression in progress...
 [                                                  ] 0.00%[                                                  ] 0.00%[#                                                 ] 2.50%[##                                               ] 5.00%[###                                              ] 7.50%[#####                                             ] 10.00%[######                                            ] 12.50%[#######                                          ] 15.00%[########                                         ] 17.50%[##########                                        ] 20.00%[###########                                       ] 22.50%[############                                     ] 25.00%[#############                                    ] 27.50%[###############                                   ] 30.00%[################                                  ] 32.50%[#################                                ] 35.00%[##################                               ] 37.50%[####################                              ] 40.00%[#####################                             ] 42.50%[######################                           ] 45.00%[#######################                          ] 47.50%[#########################                         ] 50.00%[##########################                        ] 52.50%[###########################                      ] 55.00%[############################                     ] 57.50%[##############################                    ] 60.00%[###############################                   ] 62.50%[################################                 ] 65.00%[#################################                ] 67.50%[###################################               ] 70.00%[####################################              ] 72.50%[#####################################            ] 75.00%[######################################           ] 77.50%[########################################          ] 80.00%[#########################################         ] 82.50%[##########################################       ] 85.00%[###########################################      ] 87.50%[#############################################     ] 90.00%[##############################################    ] 92.50%[###############################################  ] 95.00%[################################################ ] 97.50%[##################################################] 100.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mCompression took 1837056 ns
+&amp#27;[34m[Info] &amp#27;[0mCompression took 1730338 ns
 &amp#27;[34m[Info] &amp#27;[0mWriting to output file:
 [                                                  ] 0.00%[#                                                 ] 2.50%[##                                               ] 5.00%[###                                              ] 7.50%[#####                                             ] 10.00%[######                                            ] 12.50%[#######                                          ] 15.00%[########                                         ] 17.50%[##########                                        ] 20.00%[###########                                       ] 22.50%[############                                     ] 25.00%[#############                                    ] 27.50%[###############                                   ] 30.00%[################                                  ] 32.50%[#################                                ] 35.00%[##################                               ] 37.50%[####################                              ] 40.00%[#####################                             ] 42.50%[######################                           ] 45.00%[#######################                          ] 47.50%[#########################                         ] 50.00%[##########################                        ] 52.50%[###########################                      ] 55.00%[############################                     ] 57.50%[##############################                    ] 60.00%[###############################                   ] 62.50%[################################                 ] 65.00%[#################################                ] 67.50%[###################################               ] 70.00%[####################################              ] 72.50%[#####################################            ] 75.00%[######################################           ] 77.50%[########################################          ] 80.00%[#########################################         ] 82.50%[##########################################       ] 85.00%[###########################################      ] 87.50%[#############################################     ] 90.00%[##############################################    ] 92.50%[###############################################  ] 95.00%[################################################ ] 97.50%[##################################################] 100.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 1004550
+&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 947995
 &amp#27;[32m[Success] Compression finished
 &amp#27;[0m
 =================================================
@@ -172,7 +172,7 @@
 &amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="should_CompressAndDecompressProperly(TestCase)[6]" classname="pl.edu.pw.ee.compressor.CompressorDecompressorTest" time="0.002">
+  <testcase name="should_CompressAndDecompressProperly(TestCase)[6]" classname="pl.edu.pw.ee.compressor.CompressorDecompressorTest" time="0.003">
     <system-out><![CDATA[=================================================
              STARTING COMPRESSION                
 =================================================
@@ -180,10 +180,10 @@
 &amp#27;[34m[Info] &amp#27;[0mBytes per key: 10
 &amp#27;[34m[Info] &amp#27;[0mCompression in progress...
 [                                                  ] 0.00%[                                                  ] 0.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mCompression took 289648 ns
+&amp#27;[34m[Info] &amp#27;[0mCompression took 360252 ns
 &amp#27;[34m[Info] &amp#27;[0mWriting to output file:
 [                                                  ] 0.00%[##########                                        ] 20.00%[####################                              ] 40.00%[##############################                    ] 60.00%[########################################          ] 80.00%[##################################################] 100.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 319455
+&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 451064
 &amp#27;[32m[Success] Compression finished
 &amp#27;[0m
 =================================================
@@ -196,7 +196,7 @@
 &amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="should_CompressAndDecompressProperly(TestCase)[7]" classname="pl.edu.pw.ee.compressor.CompressorDecompressorTest" time="0.015">
+  <testcase name="should_CompressAndDecompressProperly(TestCase)[7]" classname="pl.edu.pw.ee.compressor.CompressorDecompressorTest" time="0.016">
     <system-out><![CDATA[=================================================
              STARTING COMPRESSION                
 =================================================
@@ -204,10 +204,10 @@
 &amp#27;[34m[Info] &amp#27;[0mBytes per key: 100000000
 &amp#27;[34m[Info] &amp#27;[0mCompression in progress...
 [                                                  ] 0.00%[                                                  ] 0.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mCompression took 6683858 ns
+&amp#27;[34m[Info] &amp#27;[0mCompression took 7851202 ns
 &amp#27;[34m[Info] &amp#27;[0mWriting to output file:
 [                                                  ] 0.00%[##########                                        ] 20.00%[####################                              ] 40.00%[##############################                    ] 60.00%[########################################          ] 80.00%[##################################################] 100.00%&amp#27;[32m[##################################################] 100.00%
-&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 5941683
+&amp#27;[34m[Info] &amp#27;[0mWriting to file took: 6177922
 &amp#27;[32m[Success] Compression finished
 &amp#27;[0m
 =================================================

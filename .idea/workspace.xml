@@ -5,51 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48286284-04f8-47c7-be40-bdd5d4a1db2a" name="Changes" comment="aasd">
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/OptionValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/binary/CompressedHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/binary/io/AbstractBitIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/binary/io/BitReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/binary/io/BitWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/binary/misc/BinaryConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/logging/ColorTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/logging/LoggingUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/services/HuffmanCompressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/services/HuffmanDecompressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/services/HuffmanService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/huffman/HuffmanCodesMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/huffman/HuffmanKeyLengthMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/huffman/HuffmanNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/huffman/HuffmanPriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/huffman/HuffmanTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/map/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/map/MapInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/map/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/map/RbtMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/map/RedBlackTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/queue/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/main/java/pl/edu/pw/ee/struct/queue/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/test/java/pl/edu/pw/ee/LargeFileGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/test/java/pl/edu/pw/ee/PriorityQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/test/java/pl/edu/pw/ee/compressor/CompressionPerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/test/java/pl/edu/pw/ee/compressor/CompressorDecompressorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/src/test/java/pl/edu/pw/ee/compressor/TestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/test_files/original/abcd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/test_files/original/emoji.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/test_files/original/molly.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/bonus/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/bonus/MaxRobberySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cw6/AiSD2025ZEx6/src/main/java/pl/edu/pw/ee/aisd2025zex6/bonus/WordMinDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BONUS_2026/AiSD2025ZBonus2026/src/test/java/pl/edu/pw/ee/aisd2025zbonus2026/operationcounter/OperationCounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/niemanie.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cw5/sdfsdf/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw1/AiSD2025ZEx1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/AiSD2025ZEx5-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/AiSD2025ZEx5-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/surefire-reports/TEST-pl.edu.pw.ee.PriorityQueueTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/surefire-reports/TEST-pl.edu.pw.ee.PriorityQueueTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/surefire-reports/TEST-pl.edu.pw.ee.compressor.CompressionPerformanceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/surefire-reports/TEST-pl.edu.pw.ee.compressor.CompressionPerformanceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/surefire-reports/TEST-pl.edu.pw.ee.compressor.CompressorDecompressorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/surefire-reports/TEST-pl.edu.pw.ee.compressor.CompressorDecompressorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/surefire-reports/pl.edu.pw.ee.compressor.CompressionPerformanceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/surefire-reports/pl.edu.pw.ee.compressor.CompressionPerformanceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/surefire-reports/pl.edu.pw.ee.compressor.CompressorDecompressorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cw5/AiSD2025ZEx5/target/surefire-reports/pl.edu.pw.ee.compressor.CompressorDecompressorTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +75,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/antekk/IdeaProjects/AISD/cw5",
+    "last_opened_file_path": "/home/antekk/IdeaProjects/AISD/BONUS_2026/AiSD2025ZBonus2026",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -220,6 +188,10 @@
       <workItem from="1766312417304" duration="670000" />
       <workItem from="1766356307894" duration="599000" />
       <workItem from="1766398658131" duration="5066000" />
+      <workItem from="1766482246690" duration="975000" />
+      <workItem from="1766512268305" duration="20000" />
+      <workItem from="1766937099203" duration="609000" />
+      <workItem from="1767537302401" duration="1831000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />

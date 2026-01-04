@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: pl.edu.pw.ee.compressor.CompressorDecompressorTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.120 s -- in pl.edu.pw.ee.compressor.CompressorDecompressorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s -- in pl.edu.pw.ee.compressor.CompressorDecompressorTest
