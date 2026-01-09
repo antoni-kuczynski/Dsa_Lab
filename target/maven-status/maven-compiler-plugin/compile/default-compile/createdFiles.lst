@@ -1,5 +1,6 @@
-pl/edu/pw/ee/aisd_ex_0/extratasks/MountainPeakProblem.class
-pl/edu/pw/ee/aisd_ex_0/extratasks/HotOrColdProblem.class
-pl/edu/pw/ee/aisd_ex_0/searcher/linear_search/LinearSearch.class
-pl/edu/pw/ee/aisd_ex_0/searcher/service/Searching.class
-pl/edu/pw/ee/aisd_ex_0/searcher/binary_search/BinarySearch.class
+pl/edu/pw/ee/aisd2025zex4/RbtMap.class
+pl/edu/pw/ee/aisd2025zex4/service/MapInterface.class
+pl/edu/pw/ee/aisd2025zex4/Color.class
+pl/edu/pw/ee/aisd2025zex4/exception/NotYetImplementedException.class
+pl/edu/pw/ee/aisd2025zex4/Node.class
+pl/edu/pw/ee/aisd2025zex4/RedBlackTree.class
