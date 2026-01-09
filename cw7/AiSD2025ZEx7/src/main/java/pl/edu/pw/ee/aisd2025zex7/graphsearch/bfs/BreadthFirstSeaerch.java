@@ -5,10 +5,10 @@ import java.util.Deque;
 import pl.edu.pw.ee.aisd2025zex7.data.input.Graph;
 
 import pl.edu.pw.ee.aisd2025zex7.data.outcome.GraphBfsResult;
-import pl.edu.pw.ee.aisd2025zex7.graphsearch.services.GraphSearch;
 import static java.util.Objects.isNull;
+import pl.edu.pw.ee.aisd2025zex7.graphsearch.services.GraphSearcher;
 
-public class BreadthFirstSeaerch implements GraphSearch {
+public class BreadthFirstSeaerch implements GraphSearcher {
 
     private static final int WHITE = 0;
     private static final int GRAY = 1;

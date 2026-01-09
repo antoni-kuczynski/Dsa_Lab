@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 import pl.edu.pw.ee.aisd2025zex7.data.input.Graph;
 import pl.edu.pw.ee.aisd2025zex7.data.input.GraphUtils;
 import pl.edu.pw.ee.aisd2025zex7.data.outcome.GraphDfsResult;
-import pl.edu.pw.ee.aisd2025zex7.graphsearch.services.GraphSearch;
+import pl.edu.pw.ee.aisd2025zex7.graphsearch.services.GraphSearcher;
 import static pl.edu.pw.ee.aisd2025zex7.utils.ConstPathsToFiles.PATH_GRAPH_9_9;
 
 public class DepthFirstSearchTest {
 
-    private GraphSearch graphSearch;
+    private GraphSearcher graphSearch;
 
     @BeforeEach
     public void setup() {

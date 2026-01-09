@@ -7,16 +7,16 @@ import org.junit.jupiter.api.Test;
 import pl.edu.pw.ee.aisd2025zex7.data.input.Graph;
 import pl.edu.pw.ee.aisd2025zex7.data.input.GraphUtils;
 import pl.edu.pw.ee.aisd2025zex7.data.outcome.GraphBfsResult;
-import pl.edu.pw.ee.aisd2025zex7.graphsearch.services.GraphSearch;
+import pl.edu.pw.ee.aisd2025zex7.graphsearch.services.GraphSearcher;
 import static pl.edu.pw.ee.aisd2025zex7.utils.ConstPathsToFiles.PATH_GRAPH_9_9;
 
 public class BreadthFirstSeaerchTest {
 
-    private GraphSearch graphSearch;
+    private GraphSearcher graphSearcher;
 
     @BeforeEach
     public void setup() {
-        graphSearch = new BreadthFirstSeaerch();
+        graphSearcher = new BreadthFirstSeaerch();
     }
 
     @Test
@@ -26,7 +26,7 @@ public class BreadthFirstSeaerchTest {
         int startVerticeId = 0;
 
         // when
-        GraphBfsResult result = (GraphBfsResult) graphSearch.searchGraphPaths(graph, startVerticeId);
+        GraphBfsResult result = (GraphBfsResult) graphSearcher.searchGraphPaths(graph, startVerticeId);
 
         // then
         assertThat(result.getDistance()).containsExactly(new int[]{0, 1, 2, 2, 1, 2, 3, MAX_VALUE, MAX_VALUE});
