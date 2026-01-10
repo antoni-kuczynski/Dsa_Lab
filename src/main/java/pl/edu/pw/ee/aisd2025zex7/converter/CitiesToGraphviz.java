@@ -31,7 +31,7 @@ public class CitiesToGraphviz {
         out.println("    overlap=false;");
         out.println("    splines=true;");
         out.println("    node [shape=circle, fontsize=12];");
-        out.println("    graph [bgcolor=\"transparent\", background=\"/home/antekk/IdeaProjects/AISD/mapa_europy.png\"];");
+        out.println("    graph [bgcolor=\"transparent\", background=\"\"];");
         out.println();
 
         for (Edge e : edges) {
@@ -49,7 +49,33 @@ public class CitiesToGraphviz {
         String outputFile = "stolice.dot";
 
         convertToGraphviz(inputFile, outputFile);
+
+        ProcessBuilder pb = new ProcessBuilder(
+                "neato",
+                "-Tpng",
+                outputFile,
+                "-o",
+                "stolice.png"
+        );
+
+        pb.redirectErrorStream(true);
+        Process process = pb.start();
+
+        try (BufferedReader reader = new BufferedReader(
+                new InputStreamReader(process.getInputStream()))) {
+
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
+        }
+
+        int exitCode = process.waitFor();
+        if (exitCode != 0) {
+            throw new RuntimeException("error: " + exitCode);
+        }
     }
+
 
     static class Edge {
         String cityA, cityB;

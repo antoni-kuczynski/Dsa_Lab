@@ -3,7 +3,7 @@ graph Cities {
     overlap=false;
     splines=true;
     node [shape=circle, fontsize=12];
-    graph [bgcolor="transparent", background="/home/antekk/IdeaProjects/AISD/mapa_europy.png"];
+    graph [bgcolor="transparent", background=""];
 
     "Amsterdam" -- "Berlin" [label=684];
     "Amsterdam" -- "Bruksela" [label=222];
