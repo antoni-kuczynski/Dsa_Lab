@@ -18,4 +18,5 @@ public final class ConstPathsToFiles {
 
     public static final String PATH_MAZE_21_21 = "src/test/resources/data/maze/maze_21_21.txt";
     public static final String PATH_MAZE_201_201 = "src/test/resources/data/maze/maze_201_201.txt";
+    public static final String PATH_MAZE_5_5 = "src/test/resources/data/maze/maze_5_5.txt";
 }

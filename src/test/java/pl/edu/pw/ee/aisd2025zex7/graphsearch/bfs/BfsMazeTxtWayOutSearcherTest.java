@@ -1,10 +1,10 @@
 package pl.edu.pw.ee.aisd2025zex7.graphsearch.bfs;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static pl.edu.pw.ee.aisd2025zex7.utils.ConstPathsToFiles.*;
+
 import org.junit.jupiter.api.Test;
 import pl.edu.pw.ee.aisd2025zex7.graphsearch.utils.MazeTxtWayOutSearcherTest;
-import static pl.edu.pw.ee.aisd2025zex7.utils.ConstPathsToFiles.PATH_MAZE_201_201;
-import static pl.edu.pw.ee.aisd2025zex7.utils.ConstPathsToFiles.PATH_MAZE_21_21;
 
 public class BfsMazeTxtWayOutSearcherTest extends MazeTxtWayOutSearcherTest {
 
@@ -25,8 +25,8 @@ public class BfsMazeTxtWayOutSearcherTest extends MazeTxtWayOutSearcherTest {
         int resultPathLength = mazeSearcher.findWayOutOfMaze(pathToMazeFile, startX, startY);
 
         // then
-        int expectedLength = -3;
-        assert false; // TODO: validate and fix expectedLength
+        int expectedLength = 171;
+//        assert false; // TODO: validate and fix expectedLength
 
         assertThat(resultPathLength)
                 .isEqualTo(expectedLength);
@@ -45,8 +45,25 @@ public class BfsMazeTxtWayOutSearcherTest extends MazeTxtWayOutSearcherTest {
         int resultPathLength = mazeSearcher.findWayOutOfMaze(pathToMazeFile, startX, startY);
 
         // then
-        int expectedLength = -4;
-        assert false; // TODO: validate and fix expectedLength
+        int expectedLength = 17_754;
+
+        assertThat(resultPathLength)
+                .isEqualTo(expectedLength);
+    }
+
+    @Test
+    public void should_PassCorrectly_When_InputFileIs_Maze_5x5() {
+        // given
+        String pathToMazeFile = PATH_MAZE_5_5;
+
+        int startX = 3;
+        int startY = 0;
+
+        // when
+        int resultPathLength = mazeSearcher.findWayOutOfMaze(pathToMazeFile, startX, startY);
+
+        // then
+        int expectedLength = 8;
 
         assertThat(resultPathLength)
                 .isEqualTo(expectedLength);
