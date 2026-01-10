@@ -6,7 +6,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import static java.util.Objects.isNull;
 import static java.util.logging.Level.SEVERE;
+
+import java.util.Arrays;
 import java.util.logging.Logger;
+
+import pl.edu.pw.ee.aisd2025zex7.data.input.NodeColor;
 import pl.edu.pw.ee.aisd2025zex7.graphsearch.services.MazeTxtSearcher;
 
 public abstract class MazeTxtWayOutSearcher implements MazeTxtSearcher {
@@ -107,6 +111,31 @@ public abstract class MazeTxtWayOutSearcher implements MazeTxtSearcher {
         }
 
         return maze;
+    }
+
+
+
+    public NodeColor[][] createColorArray(int x, int y) {
+        NodeColor[][] colors = new NodeColor[x][y];
+        for (NodeColor[] color : colors) {
+            Arrays.fill(color, NodeColor.WHITE);
+        }
+        return colors;
+    }
+
+    public int[][] getAdjacentFields(int x, int y) {
+        int[] left = {x - 1, y};
+        int[] right = {x + 1, y};
+        int[] bottom = {x, y - 1};
+        int[] top = {x, y + 1};
+
+        return new int[][] {left, right, bottom, top};
+    }
+
+    public boolean isBorder(int[][] maze, int x, int y) {
+        return x == 0 || y == 0
+                || x == maze.length - 1
+                || y == maze[0].length - 1;
     }
 
 }
