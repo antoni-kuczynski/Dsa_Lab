@@ -1,0 +1,50 @@
+graph Cities {
+    size="20.000,11.250!";
+    ratio=fixed;
+    layout=neato;
+    overlap=false;
+    splines=true;
+    node [shape=circle, fontsize=12];
+    graph [bgcolor="transparent"];
+
+    "Wilno" [pos="577.5144378609466,615.0153753843847!", width=0.350, height=0.350, fixedsize=true, fontsize=6];
+    "Belgrad" [pos="502.5125628140704,405.0101252531314!", width=0.400, height=0.400, fixedsize=true, fontsize=6];
+    "Berno" [pos="330.0082502062552,450.01125028125705!", width=0.350, height=0.350, fixedsize=true, fontsize=6];
+    "Kijów" [pos="645.0161254031351,532.5133128328208!", width=0.350, height=0.350, fixedsize=true, fontsize=6];
+    "Warszawa" [pos="510.012750318758,570.0142503562589!", width=0.500, height=0.500, fixedsize=true, fontsize=6];
+    "Praga" [pos="420.0105002625066,525.0131253281332!", width=0.350, height=0.350, fixedsize=true, fontsize=6];
+    "Berlin" [pos="405.0101252531314,577.5144378609466!", width=0.400, height=0.400, fixedsize=true, fontsize=6];
+    "Luksemburg" [pos="322.50806270156755,517.5129378234457!", width=0.500, height=0.500, fixedsize=true, fontsize=6];
+    "Kopenhaga" [pos="390.0097502437561,660.0165004125104!", width=0.550, height=0.550, fixedsize=true, fontsize=6];
+    "Mińsk" [pos="615.0153753843847,600.0150003750094!", width=0.350, height=0.350, fixedsize=true, fontsize=6];
+    "Paryż" [pos="255.006375159379,495.0123753093828!", width=0.350, height=0.350, fixedsize=true, fontsize=6];
+    "Kiszyniów" [pos="615.0153753843847,480.0120003000075!", width=0.400, height=0.400, fixedsize=true, fontsize=6];
+    "Bukareszt" [pos="585.0146253656342,397.50993774844375!", width=0.450, height=0.450, fixedsize=true, fontsize=6];
+    "Budapeszt" [pos="502.5125628140704,487.51218780469515!", width=0.350, height=0.350, fixedsize=true, fontsize=6];
+    "Amsterdam" [pos="292.5073126828171,585.0146253656342!", width=0.400, height=0.400, fixedsize=true, fontsize=6];
+    "Bratysława" [pos="465.0116252906323,465.0116252906323!", width=0.400, height=0.400, fixedsize=true, fontsize=6];
+    "Lublana" [pos="412.51031275781895,450.01125028125705!", width=0.400, height=0.400, fixedsize=true, fontsize=6];
+    "Bruksela" [pos="262.5065626640666,540.0135003375085!", width=0.350, height=0.350, fixedsize=true, fontsize=6];
+    "Wiedeń" [pos="435.01087527188184,495.0123753093828!", width=0.300, height=0.300, fixedsize=true, fontsize=6];
+    "Zagrzeb" [pos="442.5110627765694,420.0105002625066!", width=0.400, height=0.400, fixedsize=true, fontsize=6];
+
+    "Bratysława" -- "Wiedeń" [label=65 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Bratysława" -- "Warszawa" [label=137 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Lublana" -- "Zagrzeb" [label=141 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Bratysława" -- "Budapeszt" [label=184 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Mińsk" -- "Wilno" [label=189 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Bruksela" -- "Luksemburg" [label=218 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Amsterdam" -- "Bruksela" [label=222 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Bruksela" -- "Paryż" [label=283 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Praga" -- "Wiedeń" [label=287 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Wiedeń" -- "Zagrzeb" [label=316 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Berlin" -- "Praga" [label=318 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Belgrad" -- "Budapeszt" [label=350 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Berno" -- "Luksemburg" [label=389 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Berlin" -- "Kopenhaga" [label=425 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Bukareszt" -- "Kiszyniów" [label=425 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Warszawa" -- "Wilno" [label=441 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Kijów" -- "Kiszyniów" [label=470 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Belgrad" -- "Bukareszt" [label=578 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+    "Amsterdam" -- "Berlin" [label=684 fontsize=8 fontcolor="red", fontname="Helvetica Bold"];
+}
