@@ -1,4 +1,4 @@
-package pl.edu.pw.ee.aisd2025zex7.mstgraphgenerator;
+package pl.edu.pw.ee.aisd2025zex7.graphviz;
 
 import java.io.*;
 import java.util.*;

@@ -1,0 +1,16 @@
+digraph G  {
+    edge [fontcolor=red len=1.5]
+    node [shape=circle, style=filled, fillcolor="#f0f0f0"];
+    layout = circo;
+
+    9->6 [label="5"]
+    6->3 [label="7"]
+    3->1 [label="2"]
+
+    0
+    2
+    4
+    5
+    7
+    8
+}

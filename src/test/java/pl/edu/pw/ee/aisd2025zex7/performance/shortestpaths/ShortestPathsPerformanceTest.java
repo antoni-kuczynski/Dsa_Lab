@@ -50,23 +50,25 @@ public abstract class ShortestPathsPerformanceTest {
 
     private String[] getDataPaths() {
         String[] paths = {
-            PATH_W_GRAPH_30_30,
-            PATH_W_GRAPH_1433_1433,
-            PATH_W_GRAPH_10642_10642,
-            PATH_W_GRAPH_27495_27495,
-            PATH_W_GRAPH_20_20,
-            PATH_W_GRAPH_5812_5812,
-            PATH_W_GRAPH_18712_18712,
-            PATH_W_GRAPH_52928_52928,
-            PATH_W_GRAPH_3243_3243,
-            PATH_W_GRAPH_3403_3403,
-            PATH_W_GRAPH_19780_19780,
-            PATH_W_GRAPH_980_980,
-            PATH_W_GRAPH_1621_1621,
-            PATH_W_GRAPH_6117_6117,
-            PATH_W_GRAPH_7663_7663,
-            PATH_W_GRAPH_9847_9847,
-            PATH_W_GRAPH_9882_9882
+//            PATH_W_GRAPH_30_30,
+//            PATH_W_GRAPH_1433_1433,
+//            PATH_W_GRAPH_10642_10642,
+//            PATH_W_GRAPH_27495_27495,
+//            PATH_W_GRAPH_20_20,
+//            PATH_W_GRAPH_5812_5812,
+//            PATH_W_GRAPH_18712_18712,
+//            PATH_W_GRAPH_52928_52928,
+//            PATH_W_GRAPH_3243_3243,
+//            PATH_W_GRAPH_3403_3403,
+//            PATH_W_GRAPH_19780_19780,
+//            PATH_W_GRAPH_980_980,
+//            PATH_W_GRAPH_1621_1621,
+//            PATH_W_GRAPH_6117_6117,
+//            PATH_W_GRAPH_7663_7663,
+//            PATH_W_GRAPH_9847_9847,
+//            PATH_W_GRAPH_9882_9882,
+            "src/test/resources/data/graph/bellmanford/slowest_full.txt",
+            "src/test/resources/data/graph/bellmanford/fastest_star_type.txt"
         };
 
         return paths;
@@ -83,11 +85,11 @@ public abstract class ShortestPathsPerformanceTest {
     }
 
     private long measureTimeForSingleGraph(WeightedGraph graph, int srcId, int destId) {
-        long startTime = currentTimeMillis();
+        long startTime = System.nanoTime(); //zamiana na ns w celu dokładniejszych pomiarów
 
         algorithmInstance.findShortestPath(graph, srcId, destId);
 
-        long measuredTime = currentTimeMillis() - startTime;
+        long measuredTime = System.nanoTime() - startTime;
 
         return measuredTime;
     }

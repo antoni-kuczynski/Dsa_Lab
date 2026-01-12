@@ -1,0 +1,16 @@
+digraph G {
+    layout=neato;
+    overlap=false;
+    node [shape=circle];
+    edge [fontcolor=red]
+
+    0 -> 1 [label="1"];
+    0 -> 2 [label="2"];
+    0 -> 3 [label="23"];
+    0 -> 4 [label="1"];
+    0 -> 5 [label="3"];
+    0 -> 6 [label="5"];
+    0 -> 7 [label="5"];
+    0 -> 8 [label="11"];
+    0 -> 9 [label="9"];
+}

@@ -8,4 +8,6 @@ public class BellmanFordPerformanceTest extends ShortestPathsPerformanceTest {
         super(new BellmanFord());
     }
 
+
+
 }
