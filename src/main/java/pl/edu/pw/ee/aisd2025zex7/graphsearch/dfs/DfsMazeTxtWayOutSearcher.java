@@ -9,6 +9,8 @@ public class DfsMazeTxtWayOutSearcher extends MazeTxtWayOutSearcher {
     private int startX;
     private int startY;
 
+    private int[] FIELD_NON_EXIT = {-1,-1};
+
     @Override
     protected int findWayOutOfMaze(int[][] maze, int startX, int startY) {
         NodeColor[][] colors = createColorArray(maze.length, maze[0].length);
@@ -16,21 +18,25 @@ public class DfsMazeTxtWayOutSearcher extends MazeTxtWayOutSearcher {
         this.startX = startX;
         this.startY = startY;
 
-        FieldType type = dfsVisit(maze, colors, startY, startX);
-        if (type == FieldType.EXIT) {
-            return visitedFields;
+        int[] type = dfsVisit(maze, colors, new int[] {startY, startX}, new int[] {startY, startX});
+        if (type != FIELD_NON_EXIT) {
+            return order[type[0]][type[1]];
         } else {
             return -1;
         }
     }
 
 
-    private FieldType dfsVisit(int[][] maze, NodeColor[][] colors, int x, int y) {
-        visitedFields++;
-        order[x][y] = visitedFields;
-        colors[x][y] = NodeColor.GRAY;
+    private int[] dfsVisit(int[][] maze, NodeColor[][] colors, int[] current, int[] previous) {
+        int xCurrent = current[0];
+        int yCurrent = current[1];
 
-        int[][] adjArray = getAdjacentFields(x, y);
+//        visitedFields++;
+//        order[xCurrent][yCurrent] = visitedFields;
+        order[xCurrent][yCurrent] = order[previous[0]][previous[1]] + 1;
+        colors[xCurrent][yCurrent] = NodeColor.GRAY;
+
+        int[][] adjArray = getAdjacentFields(xCurrent, yCurrent);
         for (int[] adj : adjArray) {
             int adjX = adj[0];
             int adjY = adj[1];
@@ -44,21 +50,22 @@ public class DfsMazeTxtWayOutSearcher extends MazeTxtWayOutSearcher {
             }
 
             if (colors[adjX][adjY] == NodeColor.WHITE) {
-                FieldType field = dfsVisit(maze, colors, adjX, adjY);
-                if (field == FieldType.EXIT)
-                    return FieldType.EXIT;
+                int[] field = dfsVisit(maze, colors, new int[] {adjX, adjY}, new int[] {xCurrent, yCurrent});
+                if (field != FIELD_NON_EXIT)
+                    return field;
             }
         }
-        colors[x][y] = NodeColor.BLACK;
-        if (isBorder(maze, x, y) && (y != startX && x != startY) && maze[x][y] == 0) {
-            return FieldType.EXIT;
+        colors[xCurrent][yCurrent] = NodeColor.BLACK;
+        if (isBorder(maze, xCurrent, yCurrent) && (yCurrent != startX && xCurrent != startY) && maze[xCurrent][yCurrent] == 0) {
+            return new int[] {xCurrent, yCurrent};
         } else {
-            return FieldType.NORMAL;
+            return FIELD_NON_EXIT;
+//            return FieldType.NORMAL;
         }
     }
 
-    enum FieldType {
-        NORMAL,
-        EXIT
-    }
+//    enum FieldType {
+//        NORMAL,
+//        EXIT
+//    }
 }

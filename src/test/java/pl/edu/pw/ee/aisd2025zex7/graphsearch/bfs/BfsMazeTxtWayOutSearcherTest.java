@@ -25,8 +25,7 @@ public class BfsMazeTxtWayOutSearcherTest extends MazeTxtWayOutSearcherTest {
         int resultPathLength = mazeSearcher.findWayOutOfMaze(pathToMazeFile, startX, startY);
 
         // then
-        int expectedLength = 171;
-//        assert false; // TODO: validate and fix expectedLength
+        int expectedLength = 47;
 
         assertThat(resultPathLength)
                 .isEqualTo(expectedLength);
@@ -45,7 +44,7 @@ public class BfsMazeTxtWayOutSearcherTest extends MazeTxtWayOutSearcherTest {
         int resultPathLength = mazeSearcher.findWayOutOfMaze(pathToMazeFile, startX, startY);
 
         // then
-        int expectedLength = 17_754;
+        int expectedLength = 747;
 
         assertThat(resultPathLength)
                 .isEqualTo(expectedLength);
@@ -63,7 +62,7 @@ public class BfsMazeTxtWayOutSearcherTest extends MazeTxtWayOutSearcherTest {
         int resultPathLength = mazeSearcher.findWayOutOfMaze(pathToMazeFile, startX, startY);
 
         // then
-        int expectedLength = 8;
+        int expectedLength = 7;
 
         assertThat(resultPathLength)
                 .isEqualTo(expectedLength);

@@ -8,12 +8,12 @@ import java.util.Arrays;
 
 public class BfsMazeTxtWayOutSearcher extends MazeTxtWayOutSearcher {
 
-    //PL = przeszukiwanie wszerz
-    //returns length of path in maze
     @Override
     protected int findWayOutOfMaze(int[][] maze, int startX, int startY) {
         NodeColor[][] colors = createColorArray(maze.length, maze[0].length);
-        int visitedFields = 1;
+//        int visitedFields = 1;
+        int[][] distance = new int[maze.length][maze[0].length];
+        distance[startY][startX] = 1;
 
         colors[startY][startX] = NodeColor.GRAY;
         ArrayDeque<int[]> queue = new ArrayDeque<>();
@@ -45,13 +45,14 @@ public class BfsMazeTxtWayOutSearcher extends MazeTxtWayOutSearcher {
 
                 colors[adjX][adjY] = NodeColor.GRAY;
 //                distance[adjX][adjY] = visitedFields;
+                distance[adjX][adjY] = distance[u[0]][u[1]] + 1;
 
                 if (isBorder(maze, adjX, adjY)) {
-//                    return distance[adjX][adjY];
-                    return visitedFields;
+                    return distance[adjX][adjY];
+//                    return visitedFields;
                 }
 
-                visitedFields++;
+//                visitedFields++;
                 queue.add(v);
             }
             colors[u[0]][u[1]] = NodeColor.BLACK;
