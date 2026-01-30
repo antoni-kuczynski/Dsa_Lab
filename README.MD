@@ -1,7 +1,7 @@
 # Algorithms and Data Structures
 
 This repository contains solutions and implementations for a series of algorithmic exercises.  
-Each exercise is organized into its own dedicated branch (`cw1`, `cw2`, ..., `cw8`) to keep the topics cleanly separated.
+Each exercise is organized into its own dedicated branch (`cw1`, `cw2`, ..., `cw7`) to keep the topics cleanly separated.
 
 ## Branch Overview
 
@@ -70,3 +70,4 @@ Each branch contains:
 - Notes or explanations for the implemented algorithms  
 
 Feel free to explore each branch to dive into the specific topic.
+
