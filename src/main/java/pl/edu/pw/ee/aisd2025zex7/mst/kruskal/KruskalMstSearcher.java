@@ -14,24 +14,20 @@ public class KruskalMstSearcher extends MstSearcher {
             throw new IllegalArgumentException("Brak krawędzi");
         }
 
-        // 1️⃣ liczba wierzchołków (jak w GfG: V)
         int V = 0;
         for (int[] e : edges) {
             V = Math.max(V, Math.max(e[0], e[1]));
         }
         V++;
 
-        // 2️⃣ sortowanie krawędzi po wadze (1:1 z GfG)
         Arrays.sort(edges, Comparator.comparingInt(e -> e[2]));
 
-        // 3️⃣ DSU
         DSU dsu = new DSU(V);
         int cost = 0;
         int count = 0;
 
         List<int[]> mstEdges = new ArrayList<>();
 
-        // 4️⃣ Kruskal
         for (int[] e : edges) {
             int x = e[0];
             int y = e[1];
@@ -48,7 +44,6 @@ public class KruskalMstSearcher extends MstSearcher {
             }
         }
 
-        // 5️⃣ MST → int[]
         int[] connections = new int[mstEdges.size() * 3];
         int i = 0;
         for (int[] e : mstEdges) {
@@ -60,9 +55,6 @@ public class KruskalMstSearcher extends MstSearcher {
         return new MstSearchResult(connections, cost, nodeToCity);
     }
 
-    // =========================
-    // DSU – dokładnie jak w GfG
-    // =========================
     private static class DSU {
         private final int[] parent;
         private final int[] rank;
